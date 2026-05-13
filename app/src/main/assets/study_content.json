@@ -1,0 +1,2580 @@
+{
+  "version": 1,
+  "title": "Metodologia Científica",
+  "topics": [
+    {
+      "id": "ciencia_conhecimento",
+      "name": "Ciência e conhecimento científico",
+      "description": "Fundamentos de ciência, metodologia, método, pesquisa e critérios de conhecimento científico."
+    },
+    {
+      "id": "tipos_conhecimento",
+      "name": "Tipos de conhecimento",
+      "description": "Diferenças entre senso comum, conhecimento popular, religioso, filosófico e científico."
+    },
+    {
+      "id": "projeto_pesquisa",
+      "name": "Projeto de pesquisa",
+      "description": "Elementos, critérios e encadeamento de tema, problema, hipótese, objetivos e metodologia."
+    },
+    {
+      "id": "evolucao_metodo",
+      "name": "Evolução do método",
+      "description": "Racionalismo, empirismo, mecanicismo, Bacon, Popper, falseabilidade, Kuhn e paradigmas."
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "card_ciencia_001",
+      "topicId": "ciencia_conhecimento",
+      "type": "definição",
+      "difficulty": 1,
+      "front": "O que é Metodologia Científica?",
+      "back": "É uma ciência auxiliar das demais: estuda a própria ciência, seus critérios de demarcação, métodos, técnicas de investigação e normas para comunicar conhecimento científico.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "Metodologia Científica é uma ciência auxiliar das demais, destinada a estudar a própria ciência"
+      }
+    },
+    {
+      "id": "card_ciencia_002",
+      "topicId": "ciencia_conhecimento",
+      "type": "função",
+      "difficulty": 1,
+      "front": "Qual é a função da metodologia no estudo científico?",
+      "back": "Ela organiza o modo de produzir, avaliar e comunicar conhecimento, evitando que a pesquisa vire opinião solta, improviso ou simples coleção de informações.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "definindo os critérios de demarcação científica, estudando os métodos e técnicas de investigação"
+      }
+    },
+    {
+      "id": "card_ciencia_003",
+      "topicId": "ciencia_conhecimento",
+      "type": "definição",
+      "difficulty": 1,
+      "front": "O que é método no contexto científico?",
+      "back": "É o processo de aquisição do conhecimento científico: um caminho de investigação que orienta observação, análise, crítica e comunicação dos resultados.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "O método: processo de aquisição do conhecimento científico"
+      }
+    },
+    {
+      "id": "card_ciencia_004",
+      "topicId": "ciencia_conhecimento",
+      "type": "relação",
+      "difficulty": 2,
+      "front": "Como método e crítica se relacionam?",
+      "back": "O método fornece elementos para analisar criticamente descobertas e comunicações científicas, permitindo avaliar se uma conclusão foi bem construída.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "O método fornece os elementos de análise crítica das descobertas e das comunicações"
+      }
+    },
+    {
+      "id": "card_ciencia_005",
+      "topicId": "ciencia_conhecimento",
+      "type": "distinção",
+      "difficulty": 2,
+      "front": "Por que pesquisa científica não é o mesmo que consulta?",
+      "back": "Consulta apenas reúne informações. Pesquisa científica exige investigação sistematizada e busca produzir conhecimento, indo além da compilação de conceitos.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "Pesquisa Científica não é Consulta ou Estudo"
+      }
+    },
+    {
+      "id": "card_ciencia_006",
+      "topicId": "ciencia_conhecimento",
+      "type": "distinção",
+      "difficulty": 2,
+      "front": "Por que pesquisa científica não é apenas estudo?",
+      "back": "Estudo pode ser leitura e compreensão de conteúdos. Pesquisa implica problema, método, investigação e produção de resposta fundamentada.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "Uma investigação científica vai muito além da compilação de conceitos ou teorias"
+      }
+    },
+    {
+      "id": "card_ciencia_007",
+      "topicId": "ciencia_conhecimento",
+      "type": "conceito-chave",
+      "difficulty": 1,
+      "front": "O que significa sistematizar uma investigação?",
+      "back": "Significa organizar etapas, conceitos, dados e critérios de análise para que a resposta não dependa apenas de impressão pessoal.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "busca a produção de um conhecimento inédito por meio da sistematização do processo de investigação"
+      }
+    },
+    {
+      "id": "card_ciencia_008",
+      "topicId": "ciencia_conhecimento",
+      "type": "aplicação",
+      "difficulty": 2,
+      "front": "Como reconhecer uma resposta que parece pesquisa, mas não é?",
+      "back": "Ela costuma listar definições sem problema, método, análise própria ou articulação entre dados e conclusão.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "vai muito além da compilação de conceitos ou teorias"
+      }
+    },
+    {
+      "id": "card_ciencia_009",
+      "topicId": "ciencia_conhecimento",
+      "type": "demarcação",
+      "difficulty": 2,
+      "front": "O que são critérios de demarcação científica?",
+      "back": "São parâmetros usados para distinguir conhecimento científico de outras formas de explicação, considerando método, rigor, testabilidade e comunicação.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "definindo os critérios de demarcação científica"
+      }
+    },
+    {
+      "id": "card_ciencia_010",
+      "topicId": "ciencia_conhecimento",
+      "type": "armadilha",
+      "difficulty": 3,
+      "front": "Qual erro evitar ao definir ciência?",
+      "back": "Evite dizer que ciência é apenas verdade absoluta. O material enfatiza método, rigor, investigação e critérios de validação, não certeza intocável.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "A diferença básica entre eles não está na veracidade do conhecimento"
+      }
+    },
+    {
+      "id": "card_ciencia_011",
+      "topicId": "ciencia_conhecimento",
+      "type": "comunicação",
+      "difficulty": 2,
+      "front": "Por que comunicar bem também faz parte da ciência?",
+      "back": "Porque a metodologia inclui padrões e normas para transmitir conhecimento científico de forma clara, verificável e discutível por outros.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "padrões e normas para transmitir conhecimento científico"
+      }
+    },
+    {
+      "id": "card_ciencia_012",
+      "topicId": "ciencia_conhecimento",
+      "type": "processo",
+      "difficulty": 2,
+      "front": "Que sequência básica ajuda a pensar uma pesquisa científica?",
+      "back": "Delimitar um problema, escolher método, investigar dados ou argumentos, analisar criticamente e comunicar uma resposta fundamentada.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "processo de aquisição do conhecimento científico"
+      }
+    },
+    {
+      "id": "card_ciencia_013",
+      "topicId": "ciencia_conhecimento",
+      "type": "aplicação",
+      "difficulty": 3,
+      "front": "Como transformar uma curiosidade em investigação científica?",
+      "back": "Converta a curiosidade em problema delimitado, defina conceitos, escolha procedimentos e indique como a resposta será avaliada.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "O que será pesquisado? O que se espera obter? Por que pesquisar?"
+      }
+    },
+    {
+      "id": "card_ciencia_014",
+      "topicId": "ciencia_conhecimento",
+      "type": "raciocínio",
+      "difficulty": 2,
+      "front": "Por que o método não é uma receita mecânica?",
+      "back": "Porque ele orienta a análise crítica; sua função não é decorar passos, mas justificar decisões de investigação e avaliação.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "fornece os elementos de análise crítica"
+      }
+    },
+    {
+      "id": "card_ciencia_015",
+      "topicId": "ciencia_conhecimento",
+      "type": "finalidade",
+      "difficulty": 1,
+      "front": "Qual é a finalidade central da pesquisa científica?",
+      "back": "Produzir conhecimento fundamentado por investigação sistemática, com critérios que permitam crítica, revisão e comunicação.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "busca a produção de um conhecimento inédito"
+      }
+    },
+    {
+      "id": "card_ciencia_016",
+      "topicId": "ciencia_conhecimento",
+      "type": "exemplo",
+      "difficulty": 2,
+      "front": "Um resumo de autores é automaticamente pesquisa científica?",
+      "back": "Não. Pode ser etapa de estudo, mas só vira pesquisa quando responde a um problema com método, análise e contribuição própria.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "Pesquisa Científica não é Consulta ou Estudo"
+      }
+    },
+    {
+      "id": "card_ciencia_017",
+      "topicId": "ciencia_conhecimento",
+      "type": "prova",
+      "difficulty": 3,
+      "front": "Como responder em prova sobre metodologia como ciência auxiliar?",
+      "back": "Defina metodologia, explique que ela estuda a ciência e conecte com método, demarcação, investigação e comunicação do conhecimento.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "ciência auxiliar das demais, destinada a estudar a própria ciência"
+      }
+    },
+    {
+      "id": "card_ciencia_018",
+      "topicId": "ciencia_conhecimento",
+      "type": "síntese",
+      "difficulty": 2,
+      "front": "Qual frase resume ciência, método e pesquisa?",
+      "back": "Ciência produz conhecimento por investigação; método organiza esse caminho; metodologia estuda e qualifica os critérios desse processo.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "estudar a própria ciência"
+      }
+    },
+    {
+      "id": "card_ciencia_019",
+      "topicId": "ciencia_conhecimento",
+      "type": "metacognição",
+      "difficulty": 2,
+      "front": "Que pergunta ajuda a avaliar se você entendeu método científico?",
+      "back": "Eu consigo explicar por que uma conclusão foi aceita, criticada ou recusada, em vez de apenas repetir o resultado?",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "análise crítica das descobertas"
+      }
+    },
+    {
+      "id": "card_ciencia_020",
+      "topicId": "ciencia_conhecimento",
+      "type": "integração",
+      "difficulty": 3,
+      "front": "Como ligar metodologia científica e conhecimento inédito?",
+      "back": "A metodologia dá critérios e procedimentos; a pesquisa usa esses critérios para investigar um problema e produzir uma resposta nova ou melhor fundamentada.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "produção de um conhecimento inédito por meio da sistematização"
+      }
+    },
+    {
+      "id": "card_tipos_001",
+      "topicId": "tipos_conhecimento",
+      "type": "definição",
+      "difficulty": 1,
+      "front": "O que é conhecimento de senso comum?",
+      "back": "É o modo comum, espontâneo e empírico de aprender, baseado em experiência diária, observação, repetição e associação de acontecimentos.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "É o modo comum, corrente e espontâneo de aprender empiricamente"
+      }
+    },
+    {
+      "id": "card_tipos_002",
+      "topicId": "tipos_conhecimento",
+      "type": "característica",
+      "difficulty": 1,
+      "front": "Quais marcas aparecem no senso comum?",
+      "back": "Praticidade, experiência cotidiana, repetição, tradição, linguagem simples e ausência de controle metodológico rigoroso.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "experiência diária, observação, repetição"
+      }
+    },
+    {
+      "id": "card_tipos_003",
+      "topicId": "tipos_conhecimento",
+      "type": "distinção",
+      "difficulty": 2,
+      "front": "O que diferencia conhecimento científico de senso comum?",
+      "back": "Não é simplesmente a verdade do conteúdo, mas a forma de produção: método, rigor, precisão de instrumentos e análise sistemática.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "não está na veracidade do conhecimento nem na natureza do objeto estudado, mas sim na forma"
+      }
+    },
+    {
+      "id": "card_tipos_004",
+      "topicId": "tipos_conhecimento",
+      "type": "armadilha",
+      "difficulty": 2,
+      "front": "Por que é errado dizer que senso comum é sempre falso?",
+      "back": "Porque ele pode acertar em muitas situações; a diferença para a ciência está nos critérios de produção e validação, não em ser sempre falso.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "não está na veracidade do conhecimento"
+      }
+    },
+    {
+      "id": "card_tipos_005",
+      "topicId": "tipos_conhecimento",
+      "type": "definição",
+      "difficulty": 1,
+      "front": "O que caracteriza o conhecimento científico?",
+      "back": "Ele busca explicações fundamentadas por método, rigor, controle, precisão conceitual e possibilidade de crítica.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "na forma, no modo, no rigor dos métodos e na precisão dos instrumentos"
+      }
+    },
+    {
+      "id": "card_tipos_006",
+      "topicId": "tipos_conhecimento",
+      "type": "comparação",
+      "difficulty": 2,
+      "front": "Como comparar ciência e senso comum sem simplificar?",
+      "back": "Compare pelo modo de construção: cotidiano e espontâneo no senso comum; sistemático, crítico e metodológico na ciência.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "modo comum, corrente e espontâneo"
+      }
+    },
+    {
+      "id": "card_tipos_007",
+      "topicId": "tipos_conhecimento",
+      "type": "religioso",
+      "difficulty": 2,
+      "front": "Como reconhecer o conhecimento religioso?",
+      "back": "Ele se apoia na fé, na autoridade da tradição e em verdades aceitas por crença, não por teste científico.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "Diferenças entre conhecimento popular, senso comum, religioso, filosófico e científico"
+      }
+    },
+    {
+      "id": "card_tipos_008",
+      "topicId": "tipos_conhecimento",
+      "type": "filosófico",
+      "difficulty": 2,
+      "front": "Como reconhecer o conhecimento filosófico?",
+      "back": "Ele trabalha com reflexão racional, argumentação e questionamento de fundamentos, sem depender necessariamente de experimento controlado.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "conhecimento popular, senso comum, religioso, filosófico e científico"
+      }
+    },
+    {
+      "id": "card_tipos_009",
+      "topicId": "tipos_conhecimento",
+      "type": "popular",
+      "difficulty": 1,
+      "front": "Como o conhecimento popular se aproxima do senso comum?",
+      "back": "Ambos nascem da vida cotidiana, da prática social e de saberes transmitidos pela experiência.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "modo comum, corrente e espontâneo de aprender empiricamente"
+      }
+    },
+    {
+      "id": "card_tipos_010",
+      "topicId": "tipos_conhecimento",
+      "type": "critério",
+      "difficulty": 2,
+      "front": "Que critério separa tipos de conhecimento em uma resposta discursiva?",
+      "back": "Use o fundamento de validação: experiência cotidiana, fé, razão filosófica ou método científico.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "na forma, no modo, no rigor dos métodos"
+      }
+    },
+    {
+      "id": "card_tipos_011",
+      "topicId": "tipos_conhecimento",
+      "type": "exemplo",
+      "difficulty": 2,
+      "front": "Um remédio caseiro pertence automaticamente à ciência?",
+      "back": "Não. Pode vir do senso comum; só será científico se for investigado por método, controle, análise e validação adequada.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "experiência diária, observação, repetição"
+      }
+    },
+    {
+      "id": "card_tipos_012",
+      "topicId": "tipos_conhecimento",
+      "type": "exemplo",
+      "difficulty": 2,
+      "front": "Uma crença religiosa pode ser analisada cientificamente?",
+      "back": "A crença em si pertence ao campo religioso, mas seus efeitos sociais podem ser objeto de pesquisa científica se houver método adequado.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "religioso, filosófico e científico"
+      }
+    },
+    {
+      "id": "card_tipos_013",
+      "topicId": "tipos_conhecimento",
+      "type": "prova",
+      "difficulty": 3,
+      "front": "Como iniciar uma resposta comparando tipos de conhecimento?",
+      "back": "Comece dizendo que eles diferem pelos critérios de validação e pela forma de produção, não apenas pelo tema tratado.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "não está na natureza do objeto estudado, mas sim na forma"
+      }
+    },
+    {
+      "id": "card_tipos_014",
+      "topicId": "tipos_conhecimento",
+      "type": "precisão",
+      "difficulty": 3,
+      "front": "Por que a precisão dos instrumentos importa?",
+      "back": "Porque a ciência depende de procedimentos e instrumentos capazes de reduzir ambiguidades, controlar observações e tornar a análise mais rigorosa.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "precisão dos instrumentos usados no aprendizado"
+      }
+    },
+    {
+      "id": "card_tipos_015",
+      "topicId": "tipos_conhecimento",
+      "type": "linguagem",
+      "difficulty": 2,
+      "front": "Como a linguagem muda entre senso comum e ciência?",
+      "back": "No senso comum, tende a ser cotidiana e flexível; na ciência, precisa ser conceitualmente precisa e ligada ao método.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "na forma, no modo, no rigor dos métodos"
+      }
+    },
+    {
+      "id": "card_tipos_016",
+      "topicId": "tipos_conhecimento",
+      "type": "integração",
+      "difficulty": 3,
+      "front": "Os tipos de conhecimento podem conviver?",
+      "back": "Sim. Eles podem tratar da vida humana por caminhos diferentes, mas não usam os mesmos critérios de validação.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "conhecimento popular, senso comum, religioso, filosófico e científico"
+      }
+    },
+    {
+      "id": "card_tipos_017",
+      "topicId": "tipos_conhecimento",
+      "type": "diagnóstico",
+      "difficulty": 2,
+      "front": "Como identificar uma resposta fraca sobre tipos de conhecimento?",
+      "back": "Ela costuma dizer apenas que ciência é verdade e senso comum é erro, sem explicar método, rigor e validação.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "não está na veracidade do conhecimento"
+      }
+    },
+    {
+      "id": "card_tipos_018",
+      "topicId": "tipos_conhecimento",
+      "type": "síntese",
+      "difficulty": 2,
+      "front": "Qual frase resume a diferença entre ciência e senso comum?",
+      "back": "O senso comum nasce da experiência cotidiana; a ciência transforma problemas em investigação metódica e criticável.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "modo comum, corrente e espontâneo"
+      }
+    },
+    {
+      "id": "card_tipos_019",
+      "topicId": "tipos_conhecimento",
+      "type": "metacognição",
+      "difficulty": 2,
+      "front": "Que pergunta mostra domínio do assunto?",
+      "back": "Eu sei apontar qual critério valida cada tipo de conhecimento e explicar por que ele não é igual ao científico?",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "rigor dos métodos e precisão dos instrumentos"
+      }
+    },
+    {
+      "id": "card_tipos_020",
+      "topicId": "tipos_conhecimento",
+      "type": "aplicação",
+      "difficulty": 3,
+      "front": "Como responder se a questão pedir diferença entre objeto e forma?",
+      "back": "Diga que o mesmo objeto pode ser tratado por saberes diferentes; o que muda é a forma de investigar, justificar e validar.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "não está na natureza do objeto estudado, mas sim na forma"
+      }
+    },
+    {
+      "id": "card_projeto_001",
+      "topicId": "projeto_pesquisa",
+      "type": "processo",
+      "difficulty": 1,
+      "front": "Quais perguntas um projeto de pesquisa deve responder?",
+      "back": "Quem pesquisa, onde, o que será pesquisado, o que se espera obter, por que e para que pesquisar, quais conceitos, como pesquisar, recursos e tempo.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Quem vai pesquisar? Onde? O que será pesquisado? O que se espera obter?"
+      }
+    },
+    {
+      "id": "card_projeto_002",
+      "topicId": "projeto_pesquisa",
+      "type": "definição",
+      "difficulty": 1,
+      "front": "O que é tema de pesquisa?",
+      "back": "É a definição mais geral do tópico investigado, o campo inicial que ainda precisa ser delimitado.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "O tema se caracteriza pela definição mais genérica do tópico"
+      }
+    },
+    {
+      "id": "card_projeto_003",
+      "topicId": "projeto_pesquisa",
+      "type": "definição",
+      "difficulty": 2,
+      "front": "O que é problema de pesquisa?",
+      "back": "É a delimitação teórica e operacional da questão que a pesquisa pretende responder.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "Problema se define pela máxima delimitação teórica e operacional"
+      }
+    },
+    {
+      "id": "card_projeto_004",
+      "topicId": "projeto_pesquisa",
+      "type": "definição",
+      "difficulty": 2,
+      "front": "O que é hipótese no projeto?",
+      "back": "É uma resposta inicial, elementar ou solução possível para o problema, a ser examinada pela investigação.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "hipótese como a resposta elementar ao problema"
+      }
+    },
+    {
+      "id": "card_projeto_005",
+      "topicId": "projeto_pesquisa",
+      "type": "encadeamento",
+      "difficulty": 2,
+      "front": "Como tema, problema e hipótese se encadeiam?",
+      "back": "O tema abre o campo; o problema delimita a pergunta; a hipótese propõe uma resposta inicial para orientar a pesquisa.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "tema... Problema... hipótese como a resposta elementar"
+      }
+    },
+    {
+      "id": "card_projeto_006",
+      "topicId": "projeto_pesquisa",
+      "type": "objetivo",
+      "difficulty": 2,
+      "front": "Qual é o papel dos objetivos no projeto?",
+      "back": "Eles indicam o que a pesquisa pretende alcançar e precisam conversar com problema, hipótese e metodologia.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "O que se espera obter?"
+      }
+    },
+    {
+      "id": "card_projeto_007",
+      "topicId": "projeto_pesquisa",
+      "type": "justificativa",
+      "difficulty": 2,
+      "front": "Que pergunta a justificativa responde?",
+      "back": "Responde por que a pesquisa deve ser feita e qual relevância teórica, prática ou social justifica o estudo.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Por que pesquisar? Para que pesquisar?"
+      }
+    },
+    {
+      "id": "card_projeto_008",
+      "topicId": "projeto_pesquisa",
+      "type": "metodologia",
+      "difficulty": 2,
+      "front": "Que pergunta a metodologia do projeto responde?",
+      "back": "Responde como pesquisar: quais procedimentos, materiais, fontes, técnicas e caminhos serão usados para investigar o problema.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Como pesquisar?"
+      }
+    },
+    {
+      "id": "card_projeto_009",
+      "topicId": "projeto_pesquisa",
+      "type": "viabilidade",
+      "difficulty": 2,
+      "front": "Por que recursos e tempo entram no projeto?",
+      "back": "Porque uma pesquisa precisa ser viável: deve caber nos meios disponíveis, no prazo e nas condições reais de execução.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Quais as implicações? Quais recursos? Quanto tempo?"
+      }
+    },
+    {
+      "id": "card_projeto_010",
+      "topicId": "projeto_pesquisa",
+      "type": "armadilha",
+      "difficulty": 3,
+      "front": "Qual erro evitar ao formular um problema?",
+      "back": "Evite deixar o problema amplo demais. Ele deve delimitar teoricamente e operacionalmente o que será investigado.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "máxima delimitação teórica e operacional"
+      }
+    },
+    {
+      "id": "card_projeto_011",
+      "topicId": "projeto_pesquisa",
+      "type": "armadilha",
+      "difficulty": 3,
+      "front": "Por que hipótese não é conclusão?",
+      "back": "Porque ela é uma resposta inicial que orienta a investigação; a conclusão só aparece depois da análise.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "hipótese como a resposta elementar ao problema"
+      }
+    },
+    {
+      "id": "card_projeto_012",
+      "topicId": "projeto_pesquisa",
+      "type": "aplicação",
+      "difficulty": 3,
+      "front": "Como transformar 'educação' em tema pesquisável?",
+      "back": "Delimite: por exemplo, evasão em cursos noturnos de determinada instituição, período e grupo, até chegar a um problema investigável.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "definição mais genérica do tópico"
+      }
+    },
+    {
+      "id": "card_projeto_013",
+      "topicId": "projeto_pesquisa",
+      "type": "coerência",
+      "difficulty": 3,
+      "front": "Como avaliar a coerência interna de um projeto?",
+      "back": "Confira se tema, problema, hipótese, objetivos, justificativa e metodologia respondem uns aos outros sem contradição.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "O que será pesquisado? O que se espera obter? Por que pesquisar?"
+      }
+    },
+    {
+      "id": "card_projeto_014",
+      "topicId": "projeto_pesquisa",
+      "type": "conceitos",
+      "difficulty": 2,
+      "front": "Por que conceitos envolvidos precisam aparecer?",
+      "back": "Porque a pesquisa deve deixar claro o sentido dos termos centrais que sustentam problema, hipótese e análise.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Quais os conceitos envolvidos na pesquisa?"
+      }
+    },
+    {
+      "id": "card_projeto_015",
+      "topicId": "projeto_pesquisa",
+      "type": "prova",
+      "difficulty": 3,
+      "front": "Como responder uma questão sobre projeto completo?",
+      "back": "Organize a resposta em sequência: tema, problema, hipótese, objetivos, justificativa, metodologia, recursos e cronograma.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Quem vai pesquisar? Onde? O que será pesquisado?"
+      }
+    },
+    {
+      "id": "card_projeto_016",
+      "topicId": "projeto_pesquisa",
+      "type": "diagnóstico",
+      "difficulty": 2,
+      "front": "O que costuma faltar em um projeto fraco?",
+      "back": "Falta delimitação, coerência entre partes, justificativa clara, método adequado ou viabilidade de tempo e recursos.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Por que pesquisar? Para que pesquisar? Como pesquisar?"
+      }
+    },
+    {
+      "id": "card_projeto_017",
+      "topicId": "projeto_pesquisa",
+      "type": "síntese",
+      "difficulty": 2,
+      "front": "Qual frase resume o projeto de pesquisa?",
+      "back": "É o plano que organiza o que investigar, por que investigar, como investigar e com quais condições realizar a pesquisa.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "O que será pesquisado? O que se espera obter?"
+      }
+    },
+    {
+      "id": "card_projeto_018",
+      "topicId": "projeto_pesquisa",
+      "type": "metacognição",
+      "difficulty": 2,
+      "front": "Que pergunta ajuda a revisar um projeto?",
+      "back": "Se eu mudar o problema, hipótese, objetivos e método ainda fazem sentido ou precisam ser ajustados?",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "Problema se define pela máxima delimitação teórica e operacional"
+      }
+    },
+    {
+      "id": "card_projeto_019",
+      "topicId": "projeto_pesquisa",
+      "type": "aplicação",
+      "difficulty": 3,
+      "front": "Como ligar justificativa e objetivo?",
+      "back": "A justificativa explica a relevância da pesquisa; o objetivo diz o que será feito para responder ao problema relevante.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Por que pesquisar? Para que pesquisar? O que se espera obter?"
+      }
+    },
+    {
+      "id": "card_projeto_020",
+      "topicId": "projeto_pesquisa",
+      "type": "integração",
+      "difficulty": 3,
+      "front": "Como demonstrar domínio sobre projeto em prova?",
+      "back": "Mostre encadeamento: tema amplo vira problema delimitado; hipótese orienta; método investiga; objetivos e justificativa dão direção e relevância.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "tema... problema... hipótese"
+      }
+    },
+    {
+      "id": "card_metodo_001",
+      "topicId": "evolucao_metodo",
+      "type": "Bacon",
+      "difficulty": 1,
+      "front": "Que lógica de investigação aparece em Bacon?",
+      "back": "A ciência deve se apoiar em experimentação, registros repetidos de dados, análise posterior e formulação conceitual.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 4,
+        "excerpt": "o método científico deveria se pautar pela experimentação, com registros repetitivos de dados"
+      }
+    },
+    {
+      "id": "card_metodo_002",
+      "topicId": "evolucao_metodo",
+      "type": "experimentação",
+      "difficulty": 2,
+      "front": "Por que a repetição de registros é importante?",
+      "back": "Porque diminui a dependência de observações isoladas e permite análise mais controlada antes de formular conceitos.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 4,
+        "excerpt": "registros repetitivos de dados e posterior análise"
+      }
+    },
+    {
+      "id": "card_metodo_003",
+      "topicId": "evolucao_metodo",
+      "type": "Popper",
+      "difficulty": 1,
+      "front": "Qual critério de demarcação Popper defende?",
+      "back": "Popper desloca o foco da verificabilidade para a falseabilidade: uma teoria científica deve poder ser submetida a testes que possam refutá-la.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "o critério de demarcação não deve ser a verificabilidade, mas sim a falseabilidade"
+      }
+    },
+    {
+      "id": "card_metodo_004",
+      "topicId": "evolucao_metodo",
+      "type": "falseabilidade",
+      "difficulty": 2,
+      "front": "O que significa falseabilidade?",
+      "back": "Significa que uma teoria precisa admitir condições de teste capazes de mostrar que ela está errada.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "falseabilidade de um sistema"
+      }
+    },
+    {
+      "id": "card_metodo_005",
+      "topicId": "evolucao_metodo",
+      "type": "armadilha",
+      "difficulty": 3,
+      "front": "Qual erro evitar ao explicar falseabilidade?",
+      "back": "Não confunda com juntar muitos exemplos favoráveis. O ponto é submeter a teoria a testes que possam refutá-la.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "não deve ser a verificabilidade, mas sim a falseabilidade"
+      }
+    },
+    {
+      "id": "card_metodo_006",
+      "topicId": "evolucao_metodo",
+      "type": "verificabilidade",
+      "difficulty": 2,
+      "front": "Como Popper critica a verificabilidade?",
+      "back": "Ele questiona a ideia de que confirmar positivamente uma teoria basta para demarcar ciência; o teste decisivo é sua abertura à refutação.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "não deve ser a verificabilidade"
+      }
+    },
+    {
+      "id": "card_metodo_007",
+      "topicId": "evolucao_metodo",
+      "type": "Kuhn",
+      "difficulty": 1,
+      "front": "O que é paradigma em Kuhn?",
+      "back": "É um conjunto de referências, expectativas e modos de resolver problemas que orienta a ciência normal.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "paradigma que governa a ciência normal"
+      }
+    },
+    {
+      "id": "card_metodo_008",
+      "topicId": "evolucao_metodo",
+      "type": "ciência normal",
+      "difficulty": 2,
+      "front": "O que é ciência normal?",
+      "back": "É a prática científica feita dentro de um paradigma aceito, resolvendo problemas conforme suas regras e expectativas.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "paradigma que governa a ciência normal"
+      }
+    },
+    {
+      "id": "card_metodo_009",
+      "topicId": "evolucao_metodo",
+      "type": "anomalia",
+      "difficulty": 2,
+      "front": "O que é anomalia para Kuhn?",
+      "back": "É a percepção de que a natureza violou expectativas criadas pelo paradigma que orienta a ciência normal.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "consciência da anomalia... a natureza violou as expectativas"
+      }
+    },
+    {
+      "id": "card_metodo_010",
+      "topicId": "evolucao_metodo",
+      "type": "mudança",
+      "difficulty": 3,
+      "front": "Como anomalias podem levar a mudança de paradigma?",
+      "back": "Quando anomalias se tornam relevantes, o paradigma pode entrar em crise e abrir espaço para outra forma de explicar e investigar.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "uma descoberta científica começa com a consciência da anomalia"
+      }
+    },
+    {
+      "id": "card_metodo_011",
+      "topicId": "evolucao_metodo",
+      "type": "comparação",
+      "difficulty": 3,
+      "front": "Como comparar Popper e Kuhn?",
+      "back": "Popper enfatiza teste crítico e refutação; Kuhn enfatiza paradigmas, ciência normal, anomalias e mudanças históricas na ciência.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "falseabilidade de um sistema"
+      }
+    },
+    {
+      "id": "card_metodo_012",
+      "topicId": "evolucao_metodo",
+      "type": "correntes",
+      "difficulty": 2,
+      "front": "Como racionalismo e empirismo diferem?",
+      "back": "O racionalismo valoriza a razão e a dedução; o empirismo valoriza experiência, observação e dados como base do conhecimento.",
+      "source": {
+        "pdf": "METODOLOGIA 2.pdf",
+        "page": 1,
+        "excerpt": "Correntes do Racionalismo, do Empirismo"
+      }
+    },
+    {
+      "id": "card_metodo_013",
+      "topicId": "evolucao_metodo",
+      "type": "mecanicismo",
+      "difficulty": 2,
+      "front": "O que sugere o conceito mecanicista da natureza?",
+      "back": "Sugere compreender a natureza como sistema ordenado, regular e explicável por relações de funcionamento.",
+      "source": {
+        "pdf": "METODOLOGIA 2.pdf",
+        "page": 1,
+        "excerpt": "conceito mecanicista da natureza"
+      }
+    },
+    {
+      "id": "card_metodo_014",
+      "topicId": "evolucao_metodo",
+      "type": "integração",
+      "difficulty": 3,
+      "front": "Como ligar Bacon, Popper e Kuhn em uma resposta?",
+      "back": "Bacon destaca experimentação; Popper, teste e falseabilidade; Kuhn, paradigmas e anomalias na mudança científica.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 4,
+        "excerpt": "experimentação, com registros repetitivos de dados"
+      }
+    },
+    {
+      "id": "card_metodo_015",
+      "topicId": "evolucao_metodo",
+      "type": "aplicação",
+      "difficulty": 3,
+      "front": "Uma teoria que explica qualquer resultado é forte para Popper?",
+      "back": "Não. Se nada puder refutá-la, ela perde força científica no critério popperiano de falseabilidade.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "falseabilidade de um sistema"
+      }
+    },
+    {
+      "id": "card_metodo_016",
+      "topicId": "evolucao_metodo",
+      "type": "aplicação",
+      "difficulty": 2,
+      "front": "Como identificar um exemplo de anomalia?",
+      "back": "Procure um resultado que contraria o que o paradigma esperava e obriga os pesquisadores a reconsiderar explicações.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "a natureza violou as expectativas de um paradigma"
+      }
+    },
+    {
+      "id": "card_metodo_017",
+      "topicId": "evolucao_metodo",
+      "type": "prova",
+      "difficulty": 3,
+      "front": "Como responder uma questão sobre falseabilidade?",
+      "back": "Defina o conceito, contraste com verificabilidade e explique que teorias científicas precisam poder ser refutadas por testes.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "não deve ser a verificabilidade, mas sim a falseabilidade"
+      }
+    },
+    {
+      "id": "card_metodo_018",
+      "topicId": "evolucao_metodo",
+      "type": "prova",
+      "difficulty": 3,
+      "front": "Como responder uma questão sobre Kuhn?",
+      "back": "Explique paradigma, ciência normal e anomalia; depois mostre como anomalias podem abrir caminho para mudança científica.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "paradigma que governa a ciência normal"
+      }
+    },
+    {
+      "id": "card_metodo_019",
+      "topicId": "evolucao_metodo",
+      "type": "síntese",
+      "difficulty": 2,
+      "front": "Qual frase resume a evolução do método no material?",
+      "back": "O método científico passa por valorização da experimentação, crítica à simples verificação e compreensão histórica das mudanças de paradigma.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "critério de demarcação"
+      }
+    },
+    {
+      "id": "card_metodo_020",
+      "topicId": "evolucao_metodo",
+      "type": "metacognição",
+      "difficulty": 2,
+      "front": "Que pergunta ajuda a dominar Popper e Kuhn?",
+      "back": "Eu sei dizer se a questão pede teste crítico de teorias ou mudança histórica de paradigmas?",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "consciência da anomalia"
+      }
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz_metodo_001",
+      "topicId": "ciencia_conhecimento",
+      "question": "Segundo o material, o que caracteriza o conhecimento científico?",
+      "options": [
+        "A forma de aquisição e a sistematização metodológica do processo de aprender",
+        "A tradição cultural transmitida de geração em geração",
+        "A atitude de fé diante de proposições sagradas",
+        "A ausência de critérios de verificação"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "O PDF afirma que o conhecimento científico se caracteriza pela forma de aquisição: a sistematização metodológica do processo de aprender.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "É o que caracteriza o conhecimento científico? A forma de aquisição! A sistematização metodológica do processo de aprender."
+      }
+    },
+    {
+      "id": "quiz_senso_001",
+      "topicId": "tipos_conhecimento",
+      "question": "Qual alternativa corresponde a características do senso comum no material?",
+      "options": [
+        "Superficial, sensitivo, subjetivo, acrítico, valorativo e assistemático",
+        "Infalível, absoluto e baseado em comprovação experimental",
+        "Apenas racional e totalmente verificável",
+        "Fundado exclusivamente em leis matemáticas universais"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "O material lista o senso comum como superficial, sensitivo, subjetivo, acrítico, valorativo, reflexivo, assistemático, falível e inexato.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "é superficial... é sensitivo... subjetivo... acrítico... é valorativo... assistemático... é falível e inexato"
+      }
+    },
+    {
+      "id": "quiz_projeto_001",
+      "topicId": "projeto_pesquisa",
+      "question": "No projeto de pesquisa, o que é a metodologia?",
+      "options": [
+        "O suporte e diretriz da pesquisa",
+        "A lista final de citações bibliográficas",
+        "A capa opcional do trabalho",
+        "O resumo máximo da pesquisa"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "Na estrutura apresentada, metodologia aparece como suporte e diretriz da pesquisa.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Metodologia: suporte e diretriz da pesquisa"
+      }
+    },
+    {
+      "id": "quiz_bacon_001",
+      "topicId": "evolucao_metodo",
+      "question": "Segundo o texto, em que o método científico deveria se pautar para Bacon?",
+      "options": [
+        "Experimentação, registros repetitivos de dados e posterior análise e formulação conceitual",
+        "Apenas raciocínio ordenado sem observação",
+        "Apenas adaptação do conhecimento antigo à ordem religiosa",
+        "Recusa de qualquer aplicação prática do conhecimento"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "O texto atribui a Bacon a defesa da experimentação com registros repetitivos de dados e análise posterior.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 4,
+        "excerpt": "o método científico deveria se pautar pela experimentação, com registros repetitivos de dados e posterior análise e formulação conceitual"
+      }
+    },
+    {
+      "id": "quiz_popper_001",
+      "topicId": "evolucao_metodo",
+      "question": "Para Popper, o critério de demarcação científica destacado no texto é:",
+      "options": [
+        "Falseabilidade",
+        "Veracidade absoluta",
+        "Tradição cultural",
+        "Autoridade religiosa"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "O texto diz que o critério de demarcação não deve ser a verificabilidade, mas sim a falseabilidade.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "o critério de demarcação não deve ser a verificabilidade, mas sim a falseabilidade de um sistema"
+      }
+    },
+    {
+      "id": "quiz_ciencia_002",
+      "topicId": "ciencia_conhecimento",
+      "question": "Qual resposta mostra melhor a diferença entre estudo comum e investigação científica?",
+      "options": [
+        "Investigação científica exige sistematização e busca produzir conhecimento, não apenas compilar ideias",
+        "Investigação científica é qualquer leitura feita com atenção",
+        "Investigação científica dispensa método quando o tema é conhecido",
+        "Investigação científica é sempre uma opinião mais elaborada"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "O material afirma que pesquisa científica vai além da compilação e busca produção de conhecimento por investigação sistematizada.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "Uma investigação científica vai muito além da compilação de conceitos ou teorias, busca a produção de um conhecimento inédito"
+      }
+    },
+    {
+      "id": "quiz_senso_002",
+      "topicId": "tipos_conhecimento",
+      "question": "Qual alternativa evita a armadilha de simplificar demais o senso comum?",
+      "options": [
+        "Senso comum e ciência podem tratar do mesmo objeto, mas diferem no modo, rigor e método",
+        "Senso comum é sempre falso e ciência é sempre definitiva",
+        "Senso comum só existe quando não há experiência",
+        "Ciência se diferencia apenas por usar palavras difíceis"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "A diferença indicada no material não está apenas na veracidade nem no objeto, mas na forma e no rigor dos métodos.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "não está na veracidade do conhecimento nem na natureza do objeto estudado, mas sim na forma, no modo, no rigor dos métodos"
+      }
+    },
+    {
+      "id": "quiz_projeto_002",
+      "topicId": "projeto_pesquisa",
+      "question": "Em um projeto, qual sequência expressa melhor o encadeamento lógico?",
+      "options": [
+        "Tema amplo, problema delimitado, hipótese como resposta inicial e metodologia como caminho",
+        "Hipótese ampla, tema como resposta final e metodologia opcional",
+        "Problema sem delimitação, conclusão pronta e método apenas decorativo",
+        "Tema, bibliografia e opinião pessoal sem pergunta investigativa"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "O material diferencia tema, problema e hipótese e apresenta metodologia como suporte e diretriz da pesquisa.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "O tema se caracteriza pela definição mais genérica do tópico... Problema se define pela máxima delimitação teórica e operacional"
+      }
+    },
+    {
+      "id": "quiz_projeto_003",
+      "topicId": "projeto_pesquisa",
+      "question": "Se uma hipótese não responde ao problema, qual é o principal prejuízo?",
+      "options": [
+        "O projeto perde encadeamento, pois a hipótese deveria funcionar como resposta inicial ao problema",
+        "O tema se torna automaticamente mais científico",
+        "A metodologia deixa de precisar de diretriz",
+        "A pesquisa passa a depender apenas de senso comum"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "A hipótese aparece como resposta elementar ao problema, por isso precisa estar ligada à delimitação da questão.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "hipótese como a resposta elementar ao problema"
+      }
+    },
+    {
+      "id": "quiz_bacon_002",
+      "topicId": "evolucao_metodo",
+      "question": "Qual opção representa melhor o método associado a Bacon no material?",
+      "options": [
+        "Experimentar, registrar dados repetidamente, analisar e formular conceitos",
+        "Aceitar conclusões por autoridade e tradição",
+        "Dispensar observação para preservar a pureza da razão",
+        "Começar pela conclusão e buscar apenas exemplos favoráveis"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "O trecho atribui a Bacon experimentação, registros repetitivos de dados e análise posterior.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 4,
+        "excerpt": "experimentação, com registros repetitivos de dados e posterior análise e formulação conceitual"
+      }
+    },
+    {
+      "id": "quiz_popper_002",
+      "topicId": "evolucao_metodo",
+      "question": "Qual frase expressa melhor a falseabilidade?",
+      "options": [
+        "Uma teoria científica deve poder ser testada de modo que possa ser refutada",
+        "Uma teoria científica é aquela que nunca pode ser questionada",
+        "Uma teoria científica é validada definitivamente por um exemplo favorável",
+        "Uma teoria científica depende apenas da autoridade de quem a propõe"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "O critério popperiano destacado é a falseabilidade, não a verificabilidade definitiva.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "o critério de demarcação não deve ser a verificabilidade, mas sim a falseabilidade de um sistema"
+      }
+    },
+    {
+      "id": "quiz_popper_003",
+      "topicId": "evolucao_metodo",
+      "question": "Qual alternativa diferencia melhor pesquisa de falseamento e pesquisa aplicada?",
+      "options": [
+        "Falseamento testa criticamente teorias; aplicada usa conhecimento para resolver problemas práticos",
+        "Falseamento é aplicação prática e pesquisa aplicada é refutação teórica",
+        "Ambas significam confirmar teorias sem crítica",
+        "Pesquisa aplicada não pode ser científica"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "A distinção central está na finalidade: teste crítico de teorias versus uso prático do conhecimento.",
+      "source": {
+        "pdf": "Prova_Comp_T2_2021_2.pdf",
+        "page": 1,
+        "excerpt": "Explique a diferença entre uma pesquisa de falseamento e uma pesquisa aplicada."
+      }
+    },
+    {
+      "id": "quiz_kuhn_002",
+      "topicId": "evolucao_metodo",
+      "question": "No contexto de Kuhn, o que torna uma anomalia importante?",
+      "options": [
+        "Ela indica violação de expectativas de um paradigma e pode tensionar a ciência normal",
+        "Ela prova imediatamente que toda ciência anterior era falsa",
+        "Ela elimina a necessidade de paradigma",
+        "Ela é qualquer erro de cálculo sem relação com teoria"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "O texto liga anomalia à violação de expectativas de um paradigma que governa a ciência normal.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "a natureza violou as expectativas de um paradigma que governa a ciência normal"
+      }
+    },
+    {
+      "id": "quiz_correntes_001",
+      "topicId": "evolucao_metodo",
+      "question": "Em uma questão sobre racionalismo, empirismo e mecanicismo, qual estratégia de resposta é mais adequada?",
+      "options": [
+        "Comparar o que cada corrente privilegia e relacionar isso ao método de produção do conhecimento",
+        "Listar nomes sem explicar método ou origem",
+        "Tratar as três correntes como sinônimas",
+        "Responder apenas com uma definição de ciência"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "A prova discursiva tende a exigir descrição articulada: origem, método, representantes e comparação.",
+      "source": {
+        "pdf": "Prova_Comp_T2_2021_2.pdf",
+        "page": 1,
+        "excerpt": "explicando suas origens, métodos e representantes"
+      }
+    },
+    {
+      "id": "quiz_discursiva_001",
+      "topicId": "ciencia_conhecimento",
+      "question": "O que uma resposta discursiva forte precisa fazer?",
+      "options": [
+        "Definir termos, relacionar conceitos, explicar o pedido e concluir de modo articulado",
+        "Copiar palavras soltas do material sem conexão",
+        "Responder apenas com tópicos desconectados",
+        "Escolher um conceito e ignorar o restante da pergunta"
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "O enunciado da prova passada exige respostas com palavras próprias, articuladas, definições, conceitos relacionados e explicações.",
+      "source": {
+        "pdf": "Prova_Comp_T2_2021_2.pdf",
+        "page": 1,
+        "excerpt": "de maneira ARTICULADA, de modo a conter as definições, os conceitos relacionados e as explicações solicitadas"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "id": "rel_metodo_conhecimento",
+      "topicId": "ciencia_conhecimento",
+      "from": "Método",
+      "to": "Conhecimento científico",
+      "description": "O método aparece como processo de aquisição do conhecimento científico e como elemento de análise crítica.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "O método: processo de aquisição do conhecimento científico. O método fornece os elementos de análise crítica"
+      }
+    },
+    {
+      "id": "rel_senso_cientifico",
+      "topicId": "tipos_conhecimento",
+      "from": "Senso comum",
+      "to": "Conhecimento científico",
+      "description": "A diferença está no modo, rigor metodológico e precisão dos instrumentos, não na natureza do objeto.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "não está na veracidade do conhecimento nem na natureza do objeto estudado, mas sim na forma, no modo, no rigor dos métodos"
+      }
+    },
+    {
+      "id": "rel_problema_hipotese",
+      "topicId": "projeto_pesquisa",
+      "from": "Problema",
+      "to": "Hipótese",
+      "description": "O problema delimita a questão investigada; a hipótese é a resposta elementar ou solução indicada para esse problema.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "Problema se define pela máxima delimitação teórica e operacional... hipótese como a resposta elementar ao problema"
+      }
+    },
+    {
+      "id": "rel_verificabilidade_falseabilidade",
+      "topicId": "evolucao_metodo",
+      "from": "Verificabilidade",
+      "to": "Falseabilidade",
+      "description": "Popper desloca o critério de demarcação da verificabilidade para a falseabilidade.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "o critério de demarcação não deve ser a verificabilidade, mas sim a falseabilidade de um sistema"
+      }
+    },
+    {
+      "id": "rel_bacon_experimentacao",
+      "topicId": "evolucao_metodo",
+      "from": "Bacon",
+      "to": "Experimentação",
+      "description": "Bacon aparece ligado é defesa da experimentação, registro repetitivo de dados e análise posterior.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 4,
+        "excerpt": "experimentação, com registros repetitivos de dados e posterior análise e formulação conceitual"
+      }
+    },
+    {
+      "id": "rel_experimentacao_analise",
+      "topicId": "evolucao_metodo",
+      "from": "Experimentação",
+      "to": "Análise posterior",
+      "description": "A experimentação ganha valor científico quando os dados registrados sóo analisados e usados para formulação conceitual.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 4,
+        "excerpt": "registros repetitivos de dados e posterior análise e formulação conceitual"
+      }
+    },
+    {
+      "id": "rel_popper_falseabilidade",
+      "topicId": "evolucao_metodo",
+      "from": "Popper",
+      "to": "Falseabilidade",
+      "description": "Popper desloca a demarcação científica para a possibilidade de falseamento de sistemas teóricos.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "o critério de demarcação não deve ser a verificabilidade, mas sim a falseabilidade"
+      }
+    },
+    {
+      "id": "rel_verificacao_refutacao",
+      "topicId": "evolucao_metodo",
+      "from": "Verificabilidade",
+      "to": "Refutação",
+      "description": "A questão popperiana contrasta confirmação positiva com exposição crítica da teoria é possibilidade de refutação.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "não deve ser a verificabilidade, mas sim a falseabilidade"
+      }
+    },
+    {
+      "id": "rel_kuhn_paradigma",
+      "topicId": "evolucao_metodo",
+      "from": "Kuhn",
+      "to": "Paradigma",
+      "description": "Kuhn ajuda a pensar a ciência normal como atividade orientada por paradigmas compartilhados.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "paradigma que governa a ciência normal"
+      }
+    },
+    {
+      "id": "rel_paradigma_anomalia",
+      "topicId": "evolucao_metodo",
+      "from": "Paradigma",
+      "to": "Anomalia",
+      "description": "A anomalia importa porque viola expectativas produzidas por um paradigma vigente.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "a natureza violou as expectativas de um paradigma"
+      }
+    },
+    {
+      "id": "rel_anomalia_mudanca",
+      "topicId": "evolucao_metodo",
+      "from": "Anomalia",
+      "to": "Mudança científica",
+      "description": "A consciência da anomalia pode iniciar processos de revisão ou transformação da explicação científica.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "uma descoberta científica começa com a consciência da anomalia"
+      }
+    },
+    {
+      "id": "rel_racionalismo_razao",
+      "topicId": "evolucao_metodo",
+      "from": "Racionalismo",
+      "to": "Razão",
+      "description": "O racionalismo deve ser estudado pelo critério que privilegia a razão na justificação do conhecimento.",
+      "source": {
+        "pdf": "METODOLOGIA 2.pdf",
+        "page": 1,
+        "excerpt": "Correntes do Racionalismo, do Empirismo"
+      }
+    },
+    {
+      "id": "rel_empirismo_experiencia",
+      "topicId": "evolucao_metodo",
+      "from": "Empirismo",
+      "to": "Experiência",
+      "description": "O empirismo deve ser comparado pelo papel da experiência e da observação na produção do conhecimento.",
+      "source": {
+        "pdf": "METODOLOGIA 2.pdf",
+        "page": 1,
+        "excerpt": "Correntes do Racionalismo, do Empirismo"
+      }
+    },
+    {
+      "id": "rel_mecanicismo_natureza",
+      "topicId": "evolucao_metodo",
+      "from": "Mecanicismo",
+      "to": "Natureza ordenada",
+      "description": "O mecanicismo organiza uma compreensão da natureza como sistema explicável por ordem e funcionamento.",
+      "source": {
+        "pdf": "METODOLOGIA 2.pdf",
+        "page": 1,
+        "excerpt": "conceito mecanicista da natureza"
+      }
+    },
+    {
+      "id": "rel_tema_problema",
+      "topicId": "projeto_pesquisa",
+      "from": "Tema",
+      "to": "Problema",
+      "description": "O tema abre o campo geral e o problema realiza a delimitação teórica e operacional da investigação.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "O tema se caracteriza pela definição mais genérica do tópico... Problema se define pela máxima delimitação teórica e operacional"
+      }
+    },
+    {
+      "id": "rel_hipotese_metodologia",
+      "topicId": "projeto_pesquisa",
+      "from": "Hipótese",
+      "to": "Metodologia",
+      "description": "A hipótese orienta uma resposta inicial e a metodologia define o caminho para investigar essa resposta.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Metodologia: suporte e diretriz da pesquisa"
+      }
+    },
+    {
+      "id": "rel_objetivo_metodo",
+      "topicId": "projeto_pesquisa",
+      "from": "Objetivo da pesquisa",
+      "to": "Caminho metodológico",
+      "description": "O que se espera obter precisa ser compatível com a forma como a pesquisa será realizada.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "O que se espera obter? Por que pesquisar? Para que pesquisar?"
+      }
+    },
+    {
+      "id": "rel_senso_experiencia",
+      "topicId": "tipos_conhecimento",
+      "from": "Senso comum",
+      "to": "Experiência diária",
+      "description": "O senso comum se apoia em experiência cotidiana, observação, repetição e correlações espontâneas.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "experiência diária, na observação, repetição"
+      }
+    },
+    {
+      "id": "rel_cientifico_sistematizacao",
+      "topicId": "tipos_conhecimento",
+      "from": "Conhecimento científico",
+      "to": "Sistematização metodológica",
+      "description": "O conhecimento científico se caracteriza pela forma de aquisição e pela sistematização metodológica.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "A forma de aquisição! A sistematização metodológica do processo de aprender"
+      }
+    },
+    {
+      "id": "rel_metodologia_comunicacao",
+      "topicId": "ciencia_conhecimento",
+      "from": "Metodologia Científica",
+      "to": "Comunicação científica",
+      "description": "A metodologia também envolve padrões e normas para transmitir conhecimento científico.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "padrões e normas para transmitir conhecimento científico"
+      }
+    }
+  ],
+  "glossary": [
+    {
+      "id": "term_metodologia_cientifica",
+      "term": "Metodologia Científica",
+      "topicId": "ciencia_conhecimento",
+      "definition": "Campo auxiliar que estuda a própria ciência, seus critérios de demarcação, métodos, técnicas de investigação e formas de comunicação do conhecimento científico.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "Metodologia Científica é uma ciência auxiliar das demais, destinada a estudar a própria ciência, definindo os critérios de demarcação científica"
+      }
+    },
+    {
+      "id": "term_metodo",
+      "term": "Método",
+      "topicId": "ciencia_conhecimento",
+      "definition": "Processo de aquisição do conhecimento científico e base para análise crítica das descobertas e comunicações científicas.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "O método: processo de aquisição do conhecimento científico. O método fornece os elementos de análise crítica"
+      }
+    },
+    {
+      "id": "term_conhecimento_cientifico",
+      "term": "Conhecimento científico",
+      "topicId": "tipos_conhecimento",
+      "definition": "Conhecimento caracterizado pela forma de aquisição, com sistematização metodológica, rigor dos métodos e precisão dos instrumentos.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "É o que caracteriza o conhecimento científico? A forma de aquisição! A sistematização metodológica do processo de aprender."
+      }
+    },
+    {
+      "id": "term_senso_comum",
+      "term": "Senso comum",
+      "topicId": "tipos_conhecimento",
+      "definition": "Modo comum, corrente e espont�neo de aprender empiricamente, baseado na experi�ncia di�ria, observa��o e repeti��o.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "� o modo comum, corrente e espont�neo de aprender empiricamente. Utiliza-se de m�todos baseados na experi�ncia di�ria"
+      }
+    },
+    {
+      "id": "term_tema",
+      "term": "Tema",
+      "topicId": "projeto_pesquisa",
+      "definition": "Definição mais genérica do tópico que orienta a pesquisa antes da delimitação do problema.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "O tema se caracteriza pela definição mais genérica do tópico"
+      }
+    },
+    {
+      "id": "term_problema",
+      "term": "Problema",
+      "topicId": "projeto_pesquisa",
+      "definition": "Máxima delimitação teórica e operacional da questão que será investigada.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "Problema se define pela máxima delimitação teórica e operacional"
+      }
+    },
+    {
+      "id": "term_hipotese",
+      "term": "Hipótese",
+      "topicId": "projeto_pesquisa",
+      "definition": "Resposta elementar ou solução indicada para o problema de pesquisa.",
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "hipótese como a resposta elementar ao problema"
+      }
+    },
+    {
+      "id": "term_falseabilidade",
+      "term": "Falseabilidade",
+      "topicId": "evolucao_metodo",
+      "definition": "Critério de demarcação defendido por Popper: um sistema científico deve poder ser colocado à prova e, em princípio, refutado.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "o critério de demarcação não deve ser a verificabilidade, mas sim a falseabilidade de um sistema"
+      }
+    },
+    {
+      "id": "term_paradigma",
+      "term": "Paradigma",
+      "topicId": "evolucao_metodo",
+      "definition": "Modelo que governa expectativas da ciência normal e pode ser tensionado quando surgem anomalias.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "a natureza violou as expectativas de um paradigma que governa a ciência normal"
+      }
+    },
+    {
+      "id": "term_anomalia",
+      "term": "Anomalia",
+      "topicId": "evolucao_metodo",
+      "definition": "Percepção de que a natureza violou expectativas de um paradigma, abrindo caminho para descoberta científica.",
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "uma descoberta científica começa com a consciência da anomalia"
+      }
+    }
+  ],
+  "examPractice": [
+    {
+      "id": "exam_comp_conhecimento_001",
+      "topicId": "tipos_conhecimento",
+      "prompt": "Compare conhecimento científico, senso comum e pesquisa científica em uma resposta única, explicando como método, rigor e finalidade mudam o tipo de conhecimento produzido.",
+      "weight": "Competência: comparar e articular conceitos",
+      "approach": "Não trate os conceitos isoladamente. Defina cada um, escolha critérios de comparação e mostre como método e sistematização diferenciam uma resposta científica de uma resposta cotidiana.",
+      "checklist": [
+        "Definir conhecimento científico pelo método e pela sistematização.",
+        "Definir senso comum sem reduzi-lo a erro ou ignor�ncia.",
+        "Explicar por que pesquisa científica não é apenas consulta.",
+        "Usar critérios explícitos de comparação: método, rigor, finalidade e comunicação."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "A diferença básica entre eles não está na veracidade do conhecimento nem na natureza do objeto estudado, mas sim na forma, no modo, no rigor dos métodos"
+      }
+    },
+    {
+      "id": "exam_comp_projeto_001",
+      "topicId": "projeto_pesquisa",
+      "prompt": "Explique como tema, problema, hipótese e metodologia se encadeiam em um projeto de pesquisa e mostre o que acontece quando um desses elementos fica mal definido.",
+      "weight": "Competência: estruturar raciocínio de pesquisa",
+      "approach": "Responda como um fluxo. Mostre que o tema abre o campo, o problema delimita a investigação, a hipótese propõe uma resposta inicial e a metodologia define o caminho de investigação.",
+      "checklist": [
+        "Diferenciar tema, problema e hipótese.",
+        "Explicar a função da metodologia no projeto.",
+        "Mostrar encadeamento lógico entre os elementos.",
+        "Indicar consequências de um problema ou hipótese mal delimitados."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "O tema se caracteriza pela definição mais genérica do tópico... Problema se define pela máxima delimitação teórica e operacional... hipótese como a resposta elementar ao problema"
+      }
+    },
+    {
+      "id": "exam_comp_correntes_001",
+      "topicId": "evolucao_metodo",
+      "prompt": "Relacione racionalismo, empirismo e mecanicismo com diferentes formas de justificar conhecimento científico, destacando método, origem das evidências e limites de cada perspectiva.",
+      "weight": "Competência: relacionar correntes e métodos",
+      "approach": "Monte uma resposta comparativa, não uma lista. Para cada corrente, indique o que ela privilegia, como produz justificativa e que tipo de limite ou risco ela apresenta quando usada sozinha.",
+      "checklist": [
+        "Explicar a lógica geral de cada corrente.",
+        "Comparar razão, experiência e explicação mecanicista.",
+        "Relacionar as correntes ao problema do método científico.",
+        "Fechar com uma síntese que mostre diferenças e complementaridades."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 2.pdf",
+        "page": 1,
+        "excerpt": "Correntes do Racionalismo, do Empirismo e conceito mecanicista da natureza"
+      }
+    },
+    {
+      "id": "exam_comp_falseabilidade_001",
+      "topicId": "evolucao_metodo",
+      "prompt": "Explique como falseabilidade, hipóteses falseadoras, validação provisória e pesquisa aplicada podem aparecer combinadas em uma questão sobre ciência e método.",
+      "weight": "Competência: aprofundar e combinar conceitos",
+      "approach": "Comece por Popper e falseabilidade. Depois diferencie testar criticamente uma teoria de aplicar conhecimento para resolver um problema. Mostre que uma teoria científica é fortalecida provisoriamente quando resiste a testes, mas não vira verdade absoluta.",
+      "checklist": [
+        "Definir falseabilidade como critério de demarcação.",
+        "Explicar hipóteses falseadoras como possibilidades de refutação.",
+        "Diferenciar validação provisória de verificação definitiva.",
+        "Comparar pesquisa de falseamento e pesquisa aplicada."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "o critério de demarcação não deve ser a verificabilidade, mas sim a falseabilidade de um sistema"
+      }
+    },
+    {
+      "id": "exam_comp_paradigmas_001",
+      "topicId": "evolucao_metodo",
+      "prompt": "Construa uma resposta explicando como paradigmas orientam a ciência normal e como anomalias podem levar à revisão de explicações científicas.",
+      "weight": "Competência: explicar mudança conceitual",
+      "approach": "Use uma sequência causal: paradigma orienta expectativas, a ciência normal trabalha dentro dele, anomalias tensionam o modelo e podem abrir caminho para mudança. Conecte com a ideia de que ciência não é acúmulo simples de certezas.",
+      "checklist": [
+        "Definir paradigma como modelo que orienta expectativas.",
+        "Explicar ciência normal sem tratar como erro.",
+        "Mostrar o papel das anomalias.",
+        "Concluir com a ideia de mudança ou revisão científica."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "uma descoberta científica começa com a consciência da anomalia... a natureza violou as expectativas de um paradigma que governa a ciência normal"
+      }
+    },
+    {
+      "id": "exam_comp_metodo_001",
+      "topicId": "ciencia_conhecimento",
+      "prompt": "Explique por que método é mais do que uma sequência de passos e mostre sua função na produção e avaliação do conhecimento científico.",
+      "weight": "Competência: explicar função de conceito",
+      "approach": "Defina método, mostre sua função na aquisição do conhecimento e conecte com análise crítica, comunicação e demarcação científica.",
+      "checklist": [
+        "Definir método como processo de aquisição do conhecimento científico.",
+        "Relacionar método a análise crítica.",
+        "Mostrar que método não é apenas receita mecânica.",
+        "Concluir explicando sua importância para diferenciar ciência de opinião."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "O método: processo de aquisição do conhecimento científico. O método fornece os elementos de análise crítica"
+      }
+    },
+    {
+      "id": "exam_comp_senso_001",
+      "topicId": "tipos_conhecimento",
+      "prompt": "Construa uma resposta defendendo por que o senso comum pode ser útil no cotidiano, mas insuficiente como critério de conhecimento científico.",
+      "weight": "Competência: nuance e avaliação crítica",
+      "approach": "Evite demonizar o senso comum. Explique sua base empírica cotidiana e depois indique seus limites diante da exigência de rigor, método e sistematização.",
+      "checklist": [
+        "Reconhecer o caráter cotidiano e espontâneo do senso comum.",
+        "Apontar limites como superficialidade, subjetividade ou assistematicidade.",
+        "Contrastar com rigor e método científico.",
+        "Fechar com uma avaliação equilibrada."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "É o modo comum, corrente e espontâneo de aprender empiricamente"
+      }
+    },
+    {
+      "id": "exam_comp_pesquisa_001",
+      "topicId": "ciencia_conhecimento",
+      "prompt": "Diferencie consulta, estudo e pesquisa científica, explicando o que uma resposta acadêmica precisa demonstrar para ultrapassar a simples reprodução de conteúdo.",
+      "weight": "Competência: diferenciar níveis de atividade intelectual",
+      "approach": "Mostre que consulta e estudo podem apoiar a pesquisa, mas não substituem a investigação sistemática nem a produção de conhecimento.",
+      "checklist": [
+        "Separar consulta, estudo e investigação científica.",
+        "Explicar sistematização do processo investigativo.",
+        "Indicar o papel da produção de conhecimento.",
+        "Evitar confundir pesquisa com resumo bibliográfico."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "Pesquisa Científica não é Consulta ou Estudo"
+      }
+    },
+    {
+      "id": "exam_comp_projeto_002",
+      "topicId": "projeto_pesquisa",
+      "prompt": "Receba um tema amplo e explique como você o transformaria em problema, hipótese e metodologia de pesquisa.",
+      "weight": "Competência: aplicar estrutura de projeto",
+      "approach": "Use o raciocínio de funil: tema amplo, recorte investigável, resposta provisória e caminho metodológico compatível.",
+      "checklist": [
+        "Mostrar redução do tema para um problema delimitado.",
+        "Formular hipótese como resposta inicial.",
+        "Indicar metodologia coerente com o problema.",
+        "Explicar por que o recorte melhora a investigação."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "Problema se define pela máxima delimitação teórica e operacional"
+      }
+    },
+    {
+      "id": "exam_comp_projeto_003",
+      "topicId": "projeto_pesquisa",
+      "prompt": "Analise por que uma pesquisa com tema interessante pode fracassar se não tiver problema e hipótese bem delimitados.",
+      "weight": "Competência: diagnosticar falhas de projeto",
+      "approach": "Mostre que interesse temático não basta. Explique como problema e hipótese orientam foco, método e avaliação dos resultados.",
+      "checklist": [
+        "Diferenciar interesse temático de problema científico.",
+        "Explicar a função delimitadora do problema.",
+        "Explicar a função orientadora da hipótese.",
+        "Relacionar delimitação a metodologia e resultado."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 12,
+        "excerpt": "O tema se caracteriza pela definição mais genérica do tópico"
+      }
+    },
+    {
+      "id": "exam_comp_bacon_001",
+      "topicId": "evolucao_metodo",
+      "prompt": "Explique como experimentação, registro de dados e análise posterior se combinam em uma visão de método científico.",
+      "weight": "Competência: explicar processo metodológico",
+      "approach": "Descreva a sequência: observar/experimentar, registrar repetidamente, analisar e formular conceitos. Mostre por que isso reduz improviso.",
+      "checklist": [
+        "Citar experimentação.",
+        "Explicar importância dos registros repetitivos.",
+        "Relacionar dados e análise posterior.",
+        "Mostrar consequência para formulação conceitual."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 4,
+        "excerpt": "experimentação, com registros repetitivos de dados e posterior análise e formulação conceitual"
+      }
+    },
+    {
+      "id": "exam_comp_popper_002",
+      "topicId": "evolucao_metodo",
+      "prompt": "Compare verificabilidade e falseabilidade, indicando por que Popper desloca o critério de demarcação científica.",
+      "weight": "Competência: comparar critérios epistemológicos",
+      "approach": "Defina os dois critérios e explique que Popper valoriza a possibilidade de refutação, não a busca de confirmações definitivas.",
+      "checklist": [
+        "Definir verificabilidade em contraste com falseabilidade.",
+        "Explicar demarcação científica.",
+        "Indicar por que refutabilidade é central em Popper.",
+        "Evitar dizer que falseabilidade torna a teoria falsa automaticamente."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "o critério de demarcação não deve ser a verificabilidade, mas sim a falseabilidade"
+      }
+    },
+    {
+      "id": "exam_comp_popper_003",
+      "topicId": "evolucao_metodo",
+      "prompt": "Explique como uma hipótese falseadora atua dentro de um teste científico e por que isso fortalece a atitude crítica da ciência.",
+      "weight": "Competência: aprofundar mecanismo de teste",
+      "approach": "Mostre que a hipótese falseadora cria uma situação em que a teoria pode falhar. O valor científico está na exposição ao risco de refutação.",
+      "checklist": [
+        "Relacionar hipótese falseadora a teste crítico.",
+        "Explicar possibilidade de refutação.",
+        "Mostrar que resistir ao teste não é verdade absoluta.",
+        "Conectar com atitude crítica."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "falseabilidade de um sistema"
+      }
+    },
+    {
+      "id": "exam_comp_kuhn_002",
+      "topicId": "evolucao_metodo",
+      "prompt": "Diferencie ciência normal, paradigma e anomalia, mostrando como esses conceitos explicam mudanças no conhecimento científico.",
+      "weight": "Competência: articular tríade conceitual",
+      "approach": "Defina paradigma como referência, ciência normal como trabalho dentro dele e anomalia como tensóo que pode exigir revisão explicativa.",
+      "checklist": [
+        "Definir paradigma.",
+        "Explicar ciência normal.",
+        "Definir anomalia como violação de expectativa.",
+        "Relacionar anomalias a mudança científica."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "a natureza violou as expectativas de um paradigma que governa a ciência normal"
+      }
+    },
+    {
+      "id": "exam_comp_integrada_001",
+      "topicId": "evolucao_metodo",
+      "prompt": "Compare Popper e Kuhn como duas maneiras de pensar mudança científica: teste crítico de teorias e transformação de paradigmas.",
+      "weight": "Competência: comparação avançada",
+      "approach": "Explique Popper pelo eixo falseabilidade/refutação e Kuhn pelo eixo paradigma/anomalia. Depois mostre como ambos recusam a ideia de ciência como certeza simples.",
+      "checklist": [
+        "Apresentar o eixo de Popper.",
+        "Apresentar o eixo de Kuhn.",
+        "Comparar teste crítico e mudança de paradigma.",
+        "Concluir com visão não dogmática da ciência."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 8,
+        "excerpt": "uma descoberta científica começa com a consciência da anomalia"
+      }
+    },
+    {
+      "id": "exam_comp_integrada_002",
+      "topicId": "ciencia_conhecimento",
+      "prompt": "Explique como método, pesquisa científica e comunicação do conhecimento se conectam na Metodologia Científica.",
+      "weight": "Competência: síntese de fundamentos",
+      "approach": "Mostre que metodologia estuda a ciência, seus métodos e normas de transmissão. Conecte produção, avaliação e comunicação do conhecimento.",
+      "checklist": [
+        "Definir Metodologia Científica.",
+        "Relacionar método e investigação.",
+        "Incluir padrões ou normas de transmissão.",
+        "Concluir com a função auxiliar da metodologia."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "estudar a própria ciência, definindo os critérios de demarcação científica, estudando os métodos e técnicas de investigação"
+      }
+    },
+    {
+      "id": "exam_comp_integrada_003",
+      "topicId": "tipos_conhecimento",
+      "prompt": "Elabore uma resposta mostrando como diferentes tipos de conhecimento podem conviver, mas não possuem os mesmos critérios de validação.",
+      "weight": "Competência: comparação ampla",
+      "approach": "Compare conhecimento popular, religioso, filosófico e científico por critérios de origem, validação, método e finalidade, sem reduzir a resposta a juízo de valor.",
+      "checklist": [
+        "Mencionar mais de um tipo de conhecimento.",
+        "Comparar critérios de validação.",
+        "Destacar o método no conhecimento científico.",
+        "Evitar hierarquia simplista sem explicação."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "conhecimento popular, senso comum, religioso, filosófico e científico"
+      }
+    },
+    {
+      "id": "exam_comp_integrada_004",
+      "topicId": "projeto_pesquisa",
+      "prompt": "Proponha critérios para avaliar se uma pergunta de pesquisa está bem formulada e justifique cada critério com base nos elementos do projeto.",
+      "weight": "Competência: avaliação e justificativa",
+      "approach": "Use critérios como delimitação, clareza, possibilidade metodológica, relação com hipótese e relevância para o objetivo da pesquisa.",
+      "checklist": [
+        "Apresentar critérios explícitos.",
+        "Relacionar critérios a tema, problema e hipótese.",
+        "Incluir viabilidade metodológica.",
+        "Justificar, não apenas listar."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "O que será pesquisado? O que se espera obter? Por que pesquisar? Para que pesquisar?"
+      }
+    },
+    {
+      "id": "exam_comp_integrada_005",
+      "topicId": "evolucao_metodo",
+      "prompt": "Explique como a exigência de responder com suas palavras muda sua preparação: o que você deve treinar além de memorizar definiçõesó",
+      "weight": "Competência: metacognição para prova discursiva",
+      "approach": "Mostre que é preciso treinar recuperação ativa, conexão entre conceitos, comparação, exemplos de aplicação e revisão por checklist.",
+      "checklist": [
+        "Diferenciar memorização de domínio conceitual.",
+        "Mencionar articulação entre conceitos.",
+        "Incluir prática de escrita ou autoexplicação.",
+        "Indicar como revisar a própria resposta."
+      ],
+      "source": {
+        "pdf": "Prova_Comp_T2_2021_2.pdf",
+        "page": 1,
+        "excerpt": "As questões devem ser respondidas COM SUAS PALAVRAS, de maneira ARTICULADA"
+      }
+    },
+    {
+      "id": "exam_comp_metodologia_002",
+      "topicId": "ciencia_conhecimento",
+      "prompt": "Analise a função da Metodologia Científica como ciência auxiliar, explicando como ela organiza critérios, métodos, técnicas e comunicação do conhecimento.",
+      "weight": "Competência: compreender função da metodologia",
+      "approach": "Mostre que metodologia não é apenas norma formal. Ela estuda a própria ciência, ajuda a demarcar o conhecimento científico e orienta investigação e transmissão.",
+      "checklist": [
+        "Definir Metodologia Científica como ciência auxiliar.",
+        "Explicar critérios de demarcação científica.",
+        "Relacionar métodos e técnicas de investigação.",
+        "Incluir comunicação ou transmissão do conhecimento."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "Metodologia Científica é uma ciência auxiliar das demais, destinada a estudar a própria ciência"
+      }
+    },
+    {
+      "id": "exam_comp_demarcacao_001",
+      "topicId": "ciencia_conhecimento",
+      "prompt": "Explique por que a ideia de demarcação científica é importante para separar ciência, opinião, crença e simples informação.",
+      "weight": "Competência: diferenciar critérios de cientificidade",
+      "approach": "Comece explicando demarcação como critério de separação. Depois relacione com método, rigor, crítica e possibilidade de avaliação pública do conhecimento.",
+      "checklist": [
+        "Definir demarcação científica.",
+        "Comparar ciência com opinião ou crença sem caricatura.",
+        "Relacionar demarcação a método e rigor.",
+        "Concluir mostrando por que isso importa para avaliar respostas."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "definindo os critérios de demarcação científica"
+      }
+    },
+    {
+      "id": "exam_comp_comunicacao_001",
+      "topicId": "ciencia_conhecimento",
+      "prompt": "Construa uma resposta sobre por que comunicar conhecimento científico exige padrões, normas e clareza conceitual.",
+      "weight": "Competência: comunicação científica",
+      "approach": "Explique que a transmissão do conhecimento precisa permitir compreensão, avaliação e continuidade. Relacione padrões com método e confiabilidade.",
+      "checklist": [
+        "Mencionar padrões e normas.",
+        "Relacionar comunicação a confiabilidade.",
+        "Explicar por que clareza conceitual importa.",
+        "Conectar comunicação ao papel da metodologia."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "padrões e normas para transmitir conhecimento científico"
+      }
+    },
+    {
+      "id": "exam_comp_conhecimento_002",
+      "topicId": "tipos_conhecimento",
+      "prompt": "Diferencie conhecimento popular, religioso, filosófico e científico usando critérios de origem, validação, método e finalidade.",
+      "weight": "Competência: classificar e comparar tipos de conhecimento",
+      "approach": "Monte uma matriz mental: tipo de conhecimento, fonte de autoridade, modo de validação e finalidade. Depois destaque o que torna o conhecimento científico particular.",
+      "checklist": [
+        "Mencionar pelo menos quatro tipos de conhecimento.",
+        "Comparar origem ou fonte de validação.",
+        "Destacar método no conhecimento científico.",
+        "Evitar afirmar que só a ciência tem valor social."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "conhecimento popular, senso comum, religioso, filosófico e científico"
+      }
+    },
+    {
+      "id": "exam_comp_senso_002",
+      "topicId": "tipos_conhecimento",
+      "prompt": "Explique como observação, repetição e experiência diária sustentam o senso comum e por que isso não equivale a método científico.",
+      "weight": "Competência: distinguir empiria cotidiana e método",
+      "approach": "Mostre que o senso comum também nasce de experiência, mas sem o mesmo controle, sistematização e crítica exigidos pela ciência.",
+      "checklist": [
+        "Citar experiência diária, observação e repetição.",
+        "Explicar espontaneidade do senso comum.",
+        "Contrastar com método sistematizado.",
+        "Evitar tratar experiência cotidiana como irrelevante."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 3,
+        "excerpt": "métodos baseados na experiência diária, na observação, repetição"
+      }
+    },
+    {
+      "id": "exam_comp_instrumentos_001",
+      "topicId": "tipos_conhecimento",
+      "prompt": "Analise por que rigor dos métodos e precisóo dos instrumentos mudam a qualidade do conhecimento produzido.",
+      "weight": "Competência: explicar critério de rigor",
+      "approach": "Mostre que instrumentos e métodos permitem controle, comparação e avaliação. Relacione isso é diferença entre conhecimento científico e formas espontâneas de saber.",
+      "checklist": [
+        "Explicar rigor dos métodos.",
+        "Explicar precisóo dos instrumentos.",
+        "Relacionar rigor é avaliação do conhecimento.",
+        "Comparar com senso comum."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "no rigor dos métodos e na precisóo dos instrumentos usados no aprendizado"
+      }
+    },
+    {
+      "id": "exam_comp_projeto_004",
+      "topicId": "projeto_pesquisa",
+      "prompt": "Explique como as perguntas quem, onde, o quê, por quê, para quê, como, recursos e tempo ajudam a transformar uma ideia em projeto.",
+      "weight": "Competência: planejamento de pesquisa",
+      "approach": "Mostre que cada pergunta reduz indefinição e aumenta viabilidade. Organize a resposta como planejamento progressivo da investigação.",
+      "checklist": [
+        "Mencionar várias perguntas estruturantes.",
+        "Relacionar perguntas a planejamento.",
+        "Mostrar redução de indefinição.",
+        "Conectar com viabilidade de pesquisa."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Quem vai pesquisar? Onde? O que será pesquisado? O que se espera obter? Por que pesquisar?"
+      }
+    },
+    {
+      "id": "exam_comp_metodologia_projeto_001",
+      "topicId": "projeto_pesquisa",
+      "prompt": "Diferencie metodologia como campo geral da ciência e metodologia como parte específica de um projeto de pesquisa.",
+      "weight": "Competência: resolver ambiguidade conceitual",
+      "approach": "Explique primeiro Metodologia Científica em sentido amplo; depois explique metodologia no projeto como suporte e diretriz operacional da pesquisa.",
+      "checklist": [
+        "Definir Metodologia Científica em sentido amplo.",
+        "Definir metodologia no projeto.",
+        "Comparar escala geral e função operacional.",
+        "Evitar usar os dois sentidos como sinônimos totais."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Metodologia: suporte e diretriz da pesquisa"
+      }
+    },
+    {
+      "id": "exam_comp_objetivos_001",
+      "topicId": "projeto_pesquisa",
+      "prompt": "Elabore critérios para saber se o objetivo de uma pesquisa está coerente com problema, hipótese e metodologia.",
+      "weight": "Competência: coerência interna de projeto",
+      "approach": "Use coerência como eixo: o objetivo deve responder ao problema, dialogar com a hipótese e ser alcançável pelo método escolhido.",
+      "checklist": [
+        "Relacionar objetivo ao problema.",
+        "Relacionar objetivo é hipótese.",
+        "Verificar compatibilidade com metodologia.",
+        "Apontar risco de objetivo amplo demais."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "O que se espera obter? Por que pesquisar? Para que pesquisar?"
+      }
+    },
+    {
+      "id": "exam_comp_falseabilidade_002",
+      "topicId": "evolucao_metodo",
+      "prompt": "Diferencie hipótese de pesquisa e hipótese falseadora, explicando como cada uma funciona no raciocínio científico.",
+      "weight": "Competência: distinguir usos de hipótese",
+      "approach": "Mostre que hipótese de pesquisa organiza uma resposta provisória ao problema, enquanto hipótese falseadora atua como possibilidade de teste crítico ou refutação.",
+      "checklist": [
+        "Definir hipótese de pesquisa.",
+        "Definir hipótese falseadora.",
+        "Relacionar falseadora a teste crítico.",
+        "Evitar tratar toda hipótese como confirmação."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "falseabilidade de um sistema"
+      }
+    },
+    {
+      "id": "exam_comp_aplicada_002",
+      "topicId": "evolucao_metodo",
+      "prompt": "Analise uma situação em que a professora misture pesquisa aplicada, falseamento e método científico na mesma questão: como organizar a resposta?",
+      "weight": "Competência: combinação avançada de temas",
+      "approach": "Separe finalidade prática, teste crítico e procedimento metodológico. Depois mostre como podem coexistir sem significar a mesma coisa.",
+      "checklist": [
+        "Definir pesquisa aplicada pela finalidade.",
+        "Definir falseamento pelo teste de teoria.",
+        "Explicar método como caminho de investigação.",
+        "Mostrar que os conceitos podem se combinar."
+      ],
+      "source": {
+        "pdf": "Prova_Comp_T2_2021_2.pdf",
+        "page": 1,
+        "excerpt": "Explique a diferença entre uma pesquisa de falseamento e uma pesquisa aplicada."
+      }
+    },
+    {
+      "id": "exam_comp_correntes_002",
+      "topicId": "evolucao_metodo",
+      "prompt": "Proponha uma comparação entre racionalismo e empirismo que não caia na oposição simplista entre pensar e observar.",
+      "weight": "Competência: comparação refinada",
+      "approach": "Mostre que a diferença está no critério privilegiado para justificar conhecimento. Depois indique que a ciência pode articular razão, experiência e método.",
+      "checklist": [
+        "Explicar racionalismo sem caricatura.",
+        "Explicar empirismo sem caricatura.",
+        "Comparar critérios de justificação.",
+        "Concluir com articulação possível entre razão e experiência."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 2.pdf",
+        "page": 1,
+        "excerpt": "Correntes do Racionalismo, do Empirismo"
+      }
+    },
+    {
+      "id": "exam_comp_geral_001",
+      "topicId": "ciencia_conhecimento",
+      "prompt": "Construa uma resposta-síntese ligando ciência, método, tipos de conhecimento, projeto de pesquisa e validação científica.",
+      "weight": "Competência: síntese geral do material",
+      "approach": "Use uma sequência ampla: ciência exige método; o método diferencia formas de conhecimento; o projeto organiza a investigação; validação e crítica sustentam o caráter científico.",
+      "checklist": [
+        "Mencionar ciência e método.",
+        "Conectar tipos de conhecimento.",
+        "Incluir projeto de pesquisa.",
+        "Relacionar validação ou crítica científica.",
+        "Finalizar com síntese clara."
+      ],
+      "source": {
+        "pdf": "Prova_Comp_T2_2021_2.pdf",
+        "page": 1,
+        "excerpt": "as definições, os conceitos relacionados e as explicações solicitadas"
+      }
+    }
+  ],
+  "studyGuides": [
+    {
+      "id": "guide_metodologia_1",
+      "pdf": "METODOLOGIA 1.pdf",
+      "title": "Fundamentos, tipos de conhecimento e projeto de pesquisa",
+      "purpose": "Use este material para construir a base: o que é ciência, como o conhecimento científico se diferencia do senso comum e como um projeto de pesquisa é organizado.",
+      "visualTree": [
+        "Metodologia Científica",
+        "  Ciência e conhecimento científico",
+        "    Método, rigor, sistematização e comunicação",
+        "  Tipos de conhecimento",
+        "    Senso comum, religioso, filosófico e científico",
+        "  Projeto de pesquisa",
+        "    Tema, problema, hipótese, metodologia e planejamento",
+        "  Resposta discursiva",
+        "    Definir é comparar é exemplificar limite é concluir"
+      ],
+      "flow": [
+        "Comece pelo conceito de conhecimento científico.",
+        "Compare esse conceito com senso comum e outros tipos de conhecimento.",
+        "Passe para pesquisa científica: ela não é só consulta ou estudo.",
+        "Organize a pesquisa como projeto: tema → problema → hipótese → metodologia.",
+        "Finalize treinando uma resposta discursiva que explique diferenças e relações."
+      ],
+      "diagram": [
+        "Senso comum = experiência cotidiana + repetição + espontaneidade.",
+        "Conhecimento científico = método + sistematização + rigor + precisão.",
+        "Projeto = pergunta delimitada + caminho metodológico + finalidade."
+      ],
+      "metacognition": [
+        "Eu consigo explicar com minhas palavras a diferença entre senso comum e ciência?",
+        "Eu sei dizer por que pesquisa científica não é apenas consulta?",
+        "Eu consigo transformar um tema amplo em problema e hipótese?",
+        "Que conceito eu ainda confundo: tema, problema, hipótese ou metodologia?"
+      ],
+      "strategies": [
+        "Autoexplicação: explique cada conceito sem olhar e depois confira a fonte.",
+        "Comparação: sempre responda diferenças usando critérios claros.",
+        "Recuperação ativa: escreva uma resposta curta antes de revelar cards ou fazer quiz.",
+        "Elaboração: conecte cada termo a uma função dentro do projeto de pesquisa."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 1,
+        "excerpt": "Metodologia Científica é uma ciência auxiliar das demais, destinada a estudar a própria ciência"
+      }
+    },
+    {
+      "id": "guide_metodologia_2",
+      "pdf": "METODOLOGIA 2.pdf",
+      "title": "Correntes de pensamento e modos de conhecer",
+      "purpose": "Use este material para treinar respostas que peçam descrição de correntes, origens, métodos e representantes, como costuma aparecer em prova discursiva.",
+      "visualTree": [
+        "Formas de explicar o conhecimento",
+        "  Racionalismo",
+        "    Razão, dedução e organização lógica",
+        "  Empirismo",
+        "    Experiência, observação e dados",
+        "  Mecanicismo",
+        "    Natureza como sistema ordenado e explicável",
+        "  Comparação de correntes",
+        "    Razão é experiência é natureza ordenada"
+      ],
+      "flow": [
+        "Identifique a corrente pedida.",
+        "Defina a ideia central em uma frase.",
+        "Explique a origem ou contexto histórico.",
+        "Descreva o método valorizado.",
+        "Cite representantes quando o material trouxer.",
+        "Compare as correntes ao final para mostrar domínio."
+      ],
+      "diagram": [
+        "Racionalismo → razão como caminho principal.",
+        "Empirismo → experiência e observação como base.",
+        "Mecanicismo → natureza compreendida por ordem, regularidade e funcionamento."
+      ],
+      "metacognition": [
+        "Eu estou apenas citando nomes ou consigo explicar a lógica de cada corrente?",
+        "Eu sei diferenciar método racional e método empírico?",
+        "Minha resposta tem começo, desenvolvimento e comparação final?",
+        "Qual corrente eu explicaria pior se caísse agora na prova?"
+      ],
+      "strategies": [
+        "Agrupamento: estude uma corrente por vez antes de compará-las.",
+        "Dupla codificação: transforme cada corrente em uma seta ou esquema mental.",
+        "Intercalação: alterne perguntas de racionalismo, empirismo e mecanicismo.",
+        "Checklist discursivo: ideia central, origem, método, representante e comparação."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 2.pdf",
+        "page": 1,
+        "excerpt": "Correntes do Racionalismo, do Empirismo e conceito mecanicista da natureza"
+      }
+    },
+    {
+      "id": "guide_metodologia_3",
+      "pdf": "METODOLOGIA 3.pdf",
+      "title": "Falseabilidade, paradigmas e validação científica",
+      "purpose": "Use este material para entender como teorias científicas são testadas, criticadas e transformadas, especialmente em questões sobre Popper e Kuhn.",
+      "visualTree": [
+        "Evolução do método científico",
+        "  Bacon",
+        "    Experimentação, registros e análise",
+        "  Popper",
+        "    Falseabilidade, teste crítico e refutação",
+        "  Kuhn",
+        "    Paradigma, ciência normal, anomalia e mudança",
+        "  Mudança científica",
+        "    Teste crítico é anomalia é revisão de explicações"
+      ],
+      "flow": [
+        "Comece pela ideia de experimentação e análise.",
+        "Passe para Popper: uma teoria deve poder ser falseada.",
+        "Entenda hipóteses falseadoras como testes capazes de refutar.",
+        "Depois veja Kuhn: paradigmas orientam expectativas.",
+        "Conecte anomalias a mudanças de paradigma."
+      ],
+      "diagram": [
+        "Teoria científica → teste crítico → possível falseamento → revisão ou fortalecimento provisório.",
+        "Paradigma → ciência normal → anomalia → crise → mudança de paradigma.",
+        "Pesquisa aplicada → uso prático do conhecimento para resolver problemas."
+      ],
+      "metacognition": [
+        "Eu sei explicar por que falseabilidade não é o mesmo que verificar positivamente?",
+        "Eu consigo diferenciar pesquisa de falseamento e pesquisa aplicada?",
+        "Eu sei usar as palavras teoria, hipótese, refutação e validação sem misturar?",
+        "Eu consigo explicar paradigma e anomalia com uma frase minha?"
+      ],
+      "strategies": [
+        "Teste de contraste: responda sempre 'o que isso não é?' para evitar confusão.",
+        "Prática discursiva: escreva uma resposta de 6 a 8 linhas para falseabilidade.",
+        "Mapa causal: use setas para mostrar como anomalias levam a mudança.",
+        "Correção por checklist: procure definição, relação, diferença e conclusão."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "o critério de demarcação não deve ser a verificabilidade, mas sim a falseabilidade de um sistema"
+      }
+    },
+    {
+      "id": "guide_prova_2021_2",
+      "pdf": "Prova_Comp_T2_2021_2.pdf",
+      "title": "Padrão de cobrança observado",
+      "purpose": "Use este exemplo para entender o tipo de raciocínio exigido: respostas articuladas, combinação de conceitos, comparação e explicação com suas palavras.",
+      "visualTree": [
+        "Padrão discursivo",
+        "  Questão 1",
+        "    Comparar conhecimento científico e senso comum",
+        "  Questão 2",
+        "    Descrever correntes, origens, métodos e representantes",
+        "  Questão 3",
+        "    Explicar hipóteses falseadoras e validação",
+        "  Questão 4",
+        "    Diferenciar pesquisa de falseamento e pesquisa aplicada",
+        "  Estratégia de prova",
+        "    Planejar é escrever é checar critérios é revisar"
+      ],
+      "flow": [
+        "Leia o verbo da questão: enuncie, descreva, explique ou diferencie.",
+        "Liste os conceitos obrigatórios antes de escrever.",
+        "Organize a resposta em parágrafos curtos.",
+        "Use conectores: enquanto, por outro lado, portanto, assim.",
+        "Revise se respondeu todas as partes pedidas."
+      ],
+      "diagram": [
+        "Definir → relacionar → comparar → concluir.",
+        "Questão de diferença → critério A + critério B + contraste explícito.",
+        "Questão de descrição → origem + método + representante + função."
+      ],
+      "metacognition": [
+        "Eu respondi com minhas palavras ou apenas repeti termos soltosó",
+        "Minha resposta tem conceitos relacionados e explicação?",
+        "Eu deixei claro o verbo central da questão?",
+        "Se eu fosse corrigir, que ponto eu descontaria da minha resposta?"
+      ],
+      "strategies": [
+        "Planejamento pré-resposta: gaste 1 minuto listando termos-chave.",
+        "Resposta articulada: evite tópicos soltos quando a pergunta pedir explicar.",
+        "Autoavaliação: use o checklist da aba Prova depois de escrever.",
+        "Prática espaçada: refaça a mesma questão em outro dia, com menos consulta."
+      ],
+      "source": {
+        "pdf": "Prova_Comp_T2_2021_2.pdf",
+        "page": 1,
+        "excerpt": "As questões devem ser respondidas COM SUAS PALAVRAS, de maneira ARTICULADA"
+      }
+    }
+  ],
+  "examModels": [
+    {
+      "id": "model_prova_001",
+      "title": "Modelo 1 - Fundamentos e tipos de conhecimento",
+      "focus": "Treina comparação, definição articulada e distinção entre ciência, senso comum e pesquisa.",
+      "duration": "Sugestáo: 90 minutos, 4 questões discursivas.",
+      "questions": [
+        "Explique a função da Metodologia Científica como ciência auxiliar e relacione-a aos critérios de demarcação científica.",
+        "Compare conhecimento científico e senso comum, destacando método, rigor, precisóo dos instrumentos e finalidade.",
+        "Diferencie consulta, estudo e pesquisa científica, explicando por que pesquisa exige investigação sistematizada.",
+        "Elabore uma resposta mostrando como diferentes tipos de conhecimento podem conviver sem terem os mesmos critérios de validação."
+      ],
+      "rubric": [
+        "Define conceitos antes de comparar.",
+        "Usa critérios explícitos, não juízo simplista.",
+        "Articula método, rigor e produção de conhecimento.",
+        "Conclui retomando o comando da questão."
+      ],
+      "source": {
+        "pdf": "Prova_Comp_T2_2021_2.pdf",
+        "page": 1,
+        "excerpt": "As questões devem ser respondidas COM SUAS PALAVRAS, de maneira ARTICULADA"
+      }
+    },
+    {
+      "id": "model_prova_002",
+      "title": "Modelo 2 - Projeto de pesquisa completo",
+      "focus": "Treina tema, problema, hipótese, metodologia, objetivos e coerência interna do projeto.",
+      "duration": "Sugestáo: 90 minutos, 4 questões discursivas.",
+      "questions": [
+        "Explique como tema, problema, hipótese e metodologia se encadeiam em um projeto de pesquisa.",
+        "Receba um tema amplo e descreva como transformá-lo em problema delimitado, hipótese e caminho metodológico.",
+        "Analise por que um projeto com tema interessante pode fracassar se não tiver problema e hipótese bem definidos.",
+        "Proponha critérios para avaliar se objetivo, problema, hipótese e metodologia estáo coerentes entre si."
+      ],
+      "rubric": [
+        "Mostra encadeamento lógico entre os elementos.",
+        "Diferencia tema amplo e problema delimitado.",
+        "Explica hipótese como resposta inicial.",
+        "Relaciona metodologia à viabilidade da investigação."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 11,
+        "excerpt": "Quem vai pesquisar? Onde? O que será pesquisado? O que se espera obter?"
+      }
+    },
+    {
+      "id": "model_prova_003",
+      "title": "Modelo 3 - Correntes, método e evolução da ciência",
+      "focus": "Treina racionalismo, empirismo, mecanicismo, Bacon, Popper e Kuhn em combinações profundas.",
+      "duration": "Sugestáo: 100 minutos, 4 questões discursivas.",
+      "questions": [
+        "Relacione racionalismo, empirismo e mecanicismo com diferentes formas de justificar o conhecimento científico.",
+        "Explique como experimentação, registro de dados e análise posterior aparecem na visão metodológica associada a Bacon.",
+        "Compare verificabilidade e falseabilidade, indicando por que Popper desloca o critério de demarcação científica.",
+        "Diferencie paradigma, ciência normal e anomalia, mostrando como esses conceitos explicam mudança científica."
+      ],
+      "rubric": [
+        "Evita listas decoradas de nomes.",
+        "Compara correntes por método e evidência.",
+        "Distingue confirmação, teste e refutação.",
+        "Explica mudança científica sem tratar ciência como certeza fixa."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 3.pdf",
+        "page": 7,
+        "excerpt": "o critério de demarcação não deve ser a verificabilidade, mas sim a falseabilidade"
+      }
+    },
+    {
+      "id": "model_prova_004",
+      "title": "Modelo 4 - Prova integradora e aprofundada",
+      "focus": "Simula combinações futuras: fundamentos, projeto, tipos de conhecimento, falseabilidade e paradigmas na mesma prova.",
+      "duration": "Sugestáo: 100 minutos, 5 questões discursivas.",
+      "questions": [
+        "Construa uma resposta-síntese ligando ciência, método, tipos de conhecimento, projeto de pesquisa e validação científica.",
+        "Diferencie hipótese de pesquisa e hipótese falseadora, explicando como cada uma funciona no raciocínio científico.",
+        "Analise uma situação em que pesquisa aplicada, falseamento e método científico apareçam na mesma questão.",
+        "Compare Popper e Kuhn como duas maneiras de pensar mudança científica: teste crítico e transformação de paradigmas.",
+        "Explique como responder com suas palavras muda sua preparação para a prova discursiva."
+      ],
+      "rubric": [
+        "Integra assuntos sem misturar conceitos.",
+        "Usa conectores argumentativos e conclusóo.",
+        "Distingue conceitos parecidos com precisóo.",
+        "Mostra domínio metacognitivo da própria resposta."
+      ],
+      "source": {
+        "pdf": "Prova_Comp_T2_2021_2.pdf",
+        "page": 1,
+        "excerpt": "as definições, os conceitos relacionados e as explicações solicitadas"
+      }
+    },
+    {
+      "id": "model_prova_005",
+      "title": "Modelo 5 - Prova de armadilhas conceituais",
+      "focus": "Treina erros prováveis: confundir método com receita, senso comum com falsidade, hipótese com conclusóo e falseabilidade com verificação.",
+      "duration": "Sugestáo: 80 minutos, 4 questões discursivas.",
+      "questions": [
+        "Por que não basta dizer que senso comum é falso e ciência é verdadeira?",
+        "Explique por que método científico não é apenas uma sequência mecânica de passos.",
+        "Mostre o erro de tratar hipótese como conclusóo definitiva do projeto.",
+        "Explique por que falseabilidade não significa provar definitivamente uma teoria por exemplos favoráveis."
+      ],
+      "rubric": [
+        "Identifica a armadilha conceitual.",
+        "Corrige a ideia com base no material.",
+        "Oferece contraste preciso entre conceitos.",
+        "Evita frases absolutas e simplificadoras."
+      ],
+      "source": {
+        "pdf": "METODOLOGIA 1.pdf",
+        "page": 2,
+        "excerpt": "não está na veracidade do conhecimento nem na natureza do objeto estudado, mas sim na forma"
+      }
+    }
+  ]
+}
