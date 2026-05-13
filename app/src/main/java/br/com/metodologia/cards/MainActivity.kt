@@ -6,10 +6,10 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.gestures.Orientation
 import androidx.compose.foundation.gestures.draggable
 import androidx.compose.foundation.gestures.rememberDraggableState
-import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -25,7 +25,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.outlined.ArrowBack
 import androidx.compose.material.icons.outlined.CheckCircle
@@ -112,9 +111,28 @@ data class QuizQuestion(
     val question: String,
     val options: List<String>,
     val correctOptionIndex: Int,
+    val optionExplanations: List<String>,
     val explanation: String,
     val source: SourceReference
 )
+
+data class DisplayedOption(
+    val text: String,
+    val originalIndex: Int,
+    val explanation: String,
+    val isCorrect: Boolean
+)
+
+fun QuizQuestion.displayedOptions(): List<DisplayedOption> {
+    return options.mapIndexed { index, option ->
+        DisplayedOption(
+            text = option,
+            originalIndex = index,
+            explanation = optionExplanations.getOrElse(index) { explanation },
+            isCorrect = index == correctOptionIndex
+        )
+    }.shuffled()
+}
 
 data class ConceptRelation(
     val id: String,
@@ -192,7 +210,13 @@ enum class Screen(val label: String, val icon: ImageVector) {
     Errors("Erros", Icons.Outlined.ErrorOutline),
     Relations("Relações", Icons.Outlined.CheckCircle),
     Glossary("Termos", Icons.Outlined.Source),
-    Exam("Treino", Icons.Outlined.CheckCircle)
+    Exam("Treino", Icons.Outlined.CheckCircle),
+    Prova("Prova", Icons.Outlined.CheckCircle)
+}
+
+enum class ExamRoundMode {
+    Cards,
+    Quiz
 }
 
 class StudyRepository(private val context: Context) {
@@ -221,13 +245,27 @@ class StudyRepository(private val context: Context) {
                 )
             },
             quizzes = root.getJSONArray("quizzes").mapObjects {
+                val options = getJSONArray("options").mapStrings()
+                val correctOptionIndex = getInt("correctOptionIndex")
+                val explanation = getString("explanation")
+                val optionExplanations = optJSONArray("optionExplanations")
+                    ?.mapStrings()
+                    ?.takeIf { it.size == options.size }
+                    ?: options.mapIndexed { index, _ ->
+                        if (index == correctOptionIndex) {
+                            explanation
+                        } else {
+                            "Esta alternativa parece relacionada, mas não responde corretamente ao enunciado."
+                        }
+                    }
                 QuizQuestion(
                     id = getString("id"),
                     topicId = getString("topicId"),
                     question = getString("question"),
-                    options = getJSONArray("options").mapStrings(),
-                    correctOptionIndex = getInt("correctOptionIndex"),
-                    explanation = getString("explanation"),
+                    options = options,
+                    correctOptionIndex = correctOptionIndex,
+                    optionExplanations = optionExplanations,
+                    explanation = explanation,
                     source = getJSONObject("source").toSource()
                 )
             },
@@ -419,31 +457,40 @@ fun MetodologiaApp(viewModel: StudyViewModel = viewModel()) {
             if (source != null) {
                 SourceScreen(source = source!!, onBack = { source = null })
             } else {
+                val bottomScreens = listOf(Screen.Home, Screen.Study, Screen.Cards, Screen.Quiz, Screen.Prova)
                 Scaffold(
                     bottomBar = {
                         Surface(color = MaterialTheme.colorScheme.surface) {
                             Row(
                                 modifier = Modifier
-                                    .fillMaxWidth()
-                                    .horizontalScroll(rememberScrollState()),
+                                    .fillMaxWidth(),
                                 verticalAlignment = Alignment.CenterVertically
                             ) {
-                            Screen.entries.forEach { item ->
-                                NavigationBarItem(
-                                    selected = screen == item,
-                                    onClick = { screen = item },
-                                    icon = { Icon(item.icon, contentDescription = item.label) },
+                                bottomScreens.forEach { item ->
+                                    NavigationBarItem(
+                                        selected = screen == item,
+                                        onClick = { screen = item },
+                                        icon = { Icon(item.icon, contentDescription = item.label) },
                                         label = { Text(item.label, maxLines = 1) },
-                                        modifier = Modifier.width(96.dp)
-                                )
-                            }
+                                    )
+                                }
                             }
                         }
                     }
                 ) { padding ->
                     Box(modifier = Modifier.padding(padding)) {
                         when (screen) {
-                            Screen.Home -> HomeScreen(viewModel, onStartCards = { screen = Screen.Cards }, onStartQuiz = { screen = Screen.Quiz })
+                            Screen.Home -> HomeScreen(
+                                viewModel,
+                                onStartStudy = { screen = Screen.Study },
+                                onStartCards = { screen = Screen.Cards },
+                                onStartQuiz = { screen = Screen.Quiz },
+                                onStartExam = { screen = Screen.Prova },
+                                onOpenErrors = { screen = Screen.Errors },
+                                onOpenRelations = { screen = Screen.Relations },
+                                onOpenGlossary = { screen = Screen.Glossary },
+                                onOpenTraining = { screen = Screen.Exam }
+                            )
                             Screen.Study -> MaterialStudyScreen(viewModel, onSource = { source = it })
                             Screen.Cards -> FlashcardScreen(viewModel, onlyErrors = false, onSource = { source = it })
                             Screen.Quiz -> QuizScreen(viewModel, onSource = { source = it })
@@ -451,6 +498,7 @@ fun MetodologiaApp(viewModel: StudyViewModel = viewModel()) {
                             Screen.Relations -> RelationsScreen(viewModel, onSource = { source = it })
                             Screen.Glossary -> GlossaryScreen(viewModel, onSource = { source = it })
                             Screen.Exam -> ExamPracticeScreen(viewModel, onSource = { source = it })
+                            Screen.Prova -> ExamModeScreen(viewModel, onSource = { source = it })
                         }
                     }
                 }
@@ -460,12 +508,22 @@ fun MetodologiaApp(viewModel: StudyViewModel = viewModel()) {
 }
 
 @Composable
-fun HomeScreen(viewModel: StudyViewModel, onStartCards: () -> Unit, onStartQuiz: () -> Unit) {
+fun HomeScreen(
+    viewModel: StudyViewModel,
+    onStartStudy: () -> Unit,
+    onStartCards: () -> Unit,
+    onStartQuiz: () -> Unit,
+    onStartExam: () -> Unit,
+    onOpenErrors: () -> Unit,
+    onOpenRelations: () -> Unit,
+    onOpenGlossary: () -> Unit,
+    onOpenTraining: () -> Unit
+) {
     val content = viewModel.content
     val progress = viewModel.progress
-    val weakTopic = content.topics.firstOrNull { it.id == progress.weakTopicId }
     val mastered = progress.masteredCardIds.size
     val total = content.flashcards.size.coerceAtLeast(1)
+    val masteryPercent = ((mastered * 100f) / total).roundToInt()
 
     LazyColumn(
         modifier = Modifier
@@ -474,41 +532,33 @@ fun HomeScreen(viewModel: StudyViewModel, onStartCards: () -> Unit, onStartQuiz:
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         item {
-            Text("Metodologia Cards", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
-            Text("Estudo offline com fonte em PDF para cada item.", style = MaterialTheme.typography.bodyMedium)
+            Text("Metodologia Científica", style = MaterialTheme.typography.headlineMedium, fontWeight = FontWeight.Bold)
+            Text("Estude o conteúdo, pratique por cards e simule a prova discursiva.", style = MaterialTheme.typography.bodyMedium)
         }
         item {
             Panel {
-                Row(horizontalArrangement = Arrangement.spacedBy(14.dp), modifier = Modifier.fillMaxWidth()) {
-                    Metric("XP", progress.xp.toString(), Modifier.weight(1f))
-                    Metric("Streak", "${progress.streak}d", Modifier.weight(1f))
-                    Metric("Erros", progress.errorCardIds.size.toString(), Modifier.weight(1f))
+                Text("Modo Prova", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                Text("Treino direto para acertar 100% nas rodadas e revisar só o que ficou fraco.")
+                Spacer(Modifier.height(12.dp))
+                Button(onClick = onStartExam, modifier = Modifier.fillMaxWidth()) {
+                    Icon(Icons.Outlined.CheckCircle, contentDescription = null)
+                    Spacer(Modifier.size(8.dp))
+                    Text("Modo Prova")
                 }
-                Spacer(Modifier.height(16.dp))
-                Text("Domínio geral", fontWeight = FontWeight.SemiBold)
-                LinearProgressIndicator(
-                    progress = { mastered / total.toFloat() },
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .height(10.dp)
-                )
-                Text("$mastered de $total cards consolidados")
             }
         }
         item {
             Panel {
-                Text("Missão de hoje", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                MissionRow("Revisar 15 cards", progress.reviewedToday, 15)
-                MissionRow("Responder 10 questões", progress.quizToday, 10)
-                MissionRow("Corrigir 5 erros", progress.fixedErrorsToday, 5)
-                Text(
-                    "Tópico fraco: ${weakTopic?.name ?: "inicie uma sessão para descobrir"}",
-                    style = MaterialTheme.typography.bodyMedium,
-                    fontWeight = FontWeight.SemiBold
-                )
-                Spacer(Modifier.height(12.dp))
-                Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-                    Button(onClick = onStartCards, modifier = Modifier.weight(1f)) {
+                Text("Ações rápidas", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                Spacer(Modifier.height(8.dp))
+                Button(onClick = onStartStudy, modifier = Modifier.fillMaxWidth()) {
+                    Icon(Icons.Outlined.Psychology, contentDescription = null)
+                    Spacer(Modifier.size(8.dp))
+                    Text("Estudar conteúdo")
+                }
+                Spacer(Modifier.height(8.dp))
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+                    OutlinedButton(onClick = onStartCards, modifier = Modifier.weight(1f)) {
                         Icon(Icons.Outlined.MenuBook, contentDescription = null)
                         Spacer(Modifier.size(8.dp))
                         Text("Cards")
@@ -523,34 +573,39 @@ fun HomeScreen(viewModel: StudyViewModel, onStartCards: () -> Unit, onStartQuiz:
         }
         item {
             Panel {
-                Text("Dividir e conquistar", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                Text("Escolha um assunto ou um PDF nas telas de estudo para avançar por partes.")
+                Text("Progresso", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
                 Spacer(Modifier.height(8.dp))
-                Text("Materiais: ${content.studyGuides.size} | Assuntos: ${content.topics.size} | Termos: ${content.glossary.size} | Treinos discursivos: ${content.examPractice.size}")
-            }
-        }
-        item {
-            Panel {
-                Text("Estudo antes dos jogos", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                Text("A aba Estudo mostra cada PDF com árvore de conceitos, fluxo, diagrama e perguntas metacognitivas.")
-            }
-        }
-        item {
-            Panel {
-                Text("Treino discursivo", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                Text("A prova passada cobra comparação, explicação de correntes e diferenciação de pesquisas com suas palavras.")
+                LinearProgressIndicator(
+                    progress = { mastered / total.toFloat() },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(10.dp)
+                )
                 Spacer(Modifier.height(8.dp))
-                Text("Use a aba Treino para praticar combinações e aprofundamentos possíveis.")
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    CenteredMetric("Domínio", "$masteryPercent%", Modifier.weight(1f))
+                    CenteredMetric("Erros", progress.errorCardIds.size.toString(), Modifier.weight(1f))
+                    CenteredMetric("Cards", total.toString(), Modifier.weight(1f))
+                }
             }
         }
         item {
             Panel {
-                Text("Tópicos", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                content.topics.forEach { topic ->
-                    val topicCards = content.flashcards.count { it.topicId == topic.id }
-                    Text("${topic.name} - $topicCards cards", fontWeight = FontWeight.SemiBold)
-                    Text(topic.description, style = MaterialTheme.typography.bodySmall)
-                    Spacer(Modifier.height(8.dp))
+                Text("Mais recursos", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                Text("Acesse revisão, termos, relações e treino discursivo quando precisar aprofundar.")
+                Spacer(Modifier.height(10.dp))
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+                    OutlinedButton(onClick = onOpenTraining, modifier = Modifier.weight(1f)) { Text("Treino") }
+                    OutlinedButton(onClick = onOpenGlossary, modifier = Modifier.weight(1f)) { Text("Termos") }
+                }
+                Spacer(Modifier.height(8.dp))
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+                    OutlinedButton(onClick = onOpenRelations, modifier = Modifier.weight(1f)) { Text("Relações") }
+                    OutlinedButton(onClick = onOpenErrors, modifier = Modifier.weight(1f)) { Text("Erros") }
                 }
             }
         }
@@ -568,18 +623,26 @@ fun HomeScreen(viewModel: StudyViewModel, onStartCards: () -> Unit, onStartQuiz:
 fun FlashcardScreen(viewModel: StudyViewModel, onlyErrors: Boolean, onSource: (SourceReference) -> Unit) {
     var selectedTopicId by remember(onlyErrors) { mutableStateOf<String?>(null) }
     var selectedPdf by remember(onlyErrors) { mutableStateOf<String?>(null) }
-    val baseCards = if (onlyErrors) {
-        viewModel.content.flashcards.filter { it.id in viewModel.progress.errorCardIds }
-    } else {
-        viewModel.content.flashcards.sortedWith(compareBy<Flashcard> { it.id in viewModel.progress.masteredCardIds }.thenBy { it.difficulty })
+    val cards = remember(
+        onlyErrors,
+        selectedTopicId,
+        selectedPdf,
+        viewModel.progress.errorCardIds,
+        viewModel.progress.masteredCardIds
+    ) {
+        val baseCards = if (onlyErrors) {
+            viewModel.content.flashcards.filter { it.id in viewModel.progress.errorCardIds }
+        } else {
+            viewModel.content.flashcards
+        }
+        baseCards.filter { card ->
+            (selectedTopicId == null || card.topicId == selectedTopicId) &&
+                (selectedPdf == null || card.source.pdf == selectedPdf)
+        }.shuffled()
     }
-    val cards = baseCards.filter { card ->
-        (selectedTopicId == null || card.topicId == selectedTopicId) &&
-            (selectedPdf == null || card.source.pdf == selectedPdf)
-    }
-    var index by remember(onlyErrors, selectedTopicId, selectedPdf, viewModel.progress.errorCardIds) { mutableIntStateOf(0) }
-    var confidence by remember(index, onlyErrors, selectedTopicId, selectedPdf) { mutableStateOf<Confidence?>(null) }
-    var revealed by remember(index, onlyErrors, selectedTopicId, selectedPdf) { mutableStateOf(false) }
+    var index by remember(cards) { mutableIntStateOf(0) }
+    var confidence by remember(cards, index) { mutableStateOf<Confidence?>(null) }
+    var revealed by remember(cards, index) { mutableStateOf(false) }
     val card = cards.getOrNull(index.coerceAtMost((cards.size - 1).coerceAtLeast(0)))
 
     if (card == null) {
@@ -632,25 +695,42 @@ fun FlashcardScreen(viewModel: StudyViewModel, onlyErrors: Boolean, onSource: (S
         }
         item {
             Panel {
-                Text(card.front, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                Spacer(Modifier.height(14.dp))
-                Text("Antes de revelar, marque sua confiança:", fontWeight = FontWeight.SemiBold)
-                ConfidencePicker(confidence = confidence, onSelected = { confidence = it })
-                Spacer(Modifier.height(10.dp))
-                Button(onClick = { revealed = true }, enabled = confidence != null, modifier = Modifier.fillMaxWidth()) {
-                    Text("Revelar resposta")
+                Row(
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    verticalAlignment = Alignment.CenterVertically,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text(card.type, style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.SemiBold)
+                    Text("${index + 1}/${cards.size}", style = MaterialTheme.typography.bodySmall)
                 }
-            }
-        }
-        if (revealed) {
-            item {
-                Panel {
-                    Text("Resposta", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-                    Text(card.back)
-                    Spacer(Modifier.height(12.dp))
-                    SourceButton(card.source, onSource)
-                    Spacer(Modifier.height(12.dp))
+                Spacer(Modifier.height(8.dp))
+                LinearProgressIndicator(
+                    progress = { (index + 1) / cards.size.toFloat() },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(8.dp)
+                )
+                Spacer(Modifier.height(16.dp))
+                Text(if (revealed) "Resposta" else "Pergunta", style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.SemiBold)
+                Text(
+                    if (revealed) card.back else card.front,
+                    style = MaterialTheme.typography.titleLarge,
+                    fontWeight = FontWeight.Bold
+                )
+                Spacer(Modifier.height(14.dp))
+                SourceButton(card.source, onSource)
+                Spacer(Modifier.height(14.dp))
+                if (!revealed) {
+                    Text("Antes de revelar, marque sua confiança:", fontWeight = FontWeight.SemiBold)
+                    Spacer(Modifier.height(8.dp))
+                    ConfidencePicker(confidence = confidence, onSelected = { confidence = it })
+                    Spacer(Modifier.height(10.dp))
+                    Button(onClick = { revealed = true }, enabled = confidence != null, modifier = Modifier.fillMaxWidth()) {
+                        Text("Revelar resposta")
+                    }
+                } else {
                     Text("Como foi sua recuperação?", fontWeight = FontWeight.SemiBold)
+                    Spacer(Modifier.height(8.dp))
                     Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
                         OutlinedButton(
                             onClick = {
@@ -709,17 +789,19 @@ fun MaterialStudyScreen(viewModel: StudyViewModel, onSource: (SourceReference) -
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         item {
-            Text("Estudo por material", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
-            Text("Entenda o conteúdo antes de partir para cards, quiz ou prova.")
+            Text("Estudo", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+            Text("Aprenda o conteúdo antes de praticar. Cada guia organiza o que cai, como responder e o que evitar.")
         }
         item {
             Panel {
                 Text("Material", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                Text("Escolha o bloco de estudo.", style = MaterialTheme.typography.bodySmall)
+                Spacer(Modifier.height(8.dp))
                 guides.forEach { item ->
                     FilterChip(
                         selected = item.pdf == selectedPdf,
                         onClick = { selectedPdf = item.pdf },
-                        label = { Text(item.pdf) },
+                        label = { Text(item.title) },
                         modifier = Modifier.fillMaxWidth()
                     )
                 }
@@ -736,82 +818,90 @@ fun MaterialStudyScreen(viewModel: StudyViewModel, onSource: (SourceReference) -
         }
         item {
             Panel {
-                Text(guide.title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                Text("Resumo do assunto", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+                Text(guide.title, fontWeight = FontWeight.SemiBold)
+                Spacer(Modifier.height(6.dp))
                 Text(guide.purpose)
                 Spacer(Modifier.height(10.dp))
                 SourceButton(guide.source, onSource)
             }
         }
-        item {
-            StudyVisualOverview(guide)
-        }
-        item {
-            VisualBlock(
-                title = "Árvore de conceitos",
-                items = guide.visualTree,
-                prefix = "├ "
-            )
-        }
-        item {
-            VisualBlock(
-                title = "Fluxo de raciocínio",
-                items = guide.flow,
-                prefix = "→ "
-            )
-        }
-        item {
-            VisualBlock(
-                title = "Diagrama textual",
-                items = guide.diagram,
-                prefix = "□ "
-            )
-        }
-        item {
-            VisualBlock(
-                title = "Metacognição",
-                items = guide.metacognition,
-                prefix = "? "
-            )
-        }
-        item {
-            VisualBlock(
-                title = "Estratégias de estudo",
-                items = guide.strategies,
-                prefix = "✓ "
-            )
-        }
+        item { ConceptChips(title = "O que preciso dominar", items = guide.visualTree) }
+        item { StepList(title = "Caminho de resposta", items = guide.flow) }
+        item { ComparisonBlock(title = "Comparações principais", items = guide.diagram) }
+        item { StudySection(title = "Resposta-modelo", items = guide.metacognition) }
+        item { ChecklistBlock(title = "Checklist de revisão", items = guide.strategies) }
     }
 }
 
 @Composable
-fun StudyVisualOverview(guide: MaterialStudyGuide) {
-    Panel {
-        Text("Mapa visual rápido", style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-        Spacer(Modifier.height(8.dp))
-        Text(guide.title, fontWeight = FontWeight.Bold)
-        Spacer(Modifier.height(8.dp))
-        guide.visualTree.take(6).forEachIndexed { index, item ->
-            val marker = when (index) {
-                0 -> "●"
-                1, 2 -> "├"
-                else -> "└"
-            }
-            Text("$marker $item")
-        }
-        Spacer(Modifier.height(10.dp))
-        Text("Caminho mental", fontWeight = FontWeight.SemiBold)
-        Text(guide.flow.take(4).joinToString(" → "))
-    }
-}
-
-@Composable
-fun VisualBlock(title: String, items: List<String>, prefix: String) {
+fun StudySection(title: String, items: List<String>) {
     Panel {
         Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
         Spacer(Modifier.height(8.dp))
         items.forEach { item ->
-            Text("$prefix$item")
-            Spacer(Modifier.height(6.dp))
+            Text(item)
+            Spacer(Modifier.height(8.dp))
+        }
+    }
+}
+
+@Composable
+fun StepList(title: String, items: List<String>) {
+    Panel {
+        Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+        Spacer(Modifier.height(8.dp))
+        items.forEachIndexed { index, item ->
+            Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
+                Text("${index + 1}.", fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.primary)
+                Text(item, modifier = Modifier.weight(1f))
+            }
+            Spacer(Modifier.height(8.dp))
+        }
+    }
+}
+
+@Composable
+fun ConceptChips(title: String, items: List<String>) {
+    Panel {
+        Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+        Spacer(Modifier.height(8.dp))
+        items.forEach { item ->
+            Surface(color = Color(0xFFE8F1EF), modifier = Modifier.fillMaxWidth()) {
+                Text(item, modifier = Modifier.padding(10.dp), fontWeight = FontWeight.SemiBold)
+            }
+            Spacer(Modifier.height(8.dp))
+        }
+    }
+}
+
+@Composable
+fun ComparisonBlock(title: String, items: List<String>) {
+    Panel {
+        Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+        Spacer(Modifier.height(8.dp))
+        items.forEach { item ->
+            val parts = item.split(":", limit = 2)
+            Text(parts.first(), fontWeight = FontWeight.SemiBold, color = MaterialTheme.colorScheme.primary)
+            if (parts.size > 1) {
+                Text(parts[1].trim())
+            }
+            Spacer(Modifier.height(10.dp))
+        }
+    }
+}
+
+@Composable
+fun ChecklistBlock(title: String, items: List<String>) {
+    Panel {
+        Text(title, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+        Spacer(Modifier.height(8.dp))
+        items.forEach { item ->
+            Row(verticalAlignment = Alignment.Top, horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                Text("OK", color = MaterialTheme.colorScheme.primary, fontWeight = FontWeight.Bold)
+                Text(item, modifier = Modifier.weight(1f))
+            }
+            Spacer(Modifier.height(8.dp))
         }
     }
 }
@@ -823,15 +913,18 @@ fun QuizScreen(
 ) {
     var selectedTopicId by remember { mutableStateOf<String?>(null) }
     var selectedPdf by remember { mutableStateOf<String?>(null) }
-    val quizzes = viewModel.content.quizzes.filter { quiz ->
-        (selectedTopicId == null || quiz.topicId == selectedTopicId) &&
-            (selectedPdf == null || quiz.source.pdf == selectedPdf)
+    val quizzes = remember(selectedTopicId, selectedPdf) {
+        viewModel.content.quizzes.filter { quiz ->
+            (selectedTopicId == null || quiz.topicId == selectedTopicId) &&
+                (selectedPdf == null || quiz.source.pdf == selectedPdf)
+        }.shuffled()
     }
     var index by remember(selectedTopicId, selectedPdf) { mutableIntStateOf(0) }
-    var selected by remember(index, selectedTopicId, selectedPdf) { mutableStateOf<Int?>(null) }
+    var selected by remember(index, selectedTopicId, selectedPdf) { mutableStateOf<DisplayedOption?>(null) }
     var answered by remember(index, selectedTopicId, selectedPdf) { mutableStateOf(false) }
     var cardOffsetX by remember(index, selectedTopicId, selectedPdf) { mutableStateOf(0f) }
     val question = quizzes.getOrNull(index.coerceAtMost((quizzes.size - 1).coerceAtLeast(0)))
+    val displayedOptions = remember(question?.id) { question?.displayedOptions().orEmpty() }
     fun nextQuestion() {
         index = (index + 1) % quizzes.size
         selected = null
@@ -893,30 +986,30 @@ fun QuizScreen(
                 Spacer(Modifier.height(10.dp))
                 SourceButton(question.source, onSource)
                 Spacer(Modifier.height(12.dp))
-                question.options.forEachIndexed { optionIndex, option ->
-                    val isCorrect = optionIndex == question.correctOptionIndex
+                displayedOptions.forEach { option ->
+                    val isSelected = selected?.originalIndex == option.originalIndex
                     val color = when {
                         !answered -> MaterialTheme.colorScheme.surface
-                        isCorrect -> Color(0xFFE2F4EA)
-                        selected == optionIndex -> Color(0xFFF8DCDC)
+                        option.isCorrect -> Color(0xFFE2F4EA)
+                        isSelected -> Color(0xFFF8DCDC)
                         else -> MaterialTheme.colorScheme.surface
                     }
                     OutlinedButton(
                         onClick = {
-                            selected = optionIndex
+                            selected = option
                             answered = true
-                            viewModel.recordQuiz(question, optionIndex == question.correctOptionIndex)
+                            viewModel.recordQuiz(question, option.isCorrect)
                         },
                         enabled = !answered,
                         colors = ButtonDefaults.outlinedButtonColors(containerColor = color),
                         modifier = Modifier.fillMaxWidth()
                     ) {
-                        Text(option, modifier = Modifier.fillMaxWidth())
+                        Text(option.text, modifier = Modifier.fillMaxWidth())
                     }
                     Spacer(Modifier.height(8.dp))
                 }
                 if (answered) {
-                    val correct = selected == question.correctOptionIndex
+                    val correct = selected?.isCorrect == true
                     Spacer(Modifier.height(6.dp))
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Icon(
@@ -928,12 +1021,65 @@ fun QuizScreen(
                         Text(if (correct) "Acerto consolidado" else "Erro bom: agora ele entra no radar", fontWeight = FontWeight.Bold)
                     }
                     Spacer(Modifier.height(12.dp))
+                    QuizExplanationBlock(
+                        title = "Gabarito",
+                        options = displayedOptions,
+                        selected = selected,
+                        showAll = true
+                    )
+                    Spacer(Modifier.height(12.dp))
                     SwipeNextControl(
                         onSwiped = { nextQuestion() }
                     )
                 }
             }
         }
+    }
+}
+
+@Composable
+fun QuizExplanationBlock(
+    title: String,
+    options: List<DisplayedOption>,
+    selected: DisplayedOption?,
+    showAll: Boolean
+) {
+    var expanded by remember(options, selected, showAll) { mutableStateOf(false) }
+    val correctOption = options.firstOrNull { it.isCorrect }
+    val collapsedOptions = listOfNotNull(selected, correctOption)
+        .distinctBy { it.originalIndex }
+    val visibleOptions = if (showAll && expanded) {
+        options
+    } else {
+        collapsedOptions
+    }
+    val canExpand = showAll && options.size > collapsedOptions.size
+    if (canExpand) {
+        Row(
+            horizontalArrangement = Arrangement.End,
+            verticalAlignment = Alignment.CenterVertically,
+            modifier = Modifier.fillMaxWidth()
+        ) {
+            IconButton(onClick = { expanded = !expanded }) {
+                Icon(
+                    Icons.Outlined.Source,
+                    contentDescription = if (expanded) "Ocultar alternativas" else "Ver alternativas"
+                )
+            }
+        }
+    }
+    visibleOptions.forEach { option ->
+        val label = when {
+            option.isCorrect -> "Correta"
+            selected?.originalIndex == option.originalIndex -> "Sua escolha"
+            else -> "Alternativa"
+        }
+        Text("$label: ${option.text}", fontWeight = FontWeight.SemiBold)
+        Text(option.explanation)
+        Spacer(Modifier.height(8.dp))
+    }
+    if (canExpand && !expanded) {
+        Text("Toque no ícone para ver as outras alternativas.", style = MaterialTheme.typography.bodySmall)
     }
 }
 
@@ -1182,6 +1328,401 @@ fun GlossaryScreen(viewModel: StudyViewModel, onSource: (SourceReference) -> Uni
 }
 
 @Composable
+fun ExamModeScreen(viewModel: StudyViewModel, onSource: (SourceReference) -> Unit) {
+    var selectedTopicId by remember { mutableStateOf<String?>(null) }
+    var selectedPdf by remember { mutableStateOf<String?>(null) }
+    var roundMode by remember { mutableStateOf<ExamRoundMode?>(null) }
+    val cards = viewModel.content.flashcards.filter { card ->
+        (selectedTopicId == null || card.topicId == selectedTopicId) &&
+            (selectedPdf == null || card.source.pdf == selectedPdf)
+    }
+    val quizzes = viewModel.content.quizzes.filter { quiz ->
+        (selectedTopicId == null || quiz.topicId == selectedTopicId) &&
+            (selectedPdf == null || quiz.source.pdf == selectedPdf)
+    }
+
+    when (roundMode) {
+        ExamRoundMode.Cards -> ExamCardRoundScreen(
+            viewModel = viewModel,
+            cards = cards,
+            onBack = { roundMode = null },
+            onSource = onSource
+        )
+        ExamRoundMode.Quiz -> ExamQuizRoundScreen(
+            viewModel = viewModel,
+            quizzes = quizzes,
+            onBack = { roundMode = null },
+            onSource = onSource
+        )
+        null -> LazyColumn(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(16.dp),
+            verticalArrangement = Arrangement.spacedBy(12.dp)
+        ) {
+            item {
+                Text("Modo Prova", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                Text("Teste seu domínio em uma rodada de cards ou quiz.")
+            }
+            item {
+                StudyFilterPanel(
+                    content = viewModel.content,
+                    selectedTopicId = selectedTopicId,
+                    onTopicSelected = { selectedTopicId = it },
+                    selectedPdf = selectedPdf,
+                    onPdfSelected = { selectedPdf = it }
+                )
+            }
+            item {
+                Panel {
+                    Row(
+                        horizontalArrangement = Arrangement.spacedBy(12.dp),
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        CenteredMetric("Cards", cards.size.toString(), Modifier.weight(1f))
+                        CenteredMetric("Quiz", quizzes.size.toString(), Modifier.weight(1f))
+                        CenteredMetric("Meta", "100%", Modifier.weight(1f))
+                    }
+                    Spacer(Modifier.height(12.dp))
+                    Button(
+                        onClick = { roundMode = ExamRoundMode.Cards },
+                        enabled = cards.isNotEmpty(),
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Icon(Icons.Outlined.MenuBook, contentDescription = null)
+                        Spacer(Modifier.size(8.dp))
+                        Text("Rodada de Cards")
+                    }
+                    Spacer(Modifier.height(8.dp))
+                    OutlinedButton(
+                        onClick = { roundMode = ExamRoundMode.Quiz },
+                        enabled = quizzes.isNotEmpty(),
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Icon(Icons.Outlined.Quiz, contentDescription = null)
+                        Spacer(Modifier.size(8.dp))
+                        Text("Rodada de Quiz")
+                    }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+fun ExamCardRoundScreen(
+    viewModel: StudyViewModel,
+    cards: List<Flashcard>,
+    onBack: () -> Unit,
+    onSource: (SourceReference) -> Unit
+) {
+    var roundSeed by remember(cards) { mutableIntStateOf(0) }
+    val roundCards = remember(cards, roundSeed) { cards.shuffled() }
+    var index by remember(roundCards) { mutableIntStateOf(0) }
+    var revealed by remember(roundCards, index) { mutableStateOf(false) }
+    var offsetX by remember(roundCards, index) { mutableStateOf(0f) }
+    var correctCount by remember(roundCards) { mutableIntStateOf(0) }
+    var missedCards by remember(roundCards) { mutableStateOf<List<Flashcard>>(emptyList()) }
+    var finished by remember(roundCards) { mutableStateOf(roundCards.isEmpty()) }
+    val total = roundCards.size
+    val current = roundCards.getOrNull(index)
+
+    fun finishCard(known: Boolean) {
+        val card = current ?: return
+        viewModel.recordCard(card, Confidence.Explain, known)
+        if (known) {
+            correctCount += 1
+        } else {
+            missedCards = missedCards + card
+        }
+        if (index >= total - 1) {
+            finished = true
+        } else {
+            index += 1
+            revealed = false
+            offsetX = 0f
+        }
+    }
+
+    LazyColumn(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        item {
+            OutlinedButton(onClick = onBack) {
+                Icon(Icons.Outlined.ArrowBack, contentDescription = null)
+                Spacer(Modifier.size(8.dp))
+                Text("Voltar")
+            }
+        }
+        if (finished) {
+            item {
+                RoundSummaryPanel(
+                    title = "Resultado da rodada de cards",
+                    correct = correctCount,
+                    total = total,
+                    onRetry = {
+                        index = 0
+                        revealed = false
+                        offsetX = 0f
+                        correctCount = 0
+                        missedCards = emptyList()
+                        roundSeed += 1
+                        finished = cards.isEmpty()
+                    }
+                )
+            }
+            if (missedCards.isNotEmpty()) {
+                item { Text("Revisao dos cards errados", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold) }
+                items(missedCards) { card ->
+                    Panel {
+                        Text(card.front, fontWeight = FontWeight.Bold)
+                        Spacer(Modifier.height(8.dp))
+                        Text(card.back)
+                        Spacer(Modifier.height(10.dp))
+                        SourceButton(card.source, onSource)
+                    }
+                }
+            }
+        } else if (current != null) {
+            item {
+                Text("Rodada de Cards", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                Text("${index + 1} de $total | toque para revelar, arraste para marcar.")
+                LinearProgressIndicator(
+                    progress = { (index + 1) / total.toFloat() },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(8.dp)
+                )
+            }
+            item {
+                val cardColor = when {
+                    offsetX < -20f -> Color(0xFFE1F4E8)
+                    offsetX > 20f -> Color(0xFFF8DDDD)
+                    else -> MaterialTheme.colorScheme.surface
+                }
+                val dragState = rememberDraggableState { delta ->
+                    offsetX = (offsetX + delta).coerceIn(-260f, 260f)
+                }
+                Card(
+                    colors = CardDefaults.cardColors(containerColor = cardColor),
+                    elevation = CardDefaults.cardElevation(defaultElevation = 2.dp),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .offset { IntOffset(offsetX.roundToInt(), 0) }
+                        .draggable(
+                            state = dragState,
+                            orientation = Orientation.Horizontal,
+                            enabled = revealed,
+                            onDragStopped = {
+                                when {
+                                    offsetX <= -120f -> finishCard(true)
+                                    offsetX >= 120f -> finishCard(false)
+                                    else -> offsetX = 0f
+                                }
+                            }
+                        )
+                        .clickable { revealed = !revealed }
+                ) {
+                    Column(modifier = Modifier.padding(18.dp)) {
+                        Text(if (revealed) "Resposta" else "Pergunta", style = MaterialTheme.typography.bodySmall, fontWeight = FontWeight.SemiBold)
+                        Text(
+                            if (revealed) current.back else current.front,
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.Bold
+                        )
+                        Spacer(Modifier.height(12.dp))
+                        Text(
+                            when {
+                                !revealed -> "Toque no card para revelar."
+                                offsetX < -20f -> "Solte a esquerda: sei"
+                                offsetX > 20f -> "Solte à direita: não sei"
+                                else -> "Arraste para a esquerda se souber ou para a direita se não souber."
+                            }
+                        )
+                    }
+                }
+            }
+            item {
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+                    Button(
+                        onClick = { finishCard(true) },
+                        enabled = revealed,
+                        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFF2E7D50)),
+                        modifier = Modifier.weight(1f)
+                    ) {
+                        Text("Sei")
+                    }
+                    Button(
+                        onClick = { finishCard(false) },
+                        enabled = revealed,
+                        colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFB84A4A)),
+                        modifier = Modifier.weight(1f)
+                    ) {
+                        Text("Não sei")
+                    }
+                }
+            }
+            item { SourceButton(current.source, onSource) }
+        }
+    }
+}
+
+@Composable
+fun ExamQuizRoundScreen(
+    viewModel: StudyViewModel,
+    quizzes: List<QuizQuestion>,
+    onBack: () -> Unit,
+    onSource: (SourceReference) -> Unit
+) {
+    var roundSeed by remember(quizzes) { mutableIntStateOf(0) }
+    val roundQuizzes = remember(quizzes, roundSeed) { quizzes.shuffled() }
+    var index by remember(roundQuizzes) { mutableIntStateOf(0) }
+    var selected by remember(roundQuizzes, index) { mutableStateOf<DisplayedOption?>(null) }
+    var correctCount by remember(roundQuizzes) { mutableIntStateOf(0) }
+    var missedQuestions by remember(roundQuizzes) { mutableStateOf<List<QuizQuestion>>(emptyList()) }
+    var finished by remember(roundQuizzes) { mutableStateOf(roundQuizzes.isEmpty()) }
+    val total = roundQuizzes.size
+    val current = roundQuizzes.getOrNull(index)
+    val displayedOptions = remember(current?.id) { current?.displayedOptions().orEmpty() }
+    val answered = selected != null
+
+    fun choose(option: DisplayedOption) {
+        if (answered) return
+        val quiz = current ?: return
+        val correct = option.isCorrect
+        selected = option
+        viewModel.recordQuiz(quiz, correct)
+        if (correct) {
+            correctCount += 1
+        } else {
+            missedQuestions = missedQuestions + quiz
+        }
+    }
+
+    fun nextQuestion() {
+        if (index >= total - 1) {
+            finished = true
+        } else {
+            index += 1
+            selected = null
+        }
+    }
+
+    LazyColumn(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(12.dp)
+    ) {
+        item {
+            OutlinedButton(onClick = onBack) {
+                Icon(Icons.Outlined.ArrowBack, contentDescription = null)
+                Spacer(Modifier.size(8.dp))
+                Text("Voltar")
+            }
+        }
+        if (finished) {
+            item {
+                RoundSummaryPanel(
+                    title = "Resultado da rodada de quiz",
+                    correct = correctCount,
+                    total = total,
+                    onRetry = {
+                        index = 0
+                        selected = null
+                        correctCount = 0
+                        missedQuestions = emptyList()
+                        roundSeed += 1
+                        finished = quizzes.isEmpty()
+                    }
+                )
+            }
+            if (missedQuestions.isNotEmpty()) {
+                item { Text("Revisao das questoes erradas", style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold) }
+                items(missedQuestions) { quiz ->
+                    Panel {
+                        Text(quiz.question, fontWeight = FontWeight.Bold)
+                        Spacer(Modifier.height(8.dp))
+                        Text("Resposta: ${quiz.options[quiz.correctOptionIndex]}", fontWeight = FontWeight.SemiBold)
+                        Text(quiz.optionExplanations.getOrElse(quiz.correctOptionIndex) { quiz.explanation })
+                        Spacer(Modifier.height(10.dp))
+                        SourceButton(quiz.source, onSource)
+                    }
+                }
+            }
+        } else if (current != null) {
+            item {
+                Text("Rodada de Quiz", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+                Text("${index + 1} de $total | feedback imediato com explicação.")
+                LinearProgressIndicator(
+                    progress = { (index + 1) / total.toFloat() },
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .height(8.dp)
+                )
+            }
+            item {
+                Panel {
+                    Text(current.question, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                    Spacer(Modifier.height(12.dp))
+                    displayedOptions.forEach { option ->
+                        val isSelected = selected?.originalIndex == option.originalIndex
+                        val buttonColors = when {
+                            answered && option.isCorrect -> ButtonDefaults.outlinedButtonColors(containerColor = Color(0xFFE1F4E8))
+                            answered && isSelected && !option.isCorrect -> ButtonDefaults.outlinedButtonColors(containerColor = Color(0xFFF8DDDD))
+                            else -> ButtonDefaults.outlinedButtonColors()
+                        }
+                        OutlinedButton(
+                            onClick = { choose(option) },
+                            enabled = !answered,
+                            colors = buttonColors,
+                            modifier = Modifier.fillMaxWidth()
+                        ) {
+                            Text(option.text)
+                        }
+                        Spacer(Modifier.height(6.dp))
+                    }
+                    if (answered) {
+                        QuizExplanationBlock(
+                            title = "Gabarito",
+                            options = displayedOptions,
+                            selected = selected,
+                            showAll = true
+                        )
+                        Spacer(Modifier.height(10.dp))
+                        Button(onClick = ::nextQuestion, modifier = Modifier.fillMaxWidth()) {
+                            Text(if (index >= total - 1) "Ver resultado" else "Próxima")
+                        }
+                    }
+                }
+            }
+            item { SourceButton(current.source, onSource) }
+        }
+    }
+}
+
+@Composable
+fun RoundSummaryPanel(title: String, correct: Int, total: Int, onRetry: () -> Unit) {
+    val percent = if (total == 0) 0 else (correct * 100) / total
+    Panel {
+        Text(title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
+        Text("$correct de $total acertos ($percent%)", style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+        Spacer(Modifier.height(8.dp))
+        Text(if (percent == 100) "Nota máxima: você acertou tudo." else "Ainda não deu nota máxima. Revise os erros e tente outra rodada.")
+        Spacer(Modifier.height(12.dp))
+        Button(onClick = onRetry, enabled = total > 0, modifier = Modifier.fillMaxWidth()) {
+            Icon(Icons.Outlined.Refresh, contentDescription = null)
+            Spacer(Modifier.size(8.dp))
+            Text("Refazer rodada")
+        }
+    }
+}
+
+@Composable
 fun ExamPracticeScreen(viewModel: StudyViewModel, onSource: (SourceReference) -> Unit) {
     var selectedTopicId by remember { mutableStateOf<String?>(null) }
     var selectedPdf by remember { mutableStateOf<String?>(null) }
@@ -1376,6 +1917,14 @@ fun MissionRow(label: String, value: Int, target: Int) {
 @Composable
 fun Metric(label: String, value: String, modifier: Modifier = Modifier) {
     Column(modifier = modifier) {
+        Text(value, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
+        Text(label, style = MaterialTheme.typography.bodySmall)
+    }
+}
+
+@Composable
+fun CenteredMetric(label: String, value: String, modifier: Modifier = Modifier) {
+    Column(modifier = modifier, horizontalAlignment = Alignment.CenterHorizontally) {
         Text(value, style = MaterialTheme.typography.headlineSmall, fontWeight = FontWeight.Bold)
         Text(label, style = MaterialTheme.typography.bodySmall)
     }
