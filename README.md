@@ -1,17 +1,19 @@
 # Materiais de Metodologia Cientifica
 
-Esta branch contem apenas documentos de estudo em PDF.
+Esta branch contem documentos de estudo em PDF e DOCX.
 
 ## Pastas
 
-- `estudo/`: plano intensivo, respostas-base e simulado final em PDF.
+- `estudo/`: plano intensivo, respostas-base e simulado final em PDF e DOCX editavel.
 - `materiais/`: PDFs da disciplina.
 - `provas/`: provas de referencia em PDF, incluindo versoes transcritas e formatadas para facilitar leitura, busca e estudo.
 
 ## Arquivos principais
 
 - `estudo/Plano_Intensivo_Metodologia.pdf`
+- `estudo/Plano_Intensivo_Metodologia.docx`
 - `estudo/Simulado_Final_Metodologia.pdf`
+- `estudo/Simulado_Final_Metodologia.docx`
 - `materiais/METODOLOGIA 1.pdf`
 - `materiais/METODOLOGIA 2.pdf`
 - `materiais/METODOLOGIA 3.pdf`
