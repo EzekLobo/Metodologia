@@ -14,11 +14,13 @@ Esta branch contem documentos de estudo em PDF e DOCX.
 - `estudo/Plano_Intensivo_Metodologia.docx`
 - `estudo/Simulado_Final_Metodologia.pdf`
 - `estudo/Simulado_Final_Metodologia.docx`
-- `materiais/METODOLOGIA 1.pdf`
-- `materiais/METODOLOGIA 2.pdf`
-- `materiais/METODOLOGIA 3.pdf`
+- `materiais/01_Notas_de_Aula_Ciencia_e_Conhecimento_Cientifico.pdf`
+- `materiais/02_Aula_Ciencia_e_Conhecimento.pdf`
+- `materiais/03_Evolucao_do_Pensamento_Cientifico_e_Conceito_de_Metodo.pdf`
+- `materiais/04_Aula_Delineamentos_de_Pesquisa.pdf`
 - `provas/Prova_Comp_T2_2021_2.pdf`
 - `provas/Prova_Metodologia_2025_1_transcrita.pdf`
 - `provas/Prova_Metodologia_Referencia_2025_transcrita.pdf`
+- `provas/Prova_Metodologia_2026_1_transcrita.pdf`
 
 A branch principal `main` mantem o codigo do aplicativo Android.
