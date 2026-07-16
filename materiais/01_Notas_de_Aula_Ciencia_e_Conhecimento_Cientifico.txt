@@ -1,0 +1,920 @@
+                                METODOLOGIA CIENTÍFICA
+                            Notas de Aula - Profa Ana Paula Andrade
+
+
+     Este material foi elaborada com base na organização das notas de aula da disciplina
+     ‘Metodologia da Pesquisa Científica’, com o propósito único de orientar os estudantes em
+     seus estudos e não substituir o livro didático! De modo a complementar o processo de
+     aprendizagem, você deve consultar a bibliografia:
+
+     1 - Marconi, Marina de Andrade e Lakatos, Eva Maria. Fundamentos de metodologia
+     científica. 3. ed. São Paulo: Atlas, 1996;
+
+     2 - Demo, Pedro. Educar pela pesquisa. 5. ed. Campinas, SP: Autores Associados, 2002;
+
+     3 - Demo, Pedro. Pesquisa: princípio científico e educativo. 10 ed. São Paulo: Cortez,
+     2003;
+
+     4 - Freire-Maia, Newton. A ciência por dentro. 6 ed. Petrópolis: Vozes, 2000;
+
+     5 - Gil, Antônio Carlos. Como elaborar projetos de pesquisa. 3. ed. São Paulo: Atlas,
+     2001;
+
+     6 - Salomon, Décio Vieira. Como fazer uma monografia: elementos de metodologia do
+     trabalho científico. 5. ed. Ver. São Paulo: Martins Fontes, 1999;
+
+     7 - Alexandre, Mário Jesiel de Oliveira. Construção do Trabalho Científico. 1. ed.
+     Forense Universitária, 2003.
+
+
+1. PRIMEIRA PARTE: CIÊNCIA E CONHECIMENTO CIENTÍFICO
+
+ A. ALGUMAS DEFINIÇÕES BÁSICAS
+
+- Metodologia Científica é uma ciência auxiliar das demais, destinada a estudar a própria ciência,
+definindo os critérios de demarcação científica, estudando os métodos e técnicas de investigação e a
+indicar os padrões e normas para transmissão de conhecimento científico.
+
+- O método fornece os elementos de produção e análise crítica das descobertas e das comunicações no
+mundo da ciência!
+
+- O que é Ciência? => conjunto de conhecimentos atento e aprofundado a cerca de determinado
+assunto. Mas qual assunto???
+
+- Critérios de demarcação científica: a ciência prima pela racionalidade, pela sistematização coerente
+de enunciados, fundamentados e passíveis de verificação (ou falseamento!). Qualquer outra forma de
+conhecimento será considerada não científica!
+
+- E o que caracteriza o conhecimento científico? A forma de aquisição! A sistematização
+metodológica do processo de aprender.
+
+
+
+
+Notas de Aula - Profa Ana Paula Andrade                                                       Página 1
+- O que faz a diferença na ciência?
+       => O método: processo de aquisição do conhecimento científico. O método fornece os
+elementos de análise crítica das descobertas e das comunicações no mundo da ciência.
+
+- É importante salientar que: Pesquisa Científica ≠ Consulta ou Estudo. Uma investigação científica
+vai muito além da compilação de conceitos ou teorias, busca a produção de um conhecimento inédito
+por meio da sistematização do processo de investigação.
+
+- Seria a ciência o único caminho de acesso ao conhecimento? Não!!! A ciência não é o único
+caminho à verdade, mas é o caminho que leva ao conhecimento aprofundando e preciso!
+
+- Será que tudo que aprendemos é científico?
+        - Há muitas formas de aprender: desde que nascemos nós estamos aprendendo! Aprendemos a
+andar, a falar, identificar odores... Aprendemos observamos as pessoas e a natureza fazendo
+correlações e reflexões... Aprendemos com nossos antepassados, interagindo com outros povos, outras
+culturas...
+
+- Conhecimento de senso comum:
+       - conhecimento de senso comum que se utiliza de métodos empíricos baseados na observação,
+na repetição, na experiência diária seguida de reflexões e correlações.
+       - Diz-se que é o modo comum, corrente e espontâneo de conhecer.
+
+Um exemplo simples de conhecimento corrente: cultivar uma planta!
+      - Só é preciso regar periodicamente com certa quantidade de água... Mas qual a quantidade de
+água? Molhar com que frequência? Como você cuidaria de uma planta?
+
+- Já o conhecimento científico: tem a necessidade de ir além, quer conhecer a natureza dos vegetais,
+sua composição, seu ciclo de desenvolvimento e suas particularidades, de modo a formular uma teoria
+completa sobre a natureza, o desenvolvimento e a evolução da espécie.
+
+       “A diferença básica entre eles não está na veracidade do conhecimento nem na natureza do
+objeto estudado, mas sim na forma, no modo, no rigor dos métodos e na precisão dos instrumentos
+manipulados durante o processo de aprendizado. Para ser científico, é necessário dizer como
+determinado resultado foi obtido, seus limites de validade e extensão.”
+
+
+ B. CONHECIMENTO CIENTÍFICO E OS DEMAIS
+
+Basicamente podemos distinguir quatro tipos de conhecimento:
+      - Popular
+      - Senso Comum
+      - Religioso
+      - Filosófico
+      - Científico
+
+Popular:
+       Conhecimento relacionado às nossas tradições culturais, nosso folclore e literatura, nossas
+crenças, supertições... É passado de geração em geração utiliza-se de recursos como: eu ouvi, eu sinto,
+eu conheço, porque dizem...
+
+
+Notas de Aula - Profa Ana Paula Andrade                                                        Página 2
+Senso Comum:
+       É o modo comum, corrente e espontâneo de aprender empiricamente. Utiliza-se de métodos
+baseados na experiência diária, na observação, repetição, seguidos da correlação entre os conceitos
+experimentados.
+
+Características:
+        - é superficial: conforma-se com a aparência e utiliza-se de recursos como: eu sei, eu senti, eu
+        experimentei, porque disseram, dizem...
+        - é sensitivo: baseado na vivência e percepção
+        - subjetivo: próprio do sujeito que organiza suas experiências e vivências;
+        - acrítico: não se manifesta de uma forma analítica;
+        - é valorativo: operado com base em estados de ânimo e emoções, nos quais os valores do
+sujeito impregnam o objeto investigado;
+        - é reflexivo, pois o conhecimento só se forma a partir da reflexão, porém a análise é bastante
+limitada pela falta de embasamento conceitual e pela familiaridade com o objeto de estudo;
+        - assistemático: baseado na organização de experiências sem a sistematização das ideias;
+        - é falível e inexato: conforma-se com a aparência e não atinge a formulação de hipóteses
+sobre os fenômenos.
+
+Religioso (ou Teológico):
+       Apóia-se em doutrinas que contém proposições sagradas (valorativas), reveladas pelo
+sobrenatural e, por esta razão, são infalíveis e indiscutíveis (exatas). Tipo de conhecimento sistemático
+pois envolve origem, significado, finalidade e destino. Mas não verificável, pois está sempre implícita
+uma atitude de fé.
+
+Características:
+       - valorativo;
+       - inspiracional;
+       - sistemático;
+       - não verificável;
+       - infalível;
+       - exato.
+
+
+Filosófico:
+       Oriundo do esforço da razão pura para questionar os problemas e o comportamento humano.
+
+Características:
+       - valorativo e não verificável: consiste em hipóteses e/ou julgamentos que não poderão ser
+       submetidas à comprovação;
+       - racional: baseado em conjuntos de enunciados logicamente correlacionados;
+       - sistemático: representação coerente da realidade estudada;
+       - infalível e absoluto: uma vez que não permite comprovação experimental.
+
+Científico:
+       Baseado no aprofundamento para explicação dos fenômenos. Prima pela racionalidade e
+sistematização do processo de construção do conhecimento.
+
+Características:
+       - racional, podendo ser empírico ou não;
+       - real (factual): lida com ocorrências ou fenômenos reais;
+
+Notas de Aula - Profa Ana Paula Andrade                                                          Página 3
+      - contingente: suas proposições ou hipóteses têm veracidade conhecida por meio da
+comprovação empírica e não apenas o uso da razão;
+      - sistemático: trata do saber ordenado e estruturado logicamente;
+      - verificável: busca comprovação experimental;
+      - falível: em virtude de não ser absoluto ou final;
+      - imparcial: obtido de modo sistemático isento de intervenções;
+      - exato.
+
+
+ C. EVOLUÇÃO DO PENSAMENTO CIENTÍFICO
+
+Texto Complementar:
+       Evolução do Método Científico, Ana Paula Andrade.
+
+
+ D. CLASSIFICAÇÃO E DIVISÃO DA CIÊNCIA
+
+
+Da complexidade do universo e da diversidade de fenômenos que nele se manifestam, aliadas à
+necessidade do homem de estudá-los levaram ao surgimento de diversos ramos de estudo e ciências
+específicas. Neste contexto, surgiu a necessidade de classificar as ciências, a partir da delimitação dos
+seus objetos ou tema de estudo, da diferença entre enunciados e, consequentemente, do método
+utilizado para obtenção do conhecimento científico. A classificação reconhecida pela área de
+Metodologia Científica considera duas classes distintas: Ciências Formais e Factuais.
+
+As ciências formais constituem-se da matemática e da lógica, ciências que trabalham exclusivamente
+com objetos conceituais, utilizando-se apenas a dedução e outras formas de raciocínio ordenado. Ao
+contrário, as ciências empíricas, como as ciências naturais, sociais e humanas, lidam com fatos
+concretos que necessitam de validação experimental, valendo-se, principalmente, dos métodos
+indutivos.
+
+Ciências:
+       - Formais => Lógica e Matemática => Ciências que lidam com elementos abstratos
+       - Factuais => Naturais e Sociais => Lidam com fenômenos diretamente sensíveis
+              - Naturais => Física, Química, Biologia (e suas derivações)...
+              - Sociais => Antropologia, Psicologia, Direito, Economia, Política, Sociologia (e
+              derivações)...
+
+
+Do ponto de vista administrativo, é usual a classificação em Grandes Áreas de Conhecimento. Esta
+classificação tem finalidade eminentemente prática, objetivando proporcionar aos órgãos que atuam
+em ciência e tecnologia uma maneira ágil e funcional de agregar suas informações. A classificação
+reconhecida pelas agências de financiamento e os conselhos de pesquisa no Brasil apresenta uma
+hierarquização em quatro níveis, que vão do mais geral aos mais específicos, abrangendo 08 grandes
+áreas, 76 áreas e 340 subáreas do conhecimento, a saber.
+
+      Grande Área: aglomeração de diversas áreas do conhecimento em virtude da afinidade de seus
+       objetos, métodos cognitivos e recursos instrumentais refletindo contextos sociopolíticos
+       específicos.
+
+
+
+
+Notas de Aula - Profa Ana Paula Andrade                                                          Página 4
+                 i. CIÊNCIAS EXATAS E DA TERRA: Matemática, Estatística, Computação,
+                    Física, Química e Geociências
+
+                 ii. CIÊNCIAS BIOLÓGICAS: Biologia, Oceanografia, Genética, Botânica,
+                     Parasitologia, Imunologia, Ecologia...
+
+                iii. ENGENHARIAS: Civil, Sanitária, Elétrica, Naval, Produção, Materiais, Minas,
+                     Metalúrgica, Nuclear...
+
+                iv. CIÊNCIAS DA SAÚDE: Medicina, Odontologia, Enfermagem, Farmácia,
+                    Educação Física, Fisioterapia e Fonoaudiologia
+
+                 v. CIÊNCIAS AGRÁRIAS: Agronomia, Zootecnia, Medicina Veterinária,
+                    Tecnologia dos Alimentos e Engenharia Florestal
+
+                vi. CIÊNCIAS SOCIAIS APLICADAS: Direito, Administração, Turismo,
+                    Economia, Arquitetura, Ciência da Informação, Comunicação, Serviço Social...
+
+               vii. CIÊNCIAS HUMANAS: Filosofia, Sociologia, Antropologia, História,
+                    Geografia, Psicologia, Educação, Ciências Políticas...
+
+               viii. LINGUÍSTICA, LETRAS E ARTES
+
+             Fonte: http://www.capes.gov.br/avaliacao/tabela-de-areas-de-conhecimento
+
+
+2.   SEGUNDA PARTE: AQUISIÇÃO DE CONHECIMENTO CIENTÍFICO
+
+ A. ATIVIDADE CIENTÍFICA
+
+      - O que é atividade científica? Todo o processo de aquisição sistemática do conhecimento
+      científico. Tem como função o aperfeiçoamento através do crescente acervo do homem com o
+      seu mundo, por meio da distinção de características comuns ou leis gerais que regem
+      determinados fenômenos ou eventos. Divide-se em três etapas:
+
+             1a etapa: Estruturação => Elaboração do projeto de pesquisa
+
+             2a etapa: Desenvolvimento => Concreção da atividade de pesquisa
+
+             3a etapa: Transmissão => Divulgação do conhecimento adquirido
+
+      - Uma atividade científica só está completa quando finalizada todas estas três etapas.
+
+      - A atividade científica tem por finalidade distinguir a característica comum ou as leis gerais
+      que regem determinados eventos, buscando o aperfeiçoamento, através do crescente acervo de
+      conhecimentos, da relação homem com seu mundo.
+
+
+
+
+Notas de Aula - Profa Ana Paula Andrade                                                        Página 5
+                                          Como se dá o processo?
+
+                                           Por onde começar?
+
+
+
+
+Notas de Aula - Profa Ana Paula Andrade                            Página 6
+- A Pesquisa Científica é o processo de concreção da atividade científica, ou seja, a atividade
+metodologicamente empreendida em função de um problema, para o qual se procura a solução
+adequada de natureza científica.
+
+- A publicação científica consiste no tratamento escrito (ou oral!) ao término da investigação
+científica, tem por objetivo relatar de maneira concisa a pesquisa em toda sua dimensão, desde o
+planejamento até as conclusões.
+
+- A finalidade principal da publicação é divulgar os resultados encontrados no processo de
+investigação
+        => Daí a grande importância da divulgação científica!! Como seria o mundo hoje sem os
+registros antigos?
+
+- Ao contrário, o projeto de pesquisa é elaborado previamente ao início das atividades, delineando,
+sobretudo o tema e os problemas que serão abordados, a justificativa, a metodologia, o cronograma
+estimado, o orçamento previsto e a bibliografia básica.
+
+- A elaboração dos projetos de pesquisa não se justifica somente pela exigência das agências
+patrocinadoras de pesquisa, mas também pela necessidade de estruturação das atividades científicas
+por parte dos próprios pesquisadores.
+
+
+ B. MÉTODOS E DELINEAMENTOS DE PESQUISA
+
+A natureza do problema também é fator determinante na elaboração do planejamento da pesquisa e na
+escolha do método e das técnicas científicas adequadas ao problema em questão. O método representa
+muito mais uma atitude do que propriamente um conjunto de regras prontas e acabadas para resolver
+qualquer tipo de problema, ou seja, a melhor forma de investigar e buscar soluções para as questões
+científicas está no estudo e na aplicação de modelos de pesquisas que já tenham demonstrado
+consistência teórica e prática. Hoje há uma grande diversidade de métodos que sempre dependerá do
+tipo de objeto que se está investigando e dos argumentos que fundamentam a pesquisa.
+Genericamente, os métodos de pesquisa são classificados como dedutivos ou indutivos. Embora não
+exista método puramente dedutivo nem indutivo, é possível definir algumas características básicas
+entre os diferentes métodos:
+
+  I. Método da dialética: baseia-se na concepção de um “diálogo”, onde a interpretação dos
+     contrários evolui para a construção de uma síntese sobre o problema. O ponto de partida é uma
+     hipótese que vai sendo discutida por meio da formulação de uma antítese, com a apresentação de
+     contrapontos e contradições, cuja discussão leva à síntese do problema. Assim, o conhecimento
+     se forma através da reflexão dialética que age ativamente na construção de um entendimento
+     sobre o assunto. Método muito empregado na área de ciências humanas, sobretudo em pesquisas
+     qualitativas, considera que os fatos são dinâmicos e não podem ser considerados fora de um
+     contexto social. Assim, as contradições se transcendem dando origem a novas contradições que
+     requerem soluções, encontrando-se sempre em vias de se transformar, desenvolver. Atende ao
+     princípio da reciprocidade, onde o fim de um processo é sempre o começo de outro.
+
+ II. Métodos dedutivos: aqueles que se destinam a demonstrar e justificar. São métodos que se
+     exigem aplicação de recursos lógico-discursivos, aplicados através de enunciados analíticos
+     oriundos de postulados e teoremas. Tratam objetos “ideais” que pertencem ao nível da abstração
+     e têm por critério de verdade a coerência, a consistência e a não-contradição. O método dedutivo
+     proposto por Descartes constitui-se o maior símbolo do racionalismo moderno. Ao ser
+
+Notas de Aula - Profa Ana Paula Andrade                                                      Página 7
+        identificado o problema, pesquisador começa a conjeturar sobre possíveis soluções, dando início
+        ao processo dedutivo sobre o problema maior para chegar a soluções particulares.
+
+III. Métodos indutivos: aqueles que se destinam a verificar. São métodos que exigem
+     freqüentemente a observação e/ou a experimentação para o tratamento de problemas empíricos,
+     que são também transportados para o nível da abstração e da formulação lógica. Geram
+     enunciados sintéticos que provêm de constatações particulares e caminham para as
+     generalizações. Encaixam-se nesta categoria os métodos defendidos por Galileu e Bacon. Entre
+     estes, entretanto, muda-se o contexto da descoberta. Enquanto Galileu tem como ponto inicial a
+     observação direta do fenômeno, para dele extrair os elementos para posterior análise e
+     experimentação; Bacon invoca o experimento para ser objeto de análise e verificação.
+
+IV. Métodos Hipotéticos-Dedutivos: têm por princípio colocar os conhecimentos já existentes em
+    questionamento e utilizar as hipóteses formuladas a cerca de determinados problemas para
+    deduzir conseqüências que deverão ser testadas ou falseadas. São também denominados métodos
+    dedutivo-falseável, conforme proposição inicial de Karl Popper. Segundo Popper, a atitude
+    científica diante de uma hipótese não consiste, pois, em procurar casos particulares que a
+    confirmem, mas procurar casos que, se ocorressem, falseariam a hipótese.
+
+Além dos métodos clássicos, dedutivos e indutivos, novos métodos de pesquisa estão constantemente
+emergindo no cenário científico, sendo cada qual aplicado a uma temática, uma realidade e uma
+objetividade científica específica. Assim, verifica-se que não existe uma receita única ou uma fórmula
+segura para ser aplicada gerando resultados. Cada investigação científica tem sua peculiaridade,
+carecendo de hipóteses e habilidades distintas conforme o problema a ser analisado.
+
+
+DELINEAMENTOS DE PESQUISA
+
+As pesquisas científicas podem ser classificadas por sua natureza, básicas ou aplicadas; por sua
+abordagem, quantitativa ou qualitativa, por seu procedimento ou por seu objetivo. Por seguro, toda
+atividade de pesquisa têm início em uma fase estrutural, onde são construídos os alicerces da atividade
+de pesquisa, com a definição do tópico de investigação, a delimitação dos problemas que serão
+abordados e dos objetivos a serem alcançados, a construção do marco teórico de referência e o
+delineamento da linha de pesquisa e dos métodos de análise a serem empregados. Este delineamento,
+por sua vez, resulta diretamente do problema em questão.
+
+Se a pesquisa científica é a atividade metodologicamente empreendida em função de um problema,
+pode-se dizer que a necessidade de pesquisa surge na existência de um problema que demande
+tratamento científico. Neste caso, o problema surge como uma questão que se coloca diante de um
+estudioso como um desafio à sua capacidade solucionadora, revestida de notas de relevância
+operativa, contemporânea e humana:
+
+         Relevância operativa se dá quando um problema é capaz de produzir ou induzir novos
+          conhecimentos.
+         A relevância contemporânea se refere à atualização ou à necessidade presente na época e local
+          onde se realiza.
+         A relevância humana representa a utilidade direta ou indireta acarretada ao homem.
+
+O problema detectado é que dita a linha de pesquisa e os métodos de investigação e análise a serem
+empreendidos, podendo também orientar na definição da graduação da pesquisa científica. Em linhas
+gerais, as pesquisas científicas diferenciadas por seus objetivos são:
+
+Notas de Aula - Profa Ana Paula Andrade                                                        Página 8
+   1. Pesquisas exploratórias e descritivas: tem por objetivo definir melhor o problema, descrever
+      comportamentos de fenômenos, definir e classificar fatos e variáveis. Não atingem ainda o
+      nível de elaboração concreta de teorias, nem tão pouco o nível de solução e aplicação de
+      problemas. Podem ser subdivididas em diversas modalidades de pesquisa, a saber:
+         a. Análise de documentos ou observação de produtos culturais: consiste no enfoque
+             sistemático de documentos ou monumentos como fonte de dados de um passado
+             histórico ou cultural.
+         b. Estudos de conjuntos, surveys, e trabalhos de campo: apresentam método de análise
+             baseado em um grande número de dados. Requer planejamento cuidadoso,
+             interpretação clara dos dados, exposição habilidosa e lógica dos resultados.
+         c. Estudos de casos: análise baseada em número limitado de casos. Interesse voltado para
+             a história e desenvolvimento do processo, sobretudo na conduta humana. Apresenta
+             enfoque longitudinal, com o objetivo de identificar o processo e indicar medidas de
+             reabilitação.
+         d. Estudos de população ou comunidade: descrição detalhada de um grupo de pessoas que
+             vivem socialmente em uma localização ou condição determinada.
+         e. Estudos comparativos causais: buscam identificar os fatores associados a certos fatos,
+             condições ou tipos de conduta.
+         f. Análise de Atividades: voltadas para a investigação das obrigações ou necessidades dos
+             indivíduos ou de uma população que exercem determinados papéis ou funções.
+         g. Estudos de tempo e movimentos: buscam maior entendimento e otimização na
+             execução de determinada tarefa, visando maior rendimento.
+         h. Estudos longitudinais: analisam o desenvolvimento (antes, durante e depois) de um
+             indivíduo ou de determinada população em relação a uma instituição ou a um sistema.
+         i. Estudos “preditivos”: baseiam-se nos fatos longitudinais para estabelecer
+             probabilidades ou possibilidades futuras de determinados acontecimentos ou
+             condições.
+         j. Estudos do pensamento acumulado: realizados através de pesquisas bibliográficas,
+             documentação, heurística, análise e crítica de obras significativas. Responsáveis,
+             muitas vezes, pela ligação entre o passado e o presente científicos.
+
+   2. Pesquisas teóricas ou puras: voltadas para descobrir teorias, leis, modelos para explicação de
+      fatos e predição do comportamento dos fenômenos. Tem por objetivo ir além da simples
+      definição e descrição do problema. Empregam técnicas de observação empírica ou da
+      experimentação para atingir o nível da teorização, descobrindo fatos, leis, teorias e modelos.
+      Atuam ainda na construção de teorias axiomáticas, baseadas em deduções e postulados. Podem
+      resultar na elaboração de macroteorias ou estudos provenientes da criatividade, da reflexão e
+      da capacidade analítica do pesador.
+
+   3. Pesquisas aplicadas: buscam a solução de problemas pela aplicação de teoria já elaborada. Por
+      vezes, atuam também na investigação e na aplicação de microteorias através de ações
+      científicas planejadas, recolhendo metódica e sistematicamente os resultados que comprovam
+      seu valor. Em nível menos aprofundado estão os trabalhos reduzidos de pesquisa científica, os
+      quais que utilizam de métodos e técnicas já explorados, mas que continuam tendo significação
+      para a comunidade científica.
+
+   4. Pesquisas teórico-aplicadas: que se propõem a descobrir teoria e solucionar problemas de
+      ordem prática. Valem-se, freqüentemente, dos ensaios científicos e das pesquisas de
+      laboratório, para realização de experimentos sistematizados, buscando a comprovação de
+      hipóteses iniciais.
+
+Notas de Aula - Profa Ana Paula Andrade                                                     Página 9
+   5. Pesquisa histórica: descreve o que era. O procedimento básico de investigação consiste no
+      registro, análise e interpretação dos conhecimentos do passado. Enfoque dado, sobretudo, às
+      mudanças, o desenvolvimento de indivíduos, grupos, práticas, instituições ou idéias.
+      Empregam, em geral, as técnicas de coleta de dados, crítica histórica e síntese.
+
+   6. Pesquisas Experimentais: descreve o que acontece quando certos fatores são meticulosamente
+      controlados. Enfoque dirigido para as relações de causa e efeito. Manipulam cuidadosamente
+      as variáveis a fim de determinar sua influência no processo em questão.
+
+   7. Pesquisas Qualitativas: buscam o conhecimento e a aproximação com o objeto de estudo a
+      partir da observação da realidade presente no campo de estudo. Prática comum na área de
+      ciências sociais, abordando o mundo dos significados das ações e relações humanas. Em geral,
+      empregam a técnica de estudo através de entrevistas estruturadas e observação participante, na
+      qual o pesquisador se insere no meio de coleta de fatos.
+
+
+ C. PROJETO DE PESQUISA
+
+Pode-se dizer que toda atividade científica começa com a documentação, a elaboração do projeto de
+pesquisa, e a avaliação das condições concretas e possibilidades reais de organização, direção e
+realização da pesquisa. Assim sendo, o projeto de pesquisa é elaborado previamente ao início das
+atividades, delineando, sobretudo o tema e os problemas que serão abordados, a justificativa, a
+metodologia, o cronograma estimado, o orçamento previsto e a bibliografia básica. A elaboração dos
+projetos de pesquisa não se justifica somente pela exigência das agências patrocinadoras de pesquisa,
+mas também pela necessidade de estruturação das atividades científicas por parte dos próprios
+pesquisadores.
+
+- Dois componentes básicos para análise de Projetos de Pesquisa:
+        1. Teórico: Grau de originalidade e propriedade na execução de determinada pesquisa, bem
+            como os aspectos metodológicos envolvidos (revisão bibliográfica prévia)
+        2. Considerações práticas: Possibilidades materiais de efetuar o estudo (tempo, local, recursos,
+        equipamentos e outros)
+
+- Ocasiões em que se apresenta um projeto de pesquisa:
+    Iniciação científica
+    Ingresso do aluno em um curso de pós-graduação stricto-sensu
+    Exame de qualificação
+    Solicitação de subsídios a órgãos de fomento à pesquisa
+
+- Finalidades do projeto de pesquisa:
+     Roteiro de planejamento das atividades do aluno, facilitando sua adaptação à pesquisa;
+     Antecipação de dificuldades que poderiam comprometer o êxito do estudo;
+     Identificação das necessidades materiais do estudo;
+     Apreciação do estudo por comissões de ética em pesquisa e por outras instâncias reguladoras
+        da pesquisa na instituição;
+     Avaliação da pesquisa pelos órgãos de financiamento;
+     Instrumento de enorme valor na avaliação de um candidato a aluno de programa de pós-
+        graduação.
+
+
+
+Notas de Aula - Profa Ana Paula Andrade                                                        Página 10
+Em linhas gerais, o projeto de pesquisa é organizado de maneira a fornecer subsídios suficientes da
+capacidade do autor e do grupo de pesquisa como um todo em desenvolver tal atividade. Deve
+fornecer respostas às perguntas:
+
+        - Quem vai pesquisa? Onde?
+        - O que será pesquisado?
+        - O que se espera obter?
+        - Por que pesquisar?
+        - Para que pesquisar?
+        - Quais os conceitos envolvidos na pesquisa?
+        - Como pesquisar?
+        - Quais as possíveis implicações?
+        - Com que recursos?
+        - Por quanto tempo?
+
+Deve-se primar pela clareza da linguagem. Recomenda-se a redação discursiva, imparcial e enxuta,
+evitando termos subjetivos e o excesso de ornamentação. O texto deve ser elaborado de forma a
+apresentar conexão lógica entre os seus diversos aspectos constitutivos. De acordo com a Associação
+Brasileira de Normas Técnicas, a elaboração de um projeto de pesquisa deve se pautar pela seguinte
+estruturação:
+
+
+   1.  Identificação: título, autores, instituição, propósito, local e data;
+   2.  Sumário: resumo, palavras-chave e índice de seções;
+   3.  Apresentação do tema
+   4.  Discussão da problemática envolvida: um projeto de pesquisa sempre parte de um problema,
+       uma dúvida, uma limitação de conhecimento...
+   5. Formulação de hipóteses: a resposta que se procura para o problema em questão;
+   6. Objetivos: geral e específicos;
+   7. Finalidade: o que se propõe alcançar com a pesquisa;
+   8. Justificativa: razões que legitimam o trabalho científico e a atividade como um todo;
+   9. Referencial Teórico: diretrizes básicas e orientação teórica do projeto;
+   10. Metodologia: suporte e diretriz da pesquisa;
+   11. Cronograma: elementos construtivos do processo pesquisa (tempo e natureza das atividades);
+   12. Orçamento: cálculos de custo em forma de orçamento-programa;
+   13. Análise de Impactos: científico, humano, social, ambiental, cultural, tecnológico...
+   14. Referências Bibliográficas: lista de citações bibliográficas.
+
+Formatação Básica do Projeto:
+
+- A confecção de capa é opcional.
+- Título do projeto centralizado, negrito e letras maiúsculas.
+- Subtítulos alinhados à esquerda, em negrito e com primeira letra em maiúsculo.
+- Após subtítulo saltar uma linha. Ao final da seção, saltar duas linhas para o próximo subtítulo.
+- Todo o texto deve estar em formatação justificada.
+- Recomenda-se espaçamento 1,5 entre as linhas, letra Times New Roman, tamanho 12pts; ou
+arial tamanho 10. Todo o texto com a mesma letra!
+- Palavras de outro idioma deve estar em itálico.
+- Para indicação dos parágrafos, é permitido usar identação no texto OU saltar uma linha entre os
+diferentes parágrafos. Nunca os dois recursos!
+
+
+Notas de Aula - Profa Ana Paula Andrade                                                   Página 11
+1 – Identificação
+
+- Capa (opcional)
+- Título:
+        - aquele que configura e dá nome ao trabalho
+        - deve ser claro, objetivo, preciso e expressar a ideia do trabalho;
+        - resumo máximo da pesquisa
+        - constitui em hipótese a ser trabalhada
+- Finalidade do projeto = destino do texto. Deve-se especificar a que edital será submetido
+- Local
+- Data
+- Autores:
+        - titulação e instituição a que pertencem
+        - identificar o responsável (coordenador) e a equipe executora
+
+
+2 – Resumo e Sumário
+
+- Obrigatório: Resumo
+       Redigido em parágrafo único contendo a contextualização da pesquisa/tema/problema,
+objetivos, justificativa/finalidade, metodologia e resultados esperados.
+
+Opcional: Sumário
+      - Numeração das seções ou partições do trabalho elaborado
+      - Indicar a ordem em que aparecem no texto
+      - Numeração das páginas em que se iniciam
+
+
+3 – Tema, Problema e Hipóteses
+
+- O tema se caracteriza pela definição mais genérica do tópico a ser abordado
+
+- Problema se define pela máxima delimitação teórica e operacional do tópico em questão. O
+problema implica: dificuldade, delimitação, expressão de pensamento interrogativo (dúvida,
+necessidade, admiração…).
+
+Pode-se definir a hipótese como a resposta elementar ao problema em questão.
+
+- Assim, a hipótese seria definida como a solução indicada para o problema e que deve ser
+comprovada pela pesquisa, justificado, assim, a coleta de dados e as análises feitas em função da
+hipótese levantada.
+
+- Frequentemente, durante a fase de formulação das hipóteses, faz-se necessário o levantamento
+bibliográfico. A importância da pesquisa científica pode ser medida pelas mudanças que acarreta em
+nosso corpo de conhecimento e/ou pelos novos conhecimentos que suscita, no momento em que o
+pesquisador contrasta a hipótese com a realidade concreta.
+
+
+
+
+Notas de Aula - Profa Ana Paula Andrade                                                       Página 12
+4 – Objetivos
+
+Especificar o objetivo de dimensão mais ampla (Geral) e os objetivos pontuais (Específicos),
+ressaltando as metas almejadas.
+
+
+5 – Justificativa
+
+Ítem de fundamental importância na redação dos projetos de pesquisa, pois é neste contexto que se
+define as razões teóricas que legitimam o projeto como trabalho científico.
+
+Na justificativa do projeto inclui-se a defesa do projeto, ressaltando a relevância teórica, humana,
+operacional e contemporânea do problema.
+
+Para completar a justificativa, deve-se expor os interesses envolvidos, sejam eles teóricos, pessoais ou
+relativos de toda a equipe executora do projeto.
+6 – Finalidade
+
+Necessário explicitar a finalidade teórica ou prática do trabalho, os desdobramentos e aplicações que
+possam advir do projeto.
+
+
+7 – Referencial Teórico (Revisão Bibliográfica ou Marco Teórico de Referência)
+
+Tanto o problema quanto a hipótese são formulados dentro do marco teórico de referência adotado
+pelo pesquisador. É através referencial teórico que são indicados a orientação, as diretrizes básicas da
+atividade planejada, o esboço e as linhas gerais de sua montagem, de modo que o projeto possa ser
+avaliado quanto a sua relevância na produção de conhecimentos científicos.
+
+Em geral, o marco teórico de referência reflete:
+   a opção do pesquisador dentro do universo ideológico e teórico em que se situam as diversas
+      escolas, teorias e abordagens de seu campo de especialização;
+   a síntese a que chegou, após análises e críticas a que submeteu os textos lidos e consultados;
+   o conjunto de conceitos, categorias e constructos abstratos que constituem o arcabouço teórico,
+      onde se situam suas preocupações científicas;
+   a relevância e o caráter de atualização da pesquisa;
+   a demarcação teórica em que se dará a delimitação do problema;
+   a base e o referencial da metodologia de pesquisa.
+
+A expressão concreta do marco teórico de referência são as fontes e a bibliografia em que se alimenta.
+Assim, a indicação de autores e textos em que se fundamenta o trabalho do pesquisador é necessária
+para explicitar a orientação teórica do projeto. A citação da literatura pertinente ao tema proposto deve
+permitir ao observador (analisador) uma análise crítica e teórica quanto à limitação e ao alcance das
+questões, das noções e dos conceitos formulados, ressaltando, assim, a especificidade e generalidade
+em que deverá ocorrer a investigação.
+
+
+8 – Metodologia
+
+Num projeto de pesquisa é de suma importância explicitar detalhadamente a metodologia que
+funcionará como suporte e diretriz da pesquisa.
+
+Notas de Aula - Profa Ana Paula Andrade                                                         Página 13
+Em primeiro lugar, é necessário definir o método de pesquisa empregado, experimentação,
+observação, pesquisa-ação, estudo de caso, survey, estudo historiográfico… Em seguida, deve-se
+explicitar as fases, as técnicas e as estratégias operacionais referentes à:
+    amostragem: explicitar e justificar o método de amostragem adotado, a população pesquisada;
+        de onde serão extraídas as amostras; definição do volume, representatividade e índice de
+        confiança da amostra.
+    coleta de dados: explicitar os instrumentos de coleta de dados (sejam eles questionários,
+        entrevistas, escalas de mensuração, instrumentos eletro-mecânicos…)
+    análise de dados: explicitar quando trabalhar com análise estatística ou qualitativa de dados;
+        explicitar, definir e jsutificar os indicadores que serão utilizados na análise.
+    teste de hipótese: descrever a apontar o método e as técnicas do teste de hipótese (definir se é
+        análise comparativa, dedutiva ou estatística…) e apresentar os níveis de significância.
+
+Convém ainda explicitar a composição da equipe de pesquisa; a titulação, função e tarefas de cada
+integrante, e o organograma de suas atividades; e o fluxograma de operações.
+
+
+9 – Cronograma
+
+No cronograma devem estar contidos os elementos construtivos do processo de pesquisa tomando
+como referenciais o tempo (início, duração e término) e a natureza das atividades.
+
+- Recomenda-se a construção de cronogramas dinâmicos e flexíveis, de modo que o início, a duração e
+o término de determinadas etapas não devem ser encarados como algo rígido; pois nem sempre o
+término de uma etapa é condição necessária para o início de outra subsequente, havendo ainda a
+possibilidade de ligação de fases e a projeção de etapas concomitantemente com outras.
+
+- Um cronograma bem feito deve evidenciar a viabilidade temporal de realização do trabalho.
+
+Um exemplo clássico: desenvolvimento de um projeto de iniciação científica com duração de um ano:
+
+                  02/10   03/10   04/10   05/10   06/10   07/10   08/10   09/10   10/10   11/10   12/10    01/11
+
+  Revisão
+  Bibliográfica
+  Coleta de
+  Dados
+  Tratamento
+                                           !                              ...
+  Estatístico
+  Análise e
+  Discussão
+  Relatório
+Legenda:      ! Passível de antecipação
+              …Passível de continuação
+
+
+Observação: os quadros e tabelas devem respeitar as margens do texto padrão.
+
+
+
+Notas de Aula - Profa Ana Paula Andrade                                                                   Página 14
+10 – Orçamento
+
+Deve apresentar os cálculos de custo em forma de orçamento-programa, contendo os custos
+orçamentários que em geral englobam:
+     pessoal técnico: remuneração unitária diferenciada por nível;
+     custos diretos referentes a pessoal contratado por tarefa, despesas com material, viagens,
+      estadias;
+     despesas administrativas: referem-se a serviços de apoio, bem como a encargos sociais de
+      pessoal;
+     despesas eventuais: como margem de garantia, devem ser previstas despesas decorrentes da
+      subestimação dos demais itens, bem como os gastos imprevistos.
+     despesas de materiais
+          o de consumo: artigos que serão utilizados no desenvolvimento da pesquisa, como:
+              materiais de escritório, materiais para alimentação de equipamentos...
+          o permanente: equipamentos e instrumentos que serão incorporados ao patrimônio da
+              instituição de origem.
+
+
+       Exemplo:
+
+  Discriminação                       Quantidade     Valor Unitário     Valor Total        Fonte
+  Computador                                           R$ 600,00        R$ 6000,00        Próprio
+  Passagens Ilhéus-Rio-Ilhéus               3         R$ 10000,00       R$ 3000,00       FAPESB
+  Diárias                                  15          R$ 100,00        R$ 1500,00         UESC
+  Mat. Consumo                              -         R$ 10000,00       R$ 1000,00         CNPq
+  Total Próprio                             -               -           R$ 6000,00           -
+  Total Financiado                          -               -           R$ 5500,00           -
+  Total do Projeto                          -               -           R$ 11500,00          -
+
+
+
+11 – Impactos
+
+- Necessário destacar todos os impactos diretos ou indiretos decorrentes da atividade de pesquisa,
+quando pertinentes. São eles impacto ambiental, tecnológico, humano, social, científico, cultural, etc.
+
+- Necessário apresentar parecer dos comitês de ética em pesquisa humanas/animais, quando for o caso.
+
+- Citar o futuro registro de patentes ou produtos.
+
+
+12 – Referências Bibliográficas
+
+Importante citar corretamente as referências citadas no texto, para possível identificação e consulta
+futura. Recomenda-se a utilização de normas da Associação Brasileira de Normas Técnicas - ABNT
+para textos publicados em português (http://www.abnt.org.br/), e, no caso de revistas especializadas,
+seguir as normas especificadas pelo corpo editorial.
+Notas de Aula - Profa Ana Paula Andrade                                                       Página 15
+ 3.   TERCEIRA PARTE: TRANSMISSÃO DE CONHECIMENTO CIENTÍFICO
+
+Se a ciência tem por objetivo conhecer, dominar e usufruir beneficamente da natureza, então, cabe ao
+cientista ou ao pesquisador a tarefa de comunicar os resultados de seus estudos, contribuindo
+decisivamente para o amplo questionamento científico e a aplicação efetiva dos conhecimentos
+adquiridos. Assim sendo, concluído um trabalho de pesquisa, para que os resultados sejam
+conhecidos, faz-se necessária sua publicação. Este tipo de trabalho proporciona não somente a
+ampliação dos conhecimentos como também a compreensão de certas questões. O público e a
+finalidade a que se destina devem ser levados em consideração na elaboração da publicação;
+conhecendo-se a natureza da publicação: científica, didática, ou divulgação, deve-se atentar para a
+correta adequação do conteúdo ao público alvo e ao formato da publicação.
+
+Dado à importância da transmissão do conhecimento e o rápido desenvolvimento científico do século
+XX, uma nova ciência emergiu no cenário mundial com o objetivo de mediar e facilitar a transmissão
+de conhecimentos entre um emissor e um receptor humano, trata-se da Ciência da Informação. Esta é
+a disciplina que investiga as propriedades e o comportamento da informação, as forças que regem seu
+fluxo e os métodos para processá-la, com a finalidade de aperfeiçoar sua acessibilidade. Está
+interessada num conjunto de conhecimentos relacionados com a origem, coleção, organização,
+armazenamento, recuperação, interpretação, transmissão, transformação e utilização da informação.
+Inclui a investigação das representações da informação nos sistemas naturais e artificiais, a utilização
+de códigos para transmissão eficiente da mensagem, o estudo de instrumentos e técnicas de
+processamento da informação, tais como computadores e seus sistemas de programação. É uma
+ciência interdisciplinar, relacionada com a matemática, a lógica, a lingüística, a psicologia, a
+tecnologia de computação, a pesquisa operacional, as artes gráficas, a comunicação, a
+biblioteconomia, a administração… Tem componentes de uma ciência pura, que investiga o assunto
+sem relação com sua aplicação, mas também tem componentes de uma ciência aplicada, que cria
+serviços e produtos.
+
+Neste novo cenário, é visivelmente crescente a noção de responsabilidade social, não somente dos
+profissionais de produção e investigação científica, mas também dos profissionais facilitadores da
+transmissão do conhecimento. Toda esta preocupação com a transmissão da informação se justifica
+perante a construção de um espaço social justo, no qual o conhecimento científico ilumine igualmente
+a todos, fortalecendo a reflexão e oferecendo as condições necessárias para a transformação da
+sociedade. Neste contexto, encontra-se implícita a necessidade de difusão e transferência de
+tecnológica científica, visto que o conhecimento científico-tecnológico desempenha um papel decisivo
+na economia e, por meio dela, na sociedade.
+
+
+ A. PUBLICAÇÃO CIENTÍFICA
+
+As publicações científicas devem ser elaboradas de acordo com normas preestabelecidas e com os fins
+a que se destinam. Por serem inéditos e originais, podem também servir de modelo ou oferecer
+subsídios para outros trabalhos. Devem permitir a outro pesquisador, baseado nas informações dadas:
+
+- reproduzir as experiências e obter os resultados descritos, com a mesma precisão e sem ultrapassar a
+margem de erro indicada pelo autor;
+
+- repetir observações e julgar as conclusões do autor;
+
+- verificar a exatidão das análises e deduções que permitiram ao autor chegar às conclusões
+
+
+Notas de Aula - Profa Ana Paula Andrade                                                        Página 16
+Os trabalhos científicos podem ser realizados com base em fontes de informações primárias ou
+secundárias e elaborados de várias formas, de acordo com a metodologia e com os objetivos
+propostos. Os principais tipos de publicação são:
+
+       - Comunicações em eventos: posters ou comunicações orais
+             - caracterizados pela síntese da pesquisa
+             - exploração de recursos visuais e ilustrações
+             - adequação da linguagem ao público alvo
+             - vide anexo: TUTORIAL SEMINÁRIO
+
+       - Publicação de resumos:
+               - síntese do trabalho realizado, contendo: tema, problema e hipótese, objetivos,
+               metodologia, resultados e conclusão
+
+       - Resenhas:
+              - resumo de fonte secundária apresentando o conteúdo da obra
+              - necessário citar as informações sobre a obra e as credenciais do autor;
+              - resumo fiel à obra e análise do trabalho, cuidado especial para não extrapolar do
+              conteúdo apresentado na obra original;
+
+               - Resenha crítica: inclui ainda a formulação de um conceito de valor sobre a obra,
+               apontando não somente falhas e erros, mas também o mérito da obra;
+                      - evitar julgamento de mérito dos autores.
+                      - vide anexo: TUTORIAL RESENHA CRÍTICA
+
+        - Relatórios:
+                - reúnem os elementos construtivos da atividade desenvolvida, salientando as
+dificuldades contornadas e os resultados produzidos
+
+       - Monografias: didáticas, dissertações ou teses
+              - abordagem por escrito das atividades desenvolvidas metodologicamente, não extenso
+em alcance, mas em profundidade
+
+      - Artigos: científicos e de divulgação
+              - reduzida dimensão e conteúdo tem por finalidade descrever ao leitor a metodologia
+empregada, o processamento utilizado e os resultados obtidos.
+
+Para que as publicações atinjam o seu mais amplo objetivo deve-se primar pela adequação do
+conteúdo à forma de publicação e ao público alvo. Aos autores de divulgação, cabe atribuir às suas
+obras as características fundamentais do tratamento científico: imparcialidade e fidedignidade, mesmo
+sendo superficial e abrangente. Dentre os requisitos básicos para a elaboração de textos de divulgação,
+destacam-se:
+
+   -   Conhecimento suficiente sobre o assunto
+   -   Exatidão na exposição, tomando-se o cuidado para não deturpar os conhecimentos e evitar
+       distorções de idéias;
+   -   Adaptabilidade. É necessário que o autor conheça as características relevantes do publico ao
+       qual a obra se destina, para proporcionar-lhes conhecimentos suficientes para suprir, inclusive,
+       possíveis falhas de formação científica;
+   -   Linguagem acessível ao público: facilitar a comunicação de terminologias científicas e
+       técnicas sem distorcer o sentido ou ferir a propriedade dos termos
+
+Notas de Aula - Profa Ana Paula Andrade                                                       Página 17
+   -   Atender à necessidade de divulgação evitando a vulgarização
+   -   Usar argumentos para demonstrar, sem persuadir;
+   -   Apresentar argumentação lógica na exposição, através do processo de demonstrar e explicar,
+       inferir e concluir.
+
+              Já o nível de conhecimento científico corresponde ao nível de investigação
+              metodológica, cujo destinatário possui uma visão crítica aguçada e mantém interesse
+              direto nos resultados, na explicação e/ou predição do comportamento de certos
+              fenômenos. Em geral, o conhecimento científico é proveniente de revistas técnicas
+              especializadas, informes científicos e técnicos, relatórios científicos, monografias,
+              dissertações, teses, ou publicações em encontros específicos, tipo congressos,
+              seminários, conferências e reuniões entre os especialistas. Geralmente, os trabalhos são
+              expressos em linguagem técnica, compreendendo as macro e microteorias, as teorias
+              dedutivas e as indutivas. São trabalhos que apresentam, em geral, a descrição
+              metodológica do processo de investigação, a discussão dos principais resultados e
+              perspectivas futuras sobre o assunto.
+
+
+ B. ESTRUTURA BÁSICA DAS PUBLICAÇÕES CIENTÍFICAS
+    - Relatórios, Monografias (Dissertações ou Teses) e Artigos Científicos
+
+   1- Preliminares:
+      Cabeçalho contendo título, autores, afiliações e endereço
+      Palavras- Chave
+      Data
+
+   2- Sinopse:
+      - Resumo e Abstract
+
+   3- Sumário:
+      - Índice de capítulos, seções, tabelas, figuras...
+
+   4- Corpo Principal do Trabalho:
+      - Introdução:
+              - apresentação e contextualização do assunto;
+              - formulação clara e simples do tema de investigação;
+              - delimitação do tema;
+              - identificação dos problemas e hipóteses;
+              - pertinência do tema, com referência a trabalhos anteriores;
+              - justificativa e objetivos
+      - Desenvolvimento:
+              - revisão Bibliográfica contendo os conceitos abordados no trabalho;
+              - desenvolvimento do trabalho, com a exposição, explicação e demonstração da
+      metodologia, materiais e ferramentas utilizadas;
+              - apresentação e discussão dos resultados;
+              - análise e argumentação lógica baseada e fundamentada nos resultados
+      - Conclusões:
+              - resumo completo, mas sintetizado de todo o trabalho. Apresentado de forma objetiva
+      e clara, o resumo deve mostrar a relação existente entre as diferentes partes da argumentação e
+      a união de ideias e conclusões finais;
+              - apresentação dos principais resultados;
+
+Notas de Aula - Profa Ana Paula Andrade                                                      Página 18
+              - perspectivas e desdobramentos futuros.
+
+   5- Parte Referencial:
+      - listagem da bibliografia consultada;
+      - apêndices ou anexos: quando necessário, os dados complementares que poderiam prejudicar
+      a fluidez do texto principal são apresentados na forma de apêndices ou anexos
+
+Nos artigos científicos, os agradecimentos são inseridos ao final do texto, antes das referências
+bibliográficas. Nas monografias e relatórios, os agradecimentos são inseridos no início do trabalho,
+logo após a página de rosto. Dedicatórias são aceitas em monografias, dissertações ou teses, sendo
+apresentadas na página seguinte à capa. Nos trabalhos extensos é necessário apresentar um índice de
+capítulos, seções, tabelas e figuras. A subdivisão do texto é recomendada para melhor organização dos
+conceitos. Esta subdivisão ocorre nas monografias sob a forma de capítulos e nos artigos sob a forma
+de seções de modo que a divisão obedece a uma ordem lógica, em que cada parte forme um todo e
+tenha um título apropriado. Entretanto, não convém apresentar um texto muito fragmentado, para que
+o leitor não se perca na sequencia de raciocínio.
+
+
+
+
+Notas de Aula - Profa Ana Paula Andrade                                                     Página 19
+

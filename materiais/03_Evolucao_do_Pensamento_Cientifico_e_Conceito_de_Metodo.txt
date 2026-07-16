@@ -1,0 +1,393 @@
+                                                                                                              1
+          EVOLUÇÃO DO PENSAMENTO CIENTÍFICO E O CONCEITO DE MÉTODO
+                                           Profa Ana Paula Andrade
+
+
+                                       Área de Metodologia Científica
+                               Departamento de Filosofia e Ciências Humanas
+                                    Universidade Estadual de Santa Cruz
+
+
+
+
+RESUMO
+
+
+Desde os primórdios da ciência que a humanidade se questiona a respeito dos procedimentos e fronteiras do
+conhecimento racional. Muitas foram as correntes de pensamento que influenciaram o desenvolvimento dos
+métodos e critérios de demarcação científica, desde a antiguidade até os dias de hoje. Neste texto, discutiremos
+o processo de evolução do pensamento científico, apresentando os métodos clássicos, os critérios de
+verificabilidade e falseamento da ciência, bem como as mudanças de paradigmas e suas implicações na ciência
+contemporânea. Por meio de uma viagem cronológica, o estudante irá conhecer os caminhos trilhados pelos
+cientistas e pensadores da ciência que nos trouxeram até o conceito de método moderno, na era da pluralidade
+científica e metodológica.
+
+
+O DESENVOLVIMENTO DAS CIÊNCIAS NATURAIS
+
+
+Entende-se por pensamento científico o ato de pensar, refletir ou meditar, tendo como objetivo a produção de
+conhecimento. Neste contexto, pode-se dizer que as raízes do pensamento científico se encontram na Grécia
+Antiga, onde ciência e filosofia conviviam misturadas e cooperando entre si, por meio da atividade de reflexão,
+na busca pelo conhecimento da verdade absoluta, aquela que seria a essência de toda natureza. Há fortes
+evidências de que povos ainda mais antigos, como os babilônicos e os egípcios, já se valiam das técnicas de
+observação e experimentação da natureza para inferir conhecimentos básicos acerca dos fenômenos naturais,
+e que o pensamento grego foi significativamente influenciado por esta cultura. No entanto, foi nas antigas
+colônias gregas que o pensamento científico encontrou maior adesão e expressividade, fazendo emergir as
+correntes de pensamentos construídas sobre a experiência e a razão, cujo objetivo era o de encontrar
+explicações naturais para os processos e fenômenos da natureza, sem ter, para isso, que recorrer aos mitos.
+
+
+Registros concretos do pensamento racional a respeito da natureza são encontrados no período helênico, por
+volta do século VI A.C., quando os pensadores e filósofos, refutando as explicações mitológicas, se
+questionavam a respeito da constituição e das leis que regem a natureza, a physis. Foi nessa época que surgiram
+as primeiras cosmogonias que tentavam explicar as origens e a descrição do Universo, mas, por vezes, recaíam
+                                                                                                            2
+nas explicações metafísicas e teológicas. Dentre as várias correntes de pensamento da época, podemos
+destacar os filósofos das ilhas Jônicas (ou Iônicas), que se dedicavam sobretudo às questões relacionadas à
+substância básica por detrás das transformações ocorridas na natureza. Alguns acreditavam que esta substância
+poderia ser de origem orgânica e imortal, como a água, ou o ar, ou mesmo a simples capacidade intrínseca de
+transmutação da natureza. Empédocles foi um dos primeiros a considerar quatro elementos básicos: terra, ar,
+fogo e água; e mais duas propriedades transformadoras: “amor” e “ódio”. Heráclito centrou sua filosofia nos
+processos de mudança na natureza. Para ele não havia elementos básicos, mas sim um processo intrínseco de
+transformação da natureza.
+
+
+Dentre as várias e importantes correntes de pensamento dos filósofos naturais daquela época, destacam-se as
+correntes dos pitagóricos e dos atomistas. Pitágoras, um dos mais lendários pensadores da antiguidade,
+acreditava na relação direta entre misticismo e ciência. Para os pitagóricos, os números representavam a
+essência da natureza e a expressão da mente divina. Já os atomistas, como Demócrito e Leucipo, acreditavam
+que a essência da Natureza é imutável e que a matéria é constituída por uma infinidade de pequenas unidades
+indivisíveis, eternas e imutáveis, que denominaram átomos. A corrente dos atomistas é, por vezes, denominada
+materialista, devido à sua crença na essência material da natureza. O Platonismo e o Aristotelismo foram
+outras duas importantes correntes de pensamento na idade antiga. Para Platão, o fundador da Academia, a
+matemática, mais precisamente a geometria, representa a base de todo pensamento filosófico. Platão
+promoveu um verdadeiro culto às formas e defendia o pensamento racionalista como única forma de chegar à
+verdade. Platão considerava a natureza subdividida em duas partes: o mundo real que seria o mundo das ideias
+perfeitas e o mundo aparente, aquele apontado pelos sentidos imperfeitos que seria uma “réplica imperfeita
+das ideias perfeitas”. E assim, Platão sustentava a teoria inicialmente tratada por Parmênides que dizia que a
+experiência é uma ilusão, os sentidos enganam e a única forma de chegar à verdade e compreender o mundo
+das ideias é por meio do raciocínio ordenado.
+
+
+Aristóteles, o fundador do Liceu, também defendia o pensamento lógico, no qual a construção da verdade se
+dá por intermédio da análise. A lógica foi definida pó Aristóteles como a arte e o método de pensar
+corretamente, por meio de argumentos dedutivos e provas. Aristóteles ressaltou a diferença básica entre a
+demonstração e a descoberta, sendo a primeira parte do conhecimento absoluto, enquanto a descoberta parte
+dos dados observados. Ao contrário dos platonistas, os aristotélicos acreditavam também no uso dos sentidos
+como forma de chegar ao conhecimento da verdade. No entanto, Aristóteles defendia o entendimento da
+natureza por meio da observação do seu curso ordinário, sem, no entanto, interferir nela. Assim, os
+aristotélicos condenavam a experimentação controlada dos fenômenos. A natureza para eles deveria ser apenas
+observada e não controlada!
+                                                                                                               3
+Com o nascimento das correntes místicas e religiosas, no início da Era Cristã, o pensamento científico cedeu
+lugar ao pensamento teológico que dominou o cenário filosófico durante toda a Idade Média. Neste contexto,
+a explicação da vida e da natureza passou a ser um pensamento sagrado, no qual o teocentrismo reinava
+soberano, apoiado na visão aristotélica de Universo subdividido em dois domínios: o do devir e do celeste.
+Neste novo cenário, os questionamentos centrais se pautavam na tentativa de adaptação do conhecimento
+antigo à nova ordem religiosa. A exemplo, o modelo de universo esférico de Aristóteles, constituído em forma
+de cascas concêntricas girando em torno da Terra. O modelo foi inicialmente proposto por Eudoxo com 27
+cascas, aprimorado por Calipo, chegando a 34 camadas, as quais foram elevadas a 56 por Artistóteles, tamanha
+era a dificuldade em explicar o céu observado! A filosofia das “causas finais” de Aristóteles também serviu
+de premissa básica para os dogmas do cristianismo. Neste cenário, o amplo questionamento e desenvolvimento
+racional foram gradualmente amortecidos, sendo retomados abertamente apenas no final da Idade Média.
+Neste período, também prevaleceu o conceito platonista de aversão à ciência empírica.
+
+
+Após anos de dominação religiosa, tem início o período da Renascença e o pensamento vigente começa a
+mudar. Impulsionada pelas reflexões dos gregos antigos, a prática do pensamento científico adquire uma
+forma mais expressiva ao final da Idade Média. As transformações vividas resultaram numa nova postura do
+homem em relação à vida, às artes, à natureza, à ciência e à filosofia. Neste cenário, cresceu a necessidade de
+diferenciar a ciência das pseudociências e das especulações metafísicas, fazendo emergir novas correntes de
+pensamento com seus respectivos métodos. Estes, por sua vez, estipulavam as regras do bom pensamento
+científico, definindo um conjunto de passos cuja adequada manipulação gera, indubitavelmente, conhecimento
+científico. Foi neste contexto que afloraram o conceito mecanicista da natureza e as correntes do Racionalismo
+e do Empirismo formalizando as bases dos métodos dedutivo e indutivo.
+
+
+O ponto de vista mecanicista considera que a natureza é uma máquina, sendo a matéria e a energia os
+constituintes básicos, e a matemática a ferramenta descritiva. Nesta ótica, o mundo inanimado poderia ser
+considerado como um mecanismo de relógio, para o qual é possível imaginar um modelo mecânico para todo
+tipo de fenômeno físico. O cosmos visto como uma máquina enorme e todo acontecimento no mundo material
+poderia ser predito pelo cálculo matemático. Essa nova concepção da natureza nasceu como premissa do
+pensamento cartesiano, segundo o qual a razão constitui o principal mecanismo para levar ao conhecimento
+científico. Penso, logo existo, dizia Descartes (1596-1650). Segundo ele, a realidade apresenta natureza dual:
+uma espiritual, o pensamento ou consciência pura, e uma material, que é pura extensão. Assim, Descartes
+defende que somente através do contínuo raciocínio ordenado, o homem pode encontrar as ideias
+fundamentais da natureza. Estas, por sua vez, podem ser descritas por intermédio do mecanicismo, ou seja, a
+descrição matemática. O método dedutivo proposto por Descartes constitui-se o maior símbolo do
+racionalismo moderno, ao propor a construção do conhecimento por meio da demonstração e deduções
+                                                                                                          4
+lógicas. Ao identificar um problema, o pesquisador começa a conjeturar sobre possíveis soluções, dando
+início ao processo dedutivo sobre o problema maior para chegar a soluções particulares.
+
+
+Outros renascentistas que influenciaram os pensamentos científicos da época foram Galileu Galilei (1564-
+1642) e Francis Bacon (1561-1626). Bacon foi um dos pensadores, assim como Galileu, a defender
+meticulosas e rigorosas realizações a partir das quais se formam, via indução, as teorias conceituais. Para
+Bacon, a matemática também era valide enquanto ciência quantitativa, mas para ele, o método científico
+deveria se pautar pela experimentação, com registro repetitivos de dados e posterior análise e formulação
+conceitual. Assim, o método indutivo tem como objetivo a verificação para o tratamento de problemas
+empíricos, que são também transportados para o nível da abstração e da formulação lógica. Deste modo, geram
+enunciados sintéticos que provêm de constatações particulares e caminham para as generalizações. Entretanto,
+o empirismo baconiano, diferentemente do empirismo Galileano, acredita no experimento como objeto de
+análise e verificação. Já na concepção de Galileu, o ponto inicial da investigação deveria ser a observação
+direta do fenômeno para, a partir dele, extrair os elementos para posterior análise e experimentação.
+
+
+Para além das bases do método indutivo, muitas foram as contribuições da obra de Galileu. Aliando a
+sistematização e o rigor do empirismo à instrumentalização e descrição quantitativa, Galileu se mostrou um
+experimentador habilidoso, construindo explicações racionais baseadas na análise experimental minuciosa.
+Por toda sua engenhosidade e mistura de raciocínio matemático com a observação e a experimentação, Galileu
+foi responsável por uma nova concepção do pensamento científico e é considerado ainda o pai da ciência
+moderna quantitativa. Por meio de suas observações sistemáticas e precisas, Galileu foi um dos primeiros a
+descrever o Universo em linguagem puramente quantitativa, refutando as considerações divinas, até então
+presentes nas considerações científicas. Influenciou o pensamento moderno ao defender o modelo
+heliocêntrico de Copérnico, encerrando de vez com a concepção aristotélica e as concepções místicas que
+tanto influenciaram os modelos cosmológicos.
+
+
+O pensamento experimental baconiano também teve profundas implicações para o desenvolvimento da ciência
+moderna. Bacon foi um dos primeiros a defender a investigação através da lógica intrínseca dos fenômenos
+como meio de garantir o “controle prático da natureza”, ou seja, a posse de conhecimentos capazes de atuar
+sobre a natureza transformando-a sempre que possível e desejável. Desta forma, o pensamento científico
+adquiriu uma nova característica: a natureza passou a ser algo que podia ser explorada pelo homem. “Saber é
+poder”, dizia Bacon referindo-se à capacidade de aplicação prática do conhecimento. Até aquela época, ainda
+não havia o conceito de ciência operativa em benefício do homem, Bacon foi justamente o grande responsável
+por esta mudança de mentalidade que transformaria o cenário econômico mundial para todo sempre.
+                                                                                                              5
+A visão mecanicista das ciências naturais foi ainda mais fortalecida com a obra de Isaac Newton (1642-
+1727). Ao contrário de muitos, Newton não privilegia nenhuma corrente puramente racional ou empírica, mas
+se valeu de ambos os pensamentos e métodos para ir além no entendimento e descrição da natureza.
+Combinando deduções matemáticas com induções extraídas dos resultados experimentais ou observados,
+unificou o método empírico proposto por Bacon com o método racional proposto por Descartes para
+desenvolver uma metodologia objetiva para fundamentar a ciência a partir de então. Foi o responsável por
+introduzir o conceito de força na natureza e, através de um exímio tratamento matemático, mostrou que é
+possível descrever formalmente a dinâmica dos corpos. A formulação completa das leis da mecânica,
+introduzidas por meio de leis universais, expressas através de fórmulas matemáticas, das quais regras
+empíricas anteriores são consequências lógicas, configura o primeiro sistema de conhecimento a alcançar o
+status de ciência teórica e empírica no sentido moderno.
+
+
+Newton também foi o responsável por mostrar que as leis que regem a natureza na superfície da Terra são as
+mesmas que regem o comportamento dos astros. Mas, sobre a descoberta da gravidade, Newton se descreveu
+incapaz de explicar a causa dessa propriedade e, diante da impossibilidade de testar qualquer hipótese, preferiu
+não construir nenhuma. Este comportamento, de extrema rigidez metodológica, reforça a concepção de
+Newton de que a ciência deve ser construída a partir da interação entre dedução e experimentação, e não mera
+construção de hipóteses. Uma vez questionado a respeito, ele respondeu: “O poder da gravidade deve ser
+causado por um agente de acordo com certas leis, mas se este agente é material ou imaterial é uma questão
+que eu deixei para a consideração de meus leitores”. Quanto à hipótese religiosa, sua imparcialidade científica
+não permitia avançar sobre esta questão. No entanto, a visão mecanicista dos fenômenos celestes não
+conseguiu conter na sociedade as concepções metafísicas que envolvem os astros. No período da Renascença,
+é sabido que a astrologia desempenhou um papel muito maior do que a própria astronomia e o conceito de céu
+enquanto lugar sagrado ainda sobrevive em muitas culturas nos dias de hoje.
+
+
+A CIÊNCIA MODERNA
+
+
+A partir das concepções de Bacon, Galileu, Descartes e Newton, as ciências naturais deram um enorme salto.
+A matematização do conhecimento foi tão importante para a ciência moderna quanto o desenvolvimento do
+método empírico. Desenvolveram-se as matemáticas, os instrumentos e técnicas de observação e
+experimentação, dando início a toda uma transformação científica e social. A visão empirista objetiva de
+Bacon teve influência determinante sobre a Revolução Industrial. Paralelamente, surgiu também a Revolução
+Científica, um marco para a Ciência moderna. A sistematização da pesquisa científica em parceria com as
+pesquisas industriais, contribuiu decisivamente para o desenvolvimento científico que trouxe consigo o
+desenvolvimento tecnológico. Este, por sua vez, possibilitou novas e importantes descobertas científicas que
+resultaram em novas teorias. Aos poucos, as ciências naturais viram surgir uma vasta gama de teorias, como
+                                                                                                                   6
+a teoria da gravitação, da evolução, da relatividade, a teoria quântica, a teoria genética, dentre muitas outras
+que se valeram da observação empírica e/ou postulados racionais para a formulação de leis que descrevem ou
+caracterizam os fenômenos da natureza e da vida. As matemáticas também ganharam espaço e notoriedade,
+passando a construir o modelo de linguagem de todo o conhecimento científico. Assim, diz-se que a Ciência
+moderna nasceu com Galileu, se alimentou com Descartes e se formalizou com Isaac Newton. A exaltação
+diante dos novos conhecimentos científicos e o novo poder proporcionado pela ciência levou à concepção do
+“cientificismo”, segundo o qual a ciência é considerada o único conhecimento verdadeiro, e este deve ser
+alcançado por meio da objetividade e da neutralidade.
+
+
+Apoiados pelo desenvolvimento tecnológico, os séculos XIX e XX foram bombardeados por importantes
+descobertas científicas, tanto na biologia quanto na química e, sobretudo, na física. Esta, por sua vez, serviu
+de ciência reveladora das características principais da ciência contemporânea. A teoria quântica, por exemplo,
+revelou a mais inovadora das concepções a respeito da natureza e da descrição da matéria. Os primeiros
+experimentos a revelar a estrutura atômica foram realizados por Ernest Rutherford. Rutherford, através de um
+experimento, revelou ao mundo a existência do núcleo atômico e despertou a curiosidade científica a respeito
+do comportamento dos elétrons. Mais tarde, Niels Bohr, apresentou a teoria do átomo de hidrogênio,
+explicando, através de postulados, a estabilidade atômica e lançando as bases da teoria quântica; que foi
+também corroborada por Edwing Schrodinger, com o tratamento probabilístico e por Werner Heisenberg, com
+a formulação do princípio da incerteza. Na investigação sobre a natureza dos elétrons, os experimentos com
+fendas evidenciaram o caráter dual da matéria.
+
+
+Ao contrário do que pensavam os atomistas na antiguidade, a matéria não apresenta uma natureza única e
+imutável. Observa-se que os elétrons podem apresentar comportamento tanto ondulatório quanto corpuscular,
+dependendo da natureza do experimento, e que sua dinâmica é regida pelas leis da probabilidade. Na teoria
+quântica, o conceito determinístico de trajetória adquire um significado “frequentista”. Ainda de acordo com
+a teoria quântica, são incompatíveis as medidas simultâneas de posição e velocidade de uma partícula, fazendo
+surgir o conceito de relação causal entre o processo de medida e a interferência com o objeto observado. Desta
+forma, o desenvolvimento da mecânica quântica, assim como de outras grandes teorias, desafia o método
+experimental objetivo, o caráter determinístico das ciências naturais e, sobretudo, o conceito de
+verificabilidade do conhecimento científico. A metodologia defendida por Descartes, Galileu e Bacon teve
+um importante papel para o nascimento e embasamento das ciências modernas e contemporâneas, entretanto,
+o desenvolvimento alcançado possibilitou o surgimento de novas e surpreendentes teorias científicas, fazendo
+emergir um novo questionamento em relação ao conhecimento científico. No século XX, juntamente com
+essas novas teorias, surgem novas concepções a respeito dos critérios de demarcação científica.
+                                                                                                             7
+NOVOS CRITÉRIOS DE DEMARCAÇÃO CIENTÍFICA
+
+
+O desenvolvimento científico do século XX fez aflorar novas discussões quanto aos critérios de demarcação
+científica e o conceito de verificabilidade das ciências. Por volta de 1930, o austríaco Karl Popper levantou a
+discussão sobre o processo de pesquisa e a aquisição de conhecimentos nas ciências empíricas. Popper também
+defendia o conceito de regras metodológicas, entretanto, questionava os critérios de demarcação científica.
+Popper foi um dos filósofos a questionar a visão científica do “Círculo de Viena”, cujo grupo visava encontrar
+uma base sólida para as ciências naturais, mas defendiam o processo de ratificação das teorias pelo método
+indutivo, a partir da procura incessante de experimentos, observações ou exemplos que confirmassem as
+suposições ou hipóteses iniciais. Popper, ao contrário, chama a atenção da sociedade científica para a
+capacidade de falseamento das teorias científicas.
+
+
+Popper não privilegia a razão ou o conhecimento empírico, mas acredita que a ciência requer pontos de vista
+e problemas teóricos, bem como a aplicação de uma teoria, mediante sua exposição à prova. Popper também
+defende o conceito de regras metodológicas, entretanto, questiona os critérios de demarcação científica. Para
+Popper, a lógica da investigação científica deveria identificar-se com a teoria do método científico. Segundo
+Popper, as teorias têm sua origem num nevoeiro de conjecturas acerca dos fenômenos observados, e este
+conjunto de hipóteses pode ser investigado por meio do trabalho experimental, cujos resultados podem falsear
+determinadas conjecturas. De acordo com Popper, as teorias nas ciências naturais nunca são empiricamente
+verificáveis, entretanto, são susceptíveis de serem submetidas à prova, podendo ser empiricamente falseadas.
+Popper só reconhece um sistema como empírico ou científico se ele for passível de comprovação pela
+experiência, entretanto, o critério de demarcação não deve ser a “verificabilidade”, mas sim a “falseabilidade”
+de um sistema. Popper ressalta ainda que deve haver, em uma teoria, enunciados singulares que sirvam como
+premissas das inferências falseadoras. Assim, é possível, através de recursos a inferências dedutivas, concluir
+sobre a falsidade de enunciados Universais a partir da verdade de enunciados singulares. Para Popper, a missão
+básica de um cientista é buscar leis que o habilitem a deduzir previsões isoladas passíveis de falseamento. O
+pensamento crítico de Popper é usualmente denominado “neopositivismo”.
+
+
+A posição negativista de Popper baseia-se na assimetria entre a verificabilidade e a falseabilidade que decorre
+dos enunciados. Muitos experimentos podem comprovar a validade de uma teoria, mas basta um experimento,
+ou efeito susceptível de reprodução, que discorde da hipótese inicial para que a teoria seja refutada. Esta
+hipótese inicial, que deve apresentar uma relação lógica com o enunciado básico, Popper chama de hipótese
+falseadora. Popper considera também a possibilidade de introduzir, em uma conjectura, hipóteses auxiliares,
+desde que sua introdução não reduza, mas sim eleve o grau de falseabilidade ou de testabilidade de uma teoria.
+Para Popper, as teorias não passíveis de julgamento quanto a sua falibilidade, como as terias existenciais, não
+são consideradas empíricas ou científicas, mas sim metafísicas. Por este prisma, a interpretação causal para o
+                                                                                                              8
+princípio da incerteza pode ser considerada metafísica, mas através da interpretação probabilística da
+mecânica quântica, Popper considera os pressupostos freqüênciais passíveis de confirmação experimental,
+validando a mecânica quântica enquanto teoria científica. Assim, uma vez obtidas medidas precisas de posição
+e movimento de uma partícula, seria dedutível o falseamento do enunciado do princípio da incerteza, que
+representa as bases da teoria ondulatória probabilística, e a mecânica quântica seria então fortemente
+contestada. Na ausência de tais medidas, a mecânica quântica sobrevive enquanto teoria científica e se
+fortalece na medida em que as observações concordam as previsões teóricas, entretanto, não é possível afirmar
+sua total veracidade na descrição dos fenômenos no mundo microscópico.
+
+
+OS PARADIGMAS E REVOLUÇÕES CIENTÍFICAS
+
+
+Thomas Kuhn, um físico teórico dos anos 60, foi outro grande nome a discutir a dinâmica da produção de
+conhecimento na ciência moderna. Kuhn se dedicou ao estudo da história da ciência e terminou por formular
+uma importante teoria sobre o desenvolvimento das ideias no campo das ciências naturais. Para Kuhn, o
+desenvolvimento científico é alcançado a partir da pesquisa observacional, ou experimental, quando surgem
+as grandes diversidades entre as hipóteses iniciais e os resultados empíricos, ocasionando uma profunda
+mudança de paradigma da pesquisa básica. Ao invés de um simples acúmulo de saberes, Kuhn correlaciona o
+conhecimento com a dinâmica temporal e o processo de consolidação cognitiva. Em linhas gerais, Kuhn
+descreve as quatro fases inerentes a todo este processo que culmina nas chamadas revoluções científicas.
+
+
+A primeira fase é denominada “ciência normal”, que significa a pesquisa baseada em uma ou mais realizações
+científicas passadas, reconhecidas pela comunidade científica e, geralmente, relatadas pelos manuais
+científicos elementares ou avançados. A ciência normal é baseada no pressuposto de que a comunidade
+científica sabe como é o mundo. Nesta fase, as práticas teóricas e experimentais seguem os princípios do
+paradigma, do modelo ou do padrão vigente no cenário científico.
+
+
+A segunda fase é a fase das anomalias. Fase em que surgem os problemas resistentes ao ataque sistemático e
+reiterado dos mais sábios membros de uma comunidade científica. Para Kuhn, uma descoberta científica
+começa com a consciência da anomalia, isto é, com o reconhecimento de que, de alguma maneira, a natureza
+violou as expectativas de um paradigma que governa a ciência normal. Frequentemente, os problemas são, a
+princípio, atribuídos a pequenos mecanismos do processo de experimentação e, por isso é produzida
+inadvertidamente uma série de novas realizações em diversas maneiras. Ao passo em que percebem que a
+anomalia não pode ser ajustada às expectativas experimentais, a ciência normal desorienta-se seguidamente.
+
+
+A crise sucede a fase das anomalias. Nesta fase, tem início, então, uma intensa prática da ciência normal com
+o intuito de detalhar todas as possibilidades abertas pelas teorias e práticas experimentais. Surgem então novas
+                                                                                                            9
+anomalias não aceitas pela ciência normal. Um dos sintomas usuais da crise é a proliferação de diferentes
+versões de uma determinada teoria. As versões surgem como uma tentativa de adaptar velhos paradigmas aos
+novos resultados. Neste ponto, começam as investigações extraordinárias que finalmente levam às revoluções
+científicas. A emergência de novas teorias é geralmente precedida por um período de insegurança profissional,
+pois implica na destruição completa ou mesmo parcial de um paradigma e em grandes alterações das técnicas
+da ciência normal.
+
+
+A crise só termina quando se inicia a revolução científica. Estas finalmente ocorrem com a mudança de
+paradigma e a alteração dos compromissos profissionais. As revoluções, segundo Kuhn, são os complementos
+desintegradores da tradição à qual a atividade da ciência normal está ligada. O novo paradigma implica uma
+definição nova e mais rígida do campo de estudos. Para Kuhn, o sucesso de um empreendimento depende da
+disposição da comunidade científica para defender esse pressuposto, pois a aquisição de um paradigma é um
+sinal de maturidade no desenvolvimento de qualquer campo científico. Assim, Kuhn justifica a dificuldade
+que a comunidade científica tem de aceitar as novidades fundamentais, porque estas subvertem os
+compromissos básicos já bastante enraizados. Entretanto, à medida que a sustentação destes compromissos
+começa a recair na arbitrariedade, a pesquisa normal não mais consegue refutar as novidades por muito tempo.
+Kuhn considera também uma classe especial de anomalias, aquela cuja natureza é indicada pelos paradigmas
+existentes, mas cujos detalhes somente podem ser entendidos após uma maior articulação da teoria. Nestes
+casos, não ocorre propriamente uma revolução, mas apenas a adaptação de um paradigma.
+
+
+Segundo Kuhn, na história da ciência é possível encontrar vários exemplos de crises seguidas de verdadeiras
+revoluções científicas, como, por exemplo, a crise desencadeada, no final do século XIX, pelas observações
+da velocidade finita da luz e a consequente mudança de paradigma da mecânica newtoniana para a mecânica
+relativística. Em 1905, a teoria da relatividade especial foi proposta por Einstein, introduzindo a mudança de
+conceito de tempo absoluto para tempo relativo, entretanto, no final do século XVIII já havia registros de
+trabalhos criticando a concepção newtoniana de espaço absoluto.
+
+
+O MÉTODO MODERNO
+
+
+O surgimento das ciências modernas com toda sua diversidade e multidisciplinaridade fez emergir novos
+conceitos de metodologia em pesquisa. Além dos métodos clássicos de pesquisa indutiva e dedutiva, derivados
+das metodologias racionalista e empirista, novos métodos estão constantemente emergindo no cenário
+científico, sendo cada qual aplicado a uma temática, uma realidade e uma objetividade específica, visto que
+não existe uma receita única ou uma fórmula segura para ser aplicada gerando resultados. Cada processo de
+investigação científica tem sua peculiaridade carecendo de hipóteses e habilidades distintas conforme o
+problema a ser analisado. Entretanto, em linhas gerais, pode-se dizer que os pressupostos de Popper e Kuhn
+                                                                                                             1
+se complementam na descrição do processo de desenvolvimento das ciências naturais. Em muitas áreas do
+conhecimento, nas quais o processo de experimentação ou mesmo a observação direta dos fenômenos é difícil,
+por vezes até impossível, utiliza-se com frequência o método dedutivo-falseável para validar as teorias.
+Sem dúvida, ao longo da história de construção do conhecimento científico, as várias correntes de pensamento
+tiveram influência decisiva sobre as concepções e as atividades científicas. Entretanto, na idade
+contemporânea, é certo dizer que, na prática das atividades da ciência, as pesquisas atuais se favorecem da
+aplicação objetiva de conceitos específicos em cada área. Na área das ciências naturais, que por sua vez tende
+a seguir o pensamento materialista na busca pela essência do fenômeno concreto, a teoria quântica, por
+exemplo, revelou a mais inovadora das concepções a respeito da natureza e da descrição da matéria. Desta
+forma, o desenvolvimento da mecânica quântica, assim como o de outras grandes teorias, desafia a verdade
+absoluta da natureza, o método experimental objetivo e também o caráter determinístico das ciências naturais.
+Assim, na era da multidisciplinaridade científica, novas concepções estão constantemente emergindo no
+cenário científico, sendo cada qual desenvolvido e aplicado a uma temática, uma realidade e uma objetividade
+específica.
+
+
+REFERÊNCIAS BIBLIOGRÁFICAS
+
+
+DESCARTES, René. Discurso do método / Regras para a direção do espírito. 1. ed. São Paulo: Martin Claret,
+2000.
+
+
+KUHN, Thomas. A estrutura das revoluções científicas. 7. ed. São Paulo: Perspectiva, 2003.
+
+
+MARCONI, Marina A.; LAKATOS, Eva Maria. Fundamentos de metodologia científica. 5. ed. São Paulo:
+Editora Atlas, 2003.
+
+
+PIRES, Antônio S.T.; Evolução das ideias da física. 2. ed. São Paulo: Editora da Livraria da Física, 2011.
+
+
+POPPER, Karl. A lógica da pesquisa científica. São Paulo: Cultrix, 1997.
+
